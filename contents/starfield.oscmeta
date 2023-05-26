@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Starfield Demo",
+        "author": "Owen",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/starfield.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["starfield/", "apps/starfield/"]
+        }
+    ]
+}

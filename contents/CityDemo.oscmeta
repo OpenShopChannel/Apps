@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "CityDemo",
+        "author": "Owen",
+        "category": "demos",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/citydemo.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["citydemo/", "apps/CityDemo/"]
+        }
+    ]
+}

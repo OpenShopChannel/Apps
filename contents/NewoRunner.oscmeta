@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Runner",
+        "author": "Owen",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Classic Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/neworunner.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["NewoRunner/", "apps/NewoRunner/"]
+        }
+    ]
+}

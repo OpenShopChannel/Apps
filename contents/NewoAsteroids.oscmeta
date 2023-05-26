@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Asteroids",
+        "author": "Owen",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/NewoAsteroids.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["NewoAsteroids/", "apps/NewoAsteroids/"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Defence",
+        "author": "Owen",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/NewoDefence.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["NewoDefence/", "apps/NewoDefence/"]
+        }
+    ]
+}

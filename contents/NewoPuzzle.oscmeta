@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Puzzle",
+        "author": "Owen",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/newopuzzle.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["NewoPuzzle/", "apps/NewoPuzzle/"]
+        }
+    ]
+}

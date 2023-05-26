@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Sky",
+        "author": "Owen",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/newosky.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["newosky/", "apps/NewoSky/"]
+        }
+    ]
+}

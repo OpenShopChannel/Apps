@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Newo Tokyo",
+        "author": "Owen",
+        "category": "demos",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/NewoTokyo.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["NewoTokyo/", "apps/NewoTokyo/"]
+        }
+    ]
+}

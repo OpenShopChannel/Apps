@@ -16,7 +16,7 @@
             "treatment": "contents.move", "arguments": ["newoescape/", "apps/NewoEscape/"]
         },
         {
-            "treatment": "contents.remove_declaration"
+            "treatment": "meta.remove_declaration"
         }
     ]
 }

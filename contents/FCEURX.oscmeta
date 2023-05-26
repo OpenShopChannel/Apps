@@ -10,7 +10,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "niuus/FCEUltraRX",
-        "file": "FCEUltraRX-*.zip"
+        "file": "FCEUltraRX-*[!GCN].zip"
     },
     "treatments": []
 }

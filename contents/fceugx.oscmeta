@@ -10,7 +10,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "dborth/fceugx",
-        "file": "FCEUltraGX-*.zip"
+        "file": "FCEUltraGX-*[!GameCube].zip"
     },
     "treatments": []
 }

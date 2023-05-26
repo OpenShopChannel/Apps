@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "mGBA",
+        "author": "Vicki Pfau (endrift)",
+        "author_preferred_contacts": "",
+        "category": "emulators",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "mgba-emu/mgba",
+        "file": "mGBA-*-wii.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["mGBA-*-wii/", "apps/mgba/"]
+        }
+    ]
+}

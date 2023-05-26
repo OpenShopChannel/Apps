@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "Visual Boy Advance GX",
+        "author": "Tantric",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "dborth/vbagx",
+        "file": "VisualBoyAdvanceGX-*[!GameCube].zip"
+    },
+    "treatments": []
+}

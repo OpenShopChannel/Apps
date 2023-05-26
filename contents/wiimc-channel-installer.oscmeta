@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "WiiMC Channel Installer",
+        "author": "Tantric",
+        "category": "media",
+        "peripherals": ["Wii Remote"],
+        "version": "2.0"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "dborth/wiimc",
+        "file": "WiiMC.Channel.Installer.2.0.zip"
+    },
+    "treatments": []
+}

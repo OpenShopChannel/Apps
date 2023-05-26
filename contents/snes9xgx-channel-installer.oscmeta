@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "Snes9x GX Channel Installer",
+        "author": "Tantric",
+        "category": "emulators",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "dborth/snes9xgx",
+        "file": "Snes9xGX-Channel-Installer.zip"
+    },
+    "treatments": []
+}

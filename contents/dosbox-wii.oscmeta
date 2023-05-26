@@ -7,10 +7,9 @@
         "version": "1.7x beta4 r4301 dynrec"
     },
     "source": {
-        "type": "github_release",
+        "type": "url",
         "format": "zip",
-        "repository": "retro100/dosbox-wii",
-        "file": "DOSBox.Wii.1.7x.beta4.r4301.dynrec.zip"
+        "location": "https://github.com/retro100/dosbox-wii/releases/download/1.7x.beta4/DOSBox.Wii.1.7x.beta4.r4301.dynrec.zip"
     },
     "treatments": []
 }

@@ -11,6 +11,5 @@
         "format": "zip",
         "repository": "dborth/snes9xgx",
         "file": "Snes9xGX-*[!GameCube].zip"
-    },
-    "treatments": []
+    }
 }

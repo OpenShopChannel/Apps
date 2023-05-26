@@ -11,6 +11,5 @@
         "format": "zip",
         "repository": "dborth/wiimc",
         "file": "WiiMC.Channel.Installer.2.0.zip"
-    },
-    "treatments": []
+    }
 }

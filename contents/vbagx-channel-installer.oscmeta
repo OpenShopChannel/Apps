@@ -11,6 +11,5 @@
         "format": "zip",
         "repository": "dborth/vbagx",
         "file": "VisualBoyAdvanceGX-Channel-Installer.zip"
-    },
-    "treatments": []
+    }
 }

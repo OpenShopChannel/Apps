@@ -11,6 +11,5 @@
         "format": "zip",
         "repository": "dborth/fceugx",
         "file": "FCEUltraGX-Channel-Installer.zip"
-    },
-    "treatments": []
+    }
 }

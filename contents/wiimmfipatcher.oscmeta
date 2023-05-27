@@ -9,6 +9,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://download.wiimmfi.de/patcher/autowiimmfipatcher-latest.zip"
+        "location": "https://download.wiimmfi.de/patcher/autowiimmfipatcher-latest.zip",
+        "user-agent": "wiimmfi-secret"
     }
 }

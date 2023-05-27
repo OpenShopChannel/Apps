@@ -9,6 +9,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://competitions.wiimmfi.de/competition-tool-wii.zip"
+        "location": "https://competitions.wiimmfi.de/competition-tool-wii.zip",
+        "user-agent": "wiimmfi-secret"
     }
 }

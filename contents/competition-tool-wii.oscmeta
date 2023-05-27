@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "MKWii Competition Patch",
+        "author": "Leseratte",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://competitions.wiimmfi.de/competition-tool-wii.zip"
+    }
+}

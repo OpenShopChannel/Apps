@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "Wiimmfi Patcher",
+        "author": "MrBean35000vr,Chadderz,Leseratte",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://download.wiimmfi.de/patcher/autowiimmfipatcher-latest.zip"
+    }
+}

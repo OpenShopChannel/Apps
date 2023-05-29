@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "ART_S55",
+        "author": "axiot",
+        "category": "media",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/0/08/ART_S55.zip"
+    }
+}

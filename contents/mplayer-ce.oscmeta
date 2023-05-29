@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "MPlayer CE",
+        "author": "MPlayer CE Team",
+        "category": "media",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "version": "0.80 r658"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mplayer-ce/mplayer_r658.zip"
+    }
+}

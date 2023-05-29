@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "WiiMC-SS",
+        "author": "SuperrSonic",
+        "category": "media",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "SuperrSonic/WiiMC-SSLC",
+        "file": "WiiMC-SS_*.7z"
+    }
+}

@@ -15,6 +15,9 @@
     "treatments": [
         {
             "treatment": "contents.delete", "arguments": ["not64.dol"]
+        },
+        {
+            "treatment": "meta.set", "arguments": ["coder", "Extrems"]
         }
     ]
 }

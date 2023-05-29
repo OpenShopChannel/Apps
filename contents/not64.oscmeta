@@ -14,7 +14,7 @@
     },
     "treatments": [
         {
-            "treatment": "contents.delete", arguments: ["not64.dol"]
+            "treatment": "contents.delete", "arguments": ["not64.dol"]
         }
     ]
 }

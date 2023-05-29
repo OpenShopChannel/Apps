@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Riivolution",
+        "author": "Aaron tueidj Tempus megazig",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://aerialx.github.io/rvlution.net/riivolution.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["riivolution/", "apps/riivolution/"]
+        }
+    ]
+}

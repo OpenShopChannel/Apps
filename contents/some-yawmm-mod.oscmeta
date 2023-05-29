@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Some YAWMM Mod",
+        "author": "FIX94, various others",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "FIX94/Some-YAWMM-Mod",
+        "file": "some-yawmm-mod-v*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["some-yawmm-mod/", "apps/some-yawmm-mod/"]
+        }
+    ]
+}

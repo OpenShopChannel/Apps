@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "USB Loader GX",
+        "author": "USB Loader GX Team",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "wiidev/usbloadergx",
+        "file": "usbloadergx_r*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "meta.remove_comments"
+        }
+    ]
+}

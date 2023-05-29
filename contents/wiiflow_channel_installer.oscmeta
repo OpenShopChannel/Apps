@@ -10,5 +10,10 @@
         "type": "url",
         "format": "zip",
         "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wiiflow/WiiFlow_Channel_Installer_v1.1.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set", "arguments": ["release_date", "20130103000000"]
+        }
+    ]
 }

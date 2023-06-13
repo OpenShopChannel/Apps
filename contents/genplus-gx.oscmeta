@@ -20,7 +20,6 @@
 		},
 		{
 			"treatment": "contents.delete", "arguments": ["genplus_cube.dol"]
-		},
-
+		}
 	]
 }

@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Tetwiis",
+        "author": "Pembo",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "1.1"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "dpembo/tetwiis",
+        "file": "tetwiis.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["tetwiis/", "apps/tetwiis/"]
+        }
+    ]
+}

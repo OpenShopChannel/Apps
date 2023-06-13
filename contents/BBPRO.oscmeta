@@ -17,6 +17,9 @@
 		},
 		{
 			"treatment": "contents.move", "arguments": ["BBPRO/", "apps/BBPRO/"]
-		}
+		},
+        {
+            "treatment": "contents.move", "arguments": ["apps/BBPRO/Balance_Board_Pro.dol", "apps/BBPRO/boot.dol"]
+        }
 	]
 }

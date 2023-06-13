@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "UAE Wii",
+        "author": "Oibaf, Simon Kagstrom",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller"],
+        "version": "12"
+    },
+    "source": {
+        "type": "url",
+        "format": "gztar",
+        "location": "https://github.com/Oibaf66/uae-wii/releases/download/v12.0/uae-wii-v12-bin.tar.gz"
+    }
+}

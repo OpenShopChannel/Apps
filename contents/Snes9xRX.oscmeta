@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "Snes9x RX",
+        "author": "NiuuS",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "niuus/Snes9xRX",
+        "file": "Snes9xRX-5.5.0-OnyxBlack.zip"
+    }
+}

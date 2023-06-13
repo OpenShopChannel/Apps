@@ -7,14 +7,17 @@
         "version": "2.7"
     },
     "source": {
-        "type": "github_release",
-        "format": "zip",
-        "repository": "dpembo/bootmiiconfigurationeditor",
-        "file": "Bootmii_cfg_ed.zip"
+        "type": "manual"
     },
 	"treatments": [
 		{
-			"treatment": "contents.move", "arguments": ["*/", "apps/BootMiiConfigurationEditor/"]
-		}
+			"treatment": "web.download", "arguments": ["https://github.com/dpembo/bootmiiconfigurationeditor/releases/download/v2.7/Bootmii_cfg_ed.zip", "/"]
+		},
+        {
+            "treatment": "archive.extract", "arguments": ["Bootmii_cfg_ed.zip", "apps/BootMiiConfigurationEditor/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["Bootmii_cfg_ed.zip"]
+        }
 	]
 }

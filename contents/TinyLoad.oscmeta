@@ -1,0 +1,28 @@
+{
+    "information": {
+        "name": "TinyLoad",
+        "author": "marcan",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "url",
+        "format": "bztar",
+        "location": "http://marcansoft.com/uploads/tinyload/tinyload-0.2-bin.tar.bz2"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad", "apps/TinyLoad/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad/README", "apps/TinyLoad/README"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad/COPYING", "apps/TinyLoad/COPYING"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["tinyload-0.2-bin/"]
+        }
+    ]
+}

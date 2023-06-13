@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "NeoCD-WII",
+        "author": "Wiimpathy, Jacobeian",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Wiimpathy/Neocd-Wii",
+        "file": "NeoCD-Wii-*.zip"
+    }
+}

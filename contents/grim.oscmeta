@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "ResidualVM",
+        "author": "Wiimpathy",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://dommagemais.free.fr/progs/wii/ResidualVM/residualvm_wii_v0.2.zip"
+    }
+}

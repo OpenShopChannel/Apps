@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Gnuboy GX",
+        "author": "Eke-Eke",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "081214"
+    },
+    "source": {
+        "type": "url",
+        "format": "7z",
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gnuboy-gx/gnuboygx-081214.7z"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.delete", "arguments": ["gnuboy_wii.dol"]
+		},
+		{
+			"treatment": "contents.delete", "arguments": ["gnuboy_cube.dol"]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "OpenTTD",
+        "author": "Extrems",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://files.extremscorner.org/wii/apps/openttd/latest"
+    }
+}

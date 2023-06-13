@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Abuse Wii",
+        "author": "Many",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "HunterZ/abuse-wii",
+        "file": "abuse.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["abuse/", "apps/abuse/"]
+		}
+	]
+}

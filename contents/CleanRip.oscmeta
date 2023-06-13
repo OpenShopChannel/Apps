@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "CleanRip",
+        "author": "emu_kidid",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "emukidid/cleanrip",
+        "file": "CleanRip-*.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["readme.txt", "cleanrip-readme.txt"]
+		},
+		{
+			"treatment": "contents.delete", "arguments": ["cleanrip-gc.dol"]
+		}
+	]
+}

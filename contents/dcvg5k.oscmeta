@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "DCVG5K Wii",
+        "author": "Danel Coulom",
+        "category": "emulators",
+        "peripherals": ["Wii Remote" , "SDHC"],
+        "version": "r1"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://dcvg5k.free.fr/download/dcvg5k_wii_binaire.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["dcvg5k/", "apps/dcvg5k/"]
+		}
+	]
+}

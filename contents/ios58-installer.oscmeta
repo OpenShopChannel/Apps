@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "IOS58 Installer",
+        "author": "Tantric",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.0"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://filetrip.net/files/f/31820-Ios58-installer.zip"
+    }
+}

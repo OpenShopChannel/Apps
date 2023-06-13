@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "rgnsel booter",
+        "author": "iCON",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Brawl345/rgnsel_booter",
+        "file": "rgnsel_booter-*.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["rgnsel_booter/", "apps/rgnsel_booter/"]
+		}
+	]
+}

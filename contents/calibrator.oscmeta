@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Calibrator",
+        "author": "Extrems",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://files.extremscorner.org/wii/apps/calibrator/latest"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.delete", "arguments": ["calibrator.dol"]
+		}
+	]
+}

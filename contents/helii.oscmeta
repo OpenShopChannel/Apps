@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Helii",
+        "author": "BHSPitMonkey",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://stepheneisenhauer.com/wii/helii-0.2.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.delete", "arguments": ["helii/meta.xml~"]
+		},
+		{
+			"treatment": "contents.move", "arguments": ["helii/", "apps/helii/"]
+		}
+	]
+}

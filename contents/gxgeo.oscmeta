@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "GxGeo",
+        "author": "blizzo",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "20101119"
+    },
+    "source": {
+        "type": "url",
+        "format": "gztar",
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gxgeo/gxgeo-20101119.tar.gz"
+    }
+}

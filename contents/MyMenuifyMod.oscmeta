@@ -14,7 +14,7 @@
     },
 	"treatments": [
 		{
-			"treatment": "contents.move", "arguments": ["mymenuifymod/", "apps/mymenuifymod/"]
+			"treatment": "contents.move", "arguments": ["mymenuifymod/", "apps/MyMenuifyMod/"]
 		}
 	]
 }

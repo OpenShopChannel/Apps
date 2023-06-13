@@ -14,7 +14,7 @@
     },
 	"treatments": [
 		{
-			"treatment": "contents.move", "arguments": ["ledHeadWii/", "apps/ledHeadWii/"]
+			"treatment": "contents.move", "arguments": ["ledHeadWii/", "apps/LedHeadWii/"]
 		}
 	]
 }

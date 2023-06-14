@@ -11,5 +11,10 @@
         "format": "zip",
         "repository": "DarkMatterCore/xyzzy-mod",
         "file": "xyzzy-mod_v*.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/xyzzy", "apps/xyzzy-mod"]
+        }
+    ]
 }

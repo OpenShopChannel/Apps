@@ -1,6 +1,6 @@
 {
     "information": {
-        "name": "WiiSXR",
+        "name": "WiiSXRX",
         "author": "NiuuS",
         "category": "emulators",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],

@@ -8,7 +8,7 @@
     },
     "source": {
         "type": "github_release",
-        "format": "zip",
+        "format": "rar",
         "repository": "kperdlich/wii-voxel-engine",
         "file": "woxelcraft_0_0_7.rar"
     },

@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "WiiApple",
+        "author": "yohanes",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "GameCube Controller", "USB Keyboard"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://tinyhack.com/wii/wiiapple/wiiapple.zip"
+    }
+}

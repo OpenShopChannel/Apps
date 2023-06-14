@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "WiiSXR",
+        "author": "Wii64 Team, matguitarist, Daxtsu, Mystro256",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Mystro256/wiisxr",
+        "file": "wiiSXR-*.zip"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "Wii2600",
+        "author": "raz0red",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller"],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "raz0red/wii2600",
+        "file": "wii2600-0_2.zip"
+    }
+}

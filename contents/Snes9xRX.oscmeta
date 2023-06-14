@@ -10,6 +10,6 @@
         "type": "github_release",
         "format": "zip",
         "repository": "niuus/Snes9xRX",
-        "file": "Snes9xRX-5.5.0-OnyxBlack.zip"
+        "file": "Snes9xRX-*-OnyxBlack.zip"
     }
 }

@@ -25,7 +25,7 @@
             "treatment": "contents.move", "arguments": ["meta.xml", "apps/stopwatch/meta.xml"]
         },
         {
-            "treatment": "contents.move", "arguments": ["icon.png", "apps/stopwatch/boot.dol"]
+            "treatment": "contents.move", "arguments": ["icon.png", "apps/stopwatch/icon.png"]
         }
     ]
 }

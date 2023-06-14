@@ -11,7 +11,7 @@
     },
 	"treatments": [
 		{
-			"treatment": "web.download", "arguments": ["https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0-wii.zip", "/"]
+			"treatment": "web.download", "arguments": ["https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0-wii.zip", "scummvm-2.7.0-wii.zip"]
 		},
         {
             "treatment": "archive.extract", "arguments": ["scummvm-2.7.0-wii.zip", "apps/ScummVM/"]

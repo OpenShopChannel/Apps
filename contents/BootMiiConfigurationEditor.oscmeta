@@ -11,7 +11,7 @@
     },
 	"treatments": [
 		{
-			"treatment": "web.download", "arguments": ["https://github.com/dpembo/bootmiiconfigurationeditor/releases/download/v2.7/Bootmii_cfg_ed.zip", "/"]
+			"treatment": "web.download", "arguments": ["https://github.com/dpembo/bootmiiconfigurationeditor/releases/download/v2.7/Bootmii_cfg_ed.zip", "Bootmii_cfg_ed.zip"]
 		},
         {
             "treatment": "archive.extract", "arguments": ["Bootmii_cfg_ed.zip", "apps/BootMiiConfigurationEditor/"]

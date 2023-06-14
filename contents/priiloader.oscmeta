@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "Priiloader Installer",
+        "author": "DacoTaco/Crediar",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "DacoTaco/priiloader",
+        "file": "Priiloader_*.zip",
+        "additional_files": ["hacks_hash.ini"]
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["hacks_hash.ini", "apps/priiloader/hacks_hash.ini"]
+        }
+    ]
+}

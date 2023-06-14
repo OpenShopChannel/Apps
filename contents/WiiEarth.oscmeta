@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "WiiEarth",
+        "author": "PaulWagener",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "2.3"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/PaulWagener/WiiEarth/raw/master/WiiEarth/WiiEarth.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["WiiEarth/", "apps/WiiEarth/"]
+        }
+    ]
+}

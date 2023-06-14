@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "WiiPhysics",
+        "author": "Beardface",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Wii Remote"],
+        "version": "2.2.0b"
+    },
+    "source": {
+        "type": "url",
+        "format": "gztar",
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wiiphysics/WiiPhysics-2.2.0b.tgz"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["WiiPhysics/", "apps/WiiPhysics/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["Readme.txt", "WiiPhysics_Readme.txt"]
+        }
+    ]
+}

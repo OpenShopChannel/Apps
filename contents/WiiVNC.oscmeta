@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "WiiEarth",
+        "author": "PaulWagener",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.3"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/PaulWagener/WiiVNC/raw/master/WiiVNC.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["WiiVNC/", "apps/WiiVNC/"]
+        }
+    ]
+}

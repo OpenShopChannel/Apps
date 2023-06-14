@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "ww-43db-patcher",
+        "author": "DarkMatterCore",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "DarkMatterCore/ww-43db-patcher",
+        "file": "ww-43db-patcher_v*.zip"
+    }
+}

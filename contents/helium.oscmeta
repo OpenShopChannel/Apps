@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Helium Boy",
+        "author": "Bertil",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Nunchuck", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://www.beril.se/bin/heliumwii.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["helium/", "apps/helium/"]
+		},
+		{
+			"treatment": "meta.remove_declaration"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "Stopwatch",
+        "author": "ILovemyhouse",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "v2.0.0 Alpha Dev v1"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/Ilovemyhous/Wii-Stopwatch/releases/download/Alpha/Stopwatch.V2.0.0.Alpha.Dev.V1.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.delete", "arguments": ["template.elf"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["template.dol", "boot.dol"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["boot.dol", "apps/stopwatch/boot.dol"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["meta.xml", "apps/stopwatch/meta.xml"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["icon.png", "apps/stopwatch/icon.png"]
+        }
+    ]
+}

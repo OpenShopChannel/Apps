@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "FCEUX TX",
+        "author": "Tanooki",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "saulfabregwiivc/FCEUXTX",
+		"file": "FCEUXTX-*-Wii.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.delete", "arguments": ["source-code/"]
+		}
+	]
+}

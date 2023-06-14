@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "FBZX Wii",
+        "author": "Oibaf (Fabio Olimpieri)",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "SDHC"],
+        "version": "v15"
+    },
+    "source": {
+        "type": "url",
+        "format": "gztar",
+        "location": "https://github.com/Oibaf66/fbzx-wii/releases/download/v15.0/fbzx-wii-v15-bin.tar.gz"
+    }
+}

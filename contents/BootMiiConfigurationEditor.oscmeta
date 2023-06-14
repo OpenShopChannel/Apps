@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "BootMii Config Editor",
+        "author": "Pembo",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "2.7"
+    },
+    "source": {
+        "type": "manual"
+    },
+	"treatments": [
+		{
+			"treatment": "web.download", "arguments": ["https://github.com/dpembo/bootmiiconfigurationeditor/releases/download/v2.7/Bootmii_cfg_ed.zip", "Bootmii_cfg_ed.zip"]
+		},
+        {
+            "treatment": "archive.extract", "arguments": ["Bootmii_cfg_ed.zip", "apps/BootMiiConfigurationEditor/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["Bootmii_cfg_ed.zip"]
+        }
+	]
+}

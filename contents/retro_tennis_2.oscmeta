@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Retro Tennis 2",
+        "author": "ZombieNW",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "ZombieNW/Retro-Tennis-2",
+        "file": "Retro.Tennis.2.Homebrew.Channel.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["retro_tennis_2/", "apps/retro_tennis_2/"]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "information": {
+        "name": "sntp",
+        "author": "ErikZ",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "version": "1.2.0"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/ErikAndren/sntp/raw/master/releases/sntp-v1.2.0.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["releases/sntp/", "apps/sntp/"]
+		},
+        {
+            "treatment": "contents.delete", "arguments": ["releases/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["apps/sntp/sntp.dol"]
+        }
+	]
+}

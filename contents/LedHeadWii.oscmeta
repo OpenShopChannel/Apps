@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "LEDhead",
+        "author": "Nebiun",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "nebiun/ledHeadWii",
+        "file": "ledHeadWii_*.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["ledHeadWii/", "apps/LedHeadWii/"]
+		}
+	]
+}

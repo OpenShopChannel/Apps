@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "AnyGlobe Changer",
+        "author": "fishguy6564",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "fishguy6564/AnyGlobe-Changer",
+        "file": "AnyGlobe.Changer.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/AnyGlobe Changer/", "apps/AnyGlobe_Changer/"]
+        }
+    ]
+}

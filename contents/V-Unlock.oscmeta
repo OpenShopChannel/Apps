@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "V-Unlock",
+        "author": "Vega",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/boot.dol?raw=true", "apps/V-Unlock/boot.dol"]
+        },
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/meta.xml?raw=true", "apps/V-Unlock/meta.xml"]
+        },
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/icon.png?raw=true", "apps/V-Unlock/icon.png"]
+        }
+    ]
+}

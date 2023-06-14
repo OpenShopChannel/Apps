@@ -17,7 +17,7 @@
             "treatment": "contents.delete", "arguments": ["readme.txt"]
         },
         {
-            "treatment": "contents.move", "arguments": ["apps/smw-wii/", "apps/SuperMarioWar_Wii/"]
+            "treatment": "contents.move", "arguments": ["apps/smw-wii/", "apps/smw-wiigii/"]
         }
     ]
 }

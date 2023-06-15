@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Pacman",
+        "author": "A.D.Price/D.Ashley/P.Briot",
+        "category": "emulators",
+        "peripherals": ["Wii Remote"],
+        "version": "1.04"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/a/ae/Wii_pacman1_04_20160712.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/", "pacman/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["pacman/", "apps/pacman/"]
+        }
+    ]
+}

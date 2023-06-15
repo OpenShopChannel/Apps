@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "WiiSPACE",
+        "author": "Seiken",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "Wii Zapper", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/6/67/WiiSPACE_v1.2a.zip"
+    }
+}

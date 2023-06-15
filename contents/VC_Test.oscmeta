@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Visual Controller Test",
+        "author": "Mr. Reaper",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "1.2"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/3/3c/VC_Test_v1.2.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["VC_Test/", "apps/VC_Test/"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "WiiShell",
+        "author": "aksommerville",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "USB Keyboard"],
+        "version": "20080702"
+    },
+    "source": {
+        "type": "url",
+        "format": "bztar",
+        "location": "https://wiibrew.org/w/images/2/23/Wiishell-20080702.tar.bz2"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["wiishell-20080702/", "apps/wiishell/"]
+        }
+    ]
+}

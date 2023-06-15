@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "postLoader",
+        "author": "stfour",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "4.7.96"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "thedax/postloader",
+        "file": "postLoader.4.7.96.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["historii.txt", "postloader_historii.txt"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["readmii.txt", "postloader_readmii.txt"]
+        }
+    ]
+}

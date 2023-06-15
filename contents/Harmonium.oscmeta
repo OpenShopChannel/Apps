@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Harmonium",
+        "author": "MetaFight",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/9/9a/Harmonium.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["Harmonium/", "apps/Harmonium/"]
+        }
+    ]
+}

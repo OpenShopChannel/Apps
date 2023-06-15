@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "YahtzWii",
+        "author": "chris",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://www.toxicbreakfast.com/cgi-bin/download?file=yahtzwii.zip"
+    }
+}

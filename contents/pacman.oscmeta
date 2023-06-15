@@ -1,0 +1,17 @@
+{
+    "information": {
+        "name": "Pacman",
+        "author": "A.D.Price/D.Ashley/P.Briot",
+        "category": "emulators",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/", "apps/pacman/"]
+        }
+    ]
+}

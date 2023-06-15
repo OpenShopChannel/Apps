@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "DuckHunt",
+        "author": "Knight0fDragon",
+        "category": "games",
+        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download", "arguments": ["https://wiibrew.org/w/images/3/3b/DuckHunt.zip", "DuckHunt.zip"]
+        },
+        {
+            "treatment": "archive.extract", "arguments": ["DuckHunt.zip", "apps/DunkHunt/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["DuckHunt.zip"]
+        }
+    ]
+}

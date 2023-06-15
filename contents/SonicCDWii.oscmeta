@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Sonic CD",
+        "author": "ultra0",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "Wii 2.0.1 (v1.3.0)"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "ultra0000/Sonic-CD-11-Decompilation",
+        "file": "RSDKv3-Wii.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/SonicCD/", "apps/SonicCDWii/"]
+        }
+    ]
+}

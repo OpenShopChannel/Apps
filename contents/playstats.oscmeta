@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "Playstats",
+        "author": "chris",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://www.toxicbreakfast.com/tb/downloads/playstats.zip"
+    }
+}

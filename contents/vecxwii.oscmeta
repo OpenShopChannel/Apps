@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "VectrexWii",
+        "author": "Aruskano",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "0.3"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/2/2c/Vecxwii.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["vecxwii/", "apps/vecxwii/"]
+        }
+    ]
+}

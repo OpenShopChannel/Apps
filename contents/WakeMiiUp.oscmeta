@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "WakeMiiUp",
+        "author": "Superyoshi",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "0.6beta"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download", "arguments": ["https://wiibrew.org/w/images/8/8e/WakeMiiUp_v0-6.zip", "WakeMiiUp_v0-6.zip"]
+        },
+        {
+            "treatment": "archive.extract", "arguments": ["WakeMiiUp_v0-6.zip", "apps/WakeMiiUp/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["WakeMiiUp_v0-6.zip"]
+        }
+    ]
+}

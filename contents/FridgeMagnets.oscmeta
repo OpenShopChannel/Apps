@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Fridge Magnets",
+        "author": "Paul Overy",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Wii Remote", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/2/20/FridgeMagnets.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["FridgeMagnets/", "apps/FridgeMagnets/"]
+        }
+    ]
+}

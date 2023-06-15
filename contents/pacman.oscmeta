@@ -4,7 +4,7 @@
         "author": "A.D.Price/D.Ashley/P.Briot",
         "category": "emulators",
         "peripherals": ["Wii Remote"],
-        "version": "auto"
+        "version": "1.04"
     },
     "source": {
         "type": "url",
@@ -17,6 +17,9 @@
         },
         {
             "treatment": "contents.move", "arguments": ["pacman/", "apps/pacman/"]
+        },
+        {
+            "treatment": "meta.init"
         }
     ]
 }

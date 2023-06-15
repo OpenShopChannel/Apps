@@ -17,9 +17,6 @@
         },
         {
             "treatment": "contents.move", "arguments": ["pacman/", "apps/pacman/"]
-        },
-        {
-            "treatment": "meta.init"
         }
     ]
 }

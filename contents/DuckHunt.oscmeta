@@ -14,7 +14,7 @@
             "treatment": "web.download", "arguments": ["https://wiibrew.org/w/images/3/3b/DuckHunt.zip", "DuckHunt.zip"]
         },
         {
-            "treatment": "archive.extract", "arguments": ["DuckHunt.zip", "apps/DunkHunt/"]
+            "treatment": "archive.extract", "arguments": ["DuckHunt.zip", "apps/DuckHunt/"]
         },
         {
             "treatment": "contents.delete", "arguments": ["DuckHunt.zip"]

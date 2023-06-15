@@ -17,6 +17,9 @@
             "treatment": "archive.extract", "arguments": ["DuckHunt.zip", "apps/DuckHunt/"]
         },
         {
+            "treatment": "contents.move", "arguments": ["apps/DuckHunt/icon.PNG", "apps/DuckHunt/icon.png"]
+        },
+        {
             "treatment": "contents.delete", "arguments": ["DuckHunt.zip"]
         }
     ]

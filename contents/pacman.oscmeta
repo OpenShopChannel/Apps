@@ -13,7 +13,10 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/", "apps/pacman/"]
+            "treatment": "contents.move", "arguments": ["apps/", "pacman/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["pacman/", "apps/pacman/"]
         }
     ]
 }

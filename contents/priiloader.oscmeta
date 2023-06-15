@@ -15,6 +15,9 @@
     },
     "treatments": [
         {
+            "treatment": "contents.move", "arguments": ["apps/priiloader/META.XML", "apps/priiloader/meta.xml"]
+        },
+        {
             "treatment": "contents.move", "arguments": ["hacks_hash.ini", "apps/priiloader/hacks_hash.ini"]
         }
     ]

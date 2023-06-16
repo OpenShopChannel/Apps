@@ -1,0 +1,25 @@
+{
+    "information": {
+        "name": "WiiXplorer",
+        "author": "Dimok",
+        "category": "utilities",
+        "peripherals": ["Wii Remote, "Wii Remote", "Wii Remote, "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "version": "r259"
+    },
+    "source": {
+        "type": "sourceforge_release",
+        "project": "wiixplorer",
+        "format": "zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["meta.xml", "apps/wiixplorer/meta.xml"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["icon.png", "apps/wiixplorer/icon.png"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["boot.dol", "apps/wiixplorer/boot.dol"]
+        }
+    ]
+}

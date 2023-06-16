@@ -3,7 +3,7 @@
         "name": "WiiXplorer",
         "author": "Dimok",
         "category": "utilities",
-        "peripherals": ["Wii Remote, "Wii Remote", "Wii Remote, "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
         "version": "r259"
     },
     "source": {

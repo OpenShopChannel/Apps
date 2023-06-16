@@ -3,7 +3,7 @@
         "name": "YahtzWii",
         "author": "chris",
         "category": "games",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },
     "source": {

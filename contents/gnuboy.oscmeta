@@ -3,7 +3,7 @@
         "name": "Gnuboy GX",
         "author": "Eke-Eke",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "081214"
     },
     "source": {

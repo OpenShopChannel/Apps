@@ -3,7 +3,7 @@
         "name": "Helium Boy",
         "author": "Bertil",
         "category": "games",
-        "peripherals": ["Wii Remote", "Nunchuck", "SDHC"],
+        "peripherals": ["Wii Remote", "Nunchuk", "SDHC"],
         "version": "auto"
     },
     "source": {

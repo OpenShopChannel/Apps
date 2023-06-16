@@ -3,7 +3,7 @@
         "name": "FCEUX TX",
         "author": "Tanooki",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },
     "source": {

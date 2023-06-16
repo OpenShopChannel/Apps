@@ -3,7 +3,7 @@
         "name": "OpenTTD",
         "author": "Extrems",
         "category": "games",
-        "peripherals": ["Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
         "version": "auto"
     },
     "source": {

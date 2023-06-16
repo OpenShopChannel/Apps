@@ -3,7 +3,7 @@
         "name": "Visual Controller Test",
         "author": "Mr. Reaper",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "1.2"
     },
     "source": {

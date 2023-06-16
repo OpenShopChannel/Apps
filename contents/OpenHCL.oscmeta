@@ -3,7 +3,7 @@
         "name": "OpenHCL",
         "author": "JeffRuLz",
         "category": "games",
-        "peripherals": ["Wii Remote", "Nunchuck", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },
     "source": {

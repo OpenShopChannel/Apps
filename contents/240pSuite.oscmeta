@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "240p Test Suite GX",
+        "author": "Artemio Urbina",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.10b"
+    },
+    "source": {
+        "type": "itchio",
+        "creator": "artemiourbina",
+        "game": "240p-test-suite",
+        "upload": "240p test Suite for Wii 1.10b (from itch.io server)",
+        "format": "zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["240pSuite/", "apps/240pSuite/"]
+        }
+    ]
+}

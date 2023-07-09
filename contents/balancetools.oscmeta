@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "Balance Board Tools",
+        "author": "elisherer",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.0"
+    },
+    "source": {
+        "type": "mediafire",
+        "format": "zip",
+        "location": "https://www.mediafire.com/file/g5mzgr1izm2/baltools-1.0.zip"
+    }
+}

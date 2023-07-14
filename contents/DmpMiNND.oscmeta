@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Dump Mii NAND",
+        "author": "Maxternal/DarkMatterCore",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "v1.2"
+    },
+    "source": {
+        "type": "mediafire",
+        "format": "zip",
+        "location": "https://www.mediafire.com/file/tu97z15x94auuzm/Dump_Mii_NAND_v1.2.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/DmpMiNND/icon.PNG", "apps/DmpMiNND/icon.png"]
+        }
+    ]
+}

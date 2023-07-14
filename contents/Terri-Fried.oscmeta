@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "Terri-Fried",
+        "author": "PolyMars",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "itchio",
+        "creator": "polymars",
+        "game": "terri-fried",
+        "upload": "Terri-Fried.zip (Nintendo Wii)",
+        "format": "zip"
+    }
+}

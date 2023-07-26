@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "Get Console ID",
+        "author": "Sketch",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://patcher.wiilink24.com/osc/GetConsoleID.zip"
+    }
+}

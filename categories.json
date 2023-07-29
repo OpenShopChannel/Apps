@@ -1,0 +1,32 @@
+[
+  {
+    "name": "demos", 
+    "display_name": "Demos",
+    "singular": "demo",
+    "plural": "demos"
+  },
+  {
+    "name": "emulators", 
+    "display_name": "Emulators",
+    "singular": "emulator",
+    "plural": "emulators"
+  },
+  {
+    "name": "games", 
+    "display_name": "Games",
+    "singular": "game",
+    "plural": "games"
+  },
+  {
+    "name": "media", 
+    "display_name": "Media",
+    "singular": "media application",
+    "plural": "media applications"
+  },
+  {
+    "name": "utilities", 
+    "display_name": "Utilities",
+    "singular": "utility",
+    "plural": "utilities"
+  }
+]

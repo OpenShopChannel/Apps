@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "GCMM",
+        "author": "suloku",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "suloku/gcmm",
+        "file": "gcmm_v*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["gcmm_*/wii/gcmm/", "apps/gcmm/"]
+        }
+    ]
+}

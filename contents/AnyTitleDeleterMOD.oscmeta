@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "AnyTitle Deleter MOD",
+        "author": "Red Squirrel",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "7.1"
+    },
+    "source": {
+        "type": "url",
+        "format": "rar",
+        "location": "https://wiibrew.org/w/images/f/f3/AnyTitleDeleterMODv71.rar"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["v7.1/sd_root/apps/AnyTitleDeleterMOD/", "apps/AnyTitleDeleterMOD/"]
+        }
+    ]
+}

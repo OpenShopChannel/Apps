@@ -3,7 +3,7 @@
         "name": "Nintendont",
         "author": "FIX94, crediar",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC", "USB Keyboard"],
         "version": "auto"
     },
     "source": {

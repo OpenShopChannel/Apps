@@ -10,7 +10,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "suloku/gcmm",
-        "file": "gcmm_v*.zip"
+        "file": "gcmm_*.zip"
     },
     "treatments": [
         {

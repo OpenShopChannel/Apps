@@ -11,5 +11,16 @@
         "format": "zip",
         "repository": "dborth/fceugx",
         "file": "FCEUltraGX-*[!GameCube].zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["FCEUltraGX/apps/", "apps/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["FCEUltraGX/fceugx/", "fceugx/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["FCEUltraGX"]
+        }
+    ]
 }

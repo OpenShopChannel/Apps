@@ -11,5 +11,16 @@
         "format": "zip",
         "repository": "dborth/vbagx",
         "file": "VisualBoyAdvanceGX-*[!GameCube].zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["VisualBoyAdvanceGX/apps/", "apps/"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["VisualBoyAdvanceGX/vbagx/", "vbagx/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["VisualBoyAdvanceGX"]
+        }
+    ]
 }

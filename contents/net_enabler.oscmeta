@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "Offline Network Enabler",
+        "author": "suloku",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "0.1"
+    },
+    "source": {
+        "type": "url",
+        "format": "rar",
+        "location": "https://wiibrew.org/w/images/8/85/OfflineNetworkEnabler.rar"
+    }
+}

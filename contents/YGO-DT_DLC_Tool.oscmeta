@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "Yu-Gi-Oh! Duel Transer Data Tool",
+        "author": "Diego A. (SuperrSonic)",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.0"
+    },
+    "source": {
+        "type": "mediafire",
+        "format": "7z",
+        "location": "https://www.mediafire.com/file/vtmay373zzrdnxr/YGO-DT_Tool.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/YGO-DT DLC Tool/", "apps/YGO-DT_DLC_Tool/"]
+        }
+    ]
+}

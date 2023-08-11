@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "Yet Another BlueDump MOD",
+        "author": "nicksasa, DarkMatterCore",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "GameCube Controller", "Classic Controller", "Nunchuk", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/boot.dol?raw=true", "apps/Yet-Another-BlueDump-Mod/boot.dol"]
+        },
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/meta.xml?raw=true", "apps/Yet-Another-BlueDump-Mod/meta.xml"]
+        },
+        {
+            "treatment": "web.download", "arguments": ["https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/icon.png?raw=true", "apps/Yet-Another-BlueDump-Mod/icon.png"]
+        }
+    ]
+}

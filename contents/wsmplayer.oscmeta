@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "WiiSystemMenuPlayer",
+        "author": "Dimok and Giantpune",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "v0.1"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wii-system-menu-player/wsmplayer_v0.1.zip"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "WiiBrowser",
+        "author": "gave92",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "rev132"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://web.archive.org/web/20230527064420/https://hbb1.oscwii.org/hbb/wiibrowser/wiibrowser.zip"
+    }
+}

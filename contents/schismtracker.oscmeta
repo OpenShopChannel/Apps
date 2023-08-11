@@ -11,5 +11,10 @@
         "format": "zip",
         "repository": "mrpapersonic/schismtracker",
         "file": "schismtracker-20220125-wii.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["apps/schismtracker/schismtracker.elf", "apps/schismtracker/boot.elf"]
+        }
+    ]
 }

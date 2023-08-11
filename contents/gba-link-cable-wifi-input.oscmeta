@@ -18,6 +18,9 @@
 		},
         {
 			"treatment": "contents.delete", "arguments": ["pc_client/"]
-		}
+		},
+        {
+            "treatment": "meta.init"
+        }
 	]
 }

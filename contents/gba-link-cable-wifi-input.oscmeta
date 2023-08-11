@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "GBA Link Cable WiFi Input Server",
+        "author": "FIX94",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "v1.2"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "FIX94/gba-link-cable-wifi-input",
+        "file": "gba-link-cable-wifi-input-v1.2.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["wii_server/", "apps/gba-link-cable-wifi-input/"]
+		},
+        {
+			"treatment": "contents.delete", "arguments": ["pc_client/"]
+		}
+	]
+}

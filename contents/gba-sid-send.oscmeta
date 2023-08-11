@@ -1,0 +1,26 @@
+{
+    "information": {
+        "name": "GBA SID Send",
+        "author": "FIX94",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "v1.0"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "FIX94/gba-sid-send",
+        "file": "GBA-SID-Send_v1.0.zip"
+    },
+	"treatments": [
+		{
+			"treatment": "contents.move", "arguments": ["gbasidsend_wii.dol", "apps/gba-sid-send/boot.dol"]
+		},
+        {
+			"treatment": "meta.init"
+		},
+        {
+			"treatment": "contents.delete", "arguments": ["gbasidsend_gc.dol"]
+		}
+	]
+}

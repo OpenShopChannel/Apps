@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Yabause",
+        "author": "Yabause Team",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "GameCube Controller", "Nunchuk", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "mediafire",
+        "format": "zip",
+        "location": "https://www.mediafire.com/file/gzz3n5cd0plcca9/yabause-r2926wii-beta26.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/apps/yabause/", "apps/yabause/"]
+            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/yabause/", "yabause/"]
+        }
+    ]
+}

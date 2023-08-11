@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "WiiLauncher",
+        "author": "conanac",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wiibrew.org/w/images/1/12/Wiilauncher_r11.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["wiilauncher/", "apps/WiiLauncher/"]
+        }
+    ]
+}

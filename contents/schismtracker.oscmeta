@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "Schism Tracker",
+        "author": "Storlek, mrpapersonic",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "USB Keyboard"],
+        "version": "20220125"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "mrpapersonic/schismtracker",
+        "file": "schismtracker-20220125-wii.zip"
+    }
+}

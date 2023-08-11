@@ -13,7 +13,9 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/apps/yabause/", "apps/yabause/"],
+            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/apps/yabause/", "apps/yabause/"]
+        },
+        {
             "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/yabause/", "yabause/"]
         }
     ]

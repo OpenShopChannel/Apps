@@ -4,20 +4,20 @@
         "author": "The ScummVM Team",
         "category": "emulators",
         "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
-        "version": "2.7.0"
+        "version": "2.7.1"
     },
     "source": {
         "type": "manual"
     },
 	"treatments": [
 		{
-			"treatment": "web.download", "arguments": ["https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0-wii.zip", "scummvm-2.7.0-wii.zip"]
+			"treatment": "web.download", "arguments": ["https://downloads.scummvm.org/frs/scummvm/2.7.1/scummvm-2.7.1-wii.zip", "scummvm-wii.zip"]
 		},
         {
-            "treatment": "archive.extract", "arguments": ["scummvm-2.7.0-wii.zip", "apps/scummvm/"]
+            "treatment": "archive.extract", "arguments": ["scummvm-wii.zip", "apps/scummvm/"]
         },
         {
-            "treatment": "contents.delete", "arguments": ["scummvm-2.7.0-wii.zip"]
+            "treatment": "contents.delete", "arguments": ["scummvm-wii.zip"]
         }
 	]
 }

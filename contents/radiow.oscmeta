@@ -3,16 +3,12 @@
         "name": "WiiRadio",
         "author": "Scanff",
         "category": "media",
-        "peripherals": [
-            "Wii Remote",
-            "SDHC"
-        ],
-        "version": "0.7",
-        "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "0.7"
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/radiow.zip"
+        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wiiradio/wiiradio_07.zip"
     }
 }

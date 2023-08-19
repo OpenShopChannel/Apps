@@ -10,10 +10,5 @@
         "type": "url",
         "format": "zip",
         "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wiiradio/wiiradio_07.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move", "arguments": ["apps/radiow/", "apps/WiiRadio/"]
-        }
-    ]
+    }
 }

@@ -1,18 +1,21 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
+        "name": "Wii Web Server",
+        "author": "Cboomf + Felix123",
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
+            "GameCube Controller",
+            "Classic Controller",
+            "Nunchuk",
             "SDHC"
         ],
-        "version": "114",
+        "version": "alpha v1.1",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/wiiwebserver.zip"
     }
 }

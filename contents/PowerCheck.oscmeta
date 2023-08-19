@@ -1,18 +1,20 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
+        "name": "PowerCheck",
+        "author": "JoostinOnline",
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
-            "SDHC"
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote"
         ],
-        "version": "114",
+        "version": "v1.8",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/PowerCheck.zip"
     }
 }

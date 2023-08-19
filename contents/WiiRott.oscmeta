@@ -1,18 +1,18 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
-        "category": "utilities",
+        "name": "Wii-ROTT",
+        "author": "nitr8",
+        "category": "games",
         "peripherals": [
             "Wii Remote",
-            "SDHC"
+            "Classic Controller"
         ],
-        "version": "114",
+        "version": "Icculus v1.1.2 SDL-Release",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/WiiRott.zip"
     }
 }

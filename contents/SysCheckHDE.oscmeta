@@ -1,18 +1,17 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
+        "name": "SysCheck HacksDen Edition",
+        "author": "JoostinOnline, Double_A, R2-D2199, Nano",
         "category": "utilities",
         "peripherals": [
-            "Wii Remote",
-            "SDHC"
+            "Wii Remote"
         ],
-        "version": "114",
+        "version": "2.4.0 HD Edition",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/SysCheckHDE.zip"
     }
 }

@@ -1,18 +1,25 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
+        "name": "WiiXplorer SS",
+        "author": "Diego",
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
-            "SDHC"
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "GameCube Controller",
+            "Classic Controller",
+            "Nunchuk",
+            "SDHC",
+            "USB Keyboard"
         ],
-        "version": "114",
+        "version": "260",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/wiixplorer-ss.zip"
     }
 }

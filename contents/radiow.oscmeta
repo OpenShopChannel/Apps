@@ -1,18 +1,18 @@
 {
     "information": {
-        "name": "Simple IOS Patcher 1.14",
-        "author": "R2-D2199, WiiPower",
-        "category": "utilities",
+        "name": "WiiRadio",
+        "author": "Scanff",
+        "category": "media",
         "peripherals": [
             "Wii Remote",
             "SDHC"
         ],
-        "version": "114",
+        "version": "0.7",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SIP.zip"
+        "location": "https://hbbarchive.oscwii.org/legacy/radiow.zip"
     }
 }

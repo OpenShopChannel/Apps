@@ -15,5 +15,10 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/brawlstats.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.remove_comments"
+        }
+    ]
 }

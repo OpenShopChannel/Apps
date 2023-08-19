@@ -13,5 +13,10 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/SSRT.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.init"
+        }
+    ]
 }

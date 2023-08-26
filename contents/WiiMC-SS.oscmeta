@@ -11,5 +11,10 @@
         "format": "7z",
         "repository": "SuperrSonic/WiiMC-SSLC",
         "file": "WiiMC-SS_*.7z"
-    }
+    },
+    "treatments": [
+		{
+			"treatment": "web.download", "arguments": ["http://riitube.rc24.xyz/onlinemedia.xml", "apps/WiiMC-SS/onlinemedia.xml"]
+		}
+	]
 }

@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Rumbler",
+        "author": "emilydaemon",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+	"location": "https://donut.eu.org/downloads/rumbler.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["rumbler/", "apps/rumbler/"]
+        }
+    ]
+}

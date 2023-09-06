@@ -11,7 +11,7 @@
         "format": "zip",
 	"location": "https://donut.eu.org/downloads/rumbler.zip"
     },
-    "treatments" [
+    "treatments": [
         {
             "treatment": "contents.move",
             "arguments": ["rumbler/", "apps/rumbler/"]

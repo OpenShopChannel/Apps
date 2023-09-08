@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "Wii Static",
+        "author": "emilydaemon",
+        "category": "media",
+        "peripherals": ["Wii Remote", "Classic Controller"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+	"location": "https://donut.eu.org/downloads/wiistatic.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["wiistatic/", "apps/wiistatic/"]
+        }
+    ]
+}

@@ -6,12 +6,12 @@
         "peripherals": [
             "Wii Remote"
         ],
-        "version": "1.0",
-        "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/LoadPriiloader.zip"
+        "repository": "DacoTaco/priiloader",
+        "file": "LoadPriiloader.zip"
     }
 }

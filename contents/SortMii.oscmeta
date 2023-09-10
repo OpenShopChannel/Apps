@@ -7,7 +7,7 @@
         "version": "auto"
     },
     "source": {
-        "type": "github-release",
+        "type": "github_release",
         "format": "zip",
         "repository": "bor-real/SortMii",
         "file": "SortMii.zip"

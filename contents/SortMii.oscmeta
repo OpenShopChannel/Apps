@@ -9,7 +9,7 @@
     "source": {
         "type": "github-release",
         "format": "zip",
-        "repository": "bor-real/SortMii"
+        "repository": "bor-real/SortMii",
         "file": "SortMii.zip"
     }
 }

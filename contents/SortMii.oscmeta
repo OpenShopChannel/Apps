@@ -10,10 +10,5 @@
         "type": "url",
         "format": "zip",
         "location": "https://github.com/bor-real/SortMii/releases/latest/download/SortMii.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move", "arguments": ["SortMii/", "apps/SortMii/"]
-        }
-    ]
+    }
 }

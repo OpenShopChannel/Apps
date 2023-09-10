@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "SortMii",
+        "author": "boreal",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github-release",
+        "format": "zip",
+        "repository": "bor-real/SortMii",
+        "file": "SortMii.zip"
+    }
+}

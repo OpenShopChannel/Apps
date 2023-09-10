@@ -1,1 +1,19 @@
-
+{
+    "information": {
+        "name": "SortMii",
+        "author": "boreal",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://placeholder.com/SortMii.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["SortMii/", "apps/SortMii/"]
+        }
+    ]
+}

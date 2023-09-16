@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Wii Mini Ethernet Enable",
+        "author": "Fullmetal5",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wii.guide/assets/files/Wii_Mini_Ethernet_Enable.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["Wii Mini Ethernet Enable/", "apps/Wii_Mini_Ethernet_Enable/"]
+        },
+        {
+            "treatment": "meta.set", "arguments": ["release_date", "20190928000000"]
+        }
+    ]
+}

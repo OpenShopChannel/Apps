@@ -3,6 +3,7 @@
         "name": "Wii-Themer",
         "author": "Scooby74029",
         "category": "utilities",
+        "flags": ["writes_to_nand"],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller"

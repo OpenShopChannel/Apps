@@ -17,6 +17,9 @@
         },
         {
             "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/yabause/", "yabause/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["yabause-r2926wii-beta26"]
         }
     ]
 }

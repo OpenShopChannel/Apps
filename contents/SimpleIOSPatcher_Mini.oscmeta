@@ -1,0 +1,14 @@
+{
+    "information": {
+        "name": "SimpleIOSPatcher for Mini",
+        "author": "R2-D2199, WiiPower, nitr8",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "version": "1.14-Mini"
+    },
+    "source": {
+        "type": "mediafire",
+        "format": "zip",
+        "location": "http://www.mediafire.com/file/7k141mu1whqzwdp/SimpleIOSPatcher_Mini.zip"
+    }
+}

@@ -4,6 +4,7 @@
         "author": "Tantric",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "1.0"
     },
     "source": {

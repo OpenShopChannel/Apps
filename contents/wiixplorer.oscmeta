@@ -4,6 +4,7 @@
         "author": "Dimok",
         "category": "utilities",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "r259"
     },
     "source": {

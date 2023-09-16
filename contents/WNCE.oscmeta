@@ -4,6 +4,7 @@
         "author": "Bazmoc",
         "category": "utilities",
         "peripherals": ["Wii Remote", "GameCube Controller"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

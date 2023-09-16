@@ -4,6 +4,7 @@
         "author": "pcfree, JoostinOnline, nitr8",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "0.21b-Mini"
     },
     "source": {

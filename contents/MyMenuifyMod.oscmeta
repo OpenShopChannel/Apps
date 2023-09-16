@@ -4,6 +4,7 @@
         "author": "Scooby74029",
         "category": "emulators",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

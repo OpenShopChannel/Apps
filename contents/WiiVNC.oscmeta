@@ -1,6 +1,6 @@
 {
     "information": {
-        "name": "WiiEarth",
+        "name": "WiiVNC",
         "author": "PaulWagener",
         "category": "utilities",
         "peripherals": ["Wii Remote"],

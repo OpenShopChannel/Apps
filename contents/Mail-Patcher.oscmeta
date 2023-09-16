@@ -4,6 +4,7 @@
         "author": "RiiConnect24",
         "category": "utilities",
         "peripherals": ["Wii Remote", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

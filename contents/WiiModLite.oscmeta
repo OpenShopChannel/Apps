@@ -4,6 +4,7 @@
         "author": "jskyboo,kkline38",
         "category": "utilities",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

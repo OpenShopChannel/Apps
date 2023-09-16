@@ -13,6 +13,7 @@
             "Nunchuk",
             "SDHC"
         ],
+        "flags": ["writes_to_nand"],
         "version": "rev127",
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },

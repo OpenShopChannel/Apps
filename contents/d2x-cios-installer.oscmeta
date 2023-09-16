@@ -4,6 +4,7 @@
         "author": "dragbe",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "3.1"
     },
     "source": {

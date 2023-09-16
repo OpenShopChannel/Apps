@@ -4,6 +4,7 @@
         "author": "Sketch",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

@@ -4,6 +4,7 @@
         "author": "Fullmetal5",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "1"
     },
     "source": {

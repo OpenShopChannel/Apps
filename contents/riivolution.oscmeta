@@ -4,6 +4,7 @@
         "author": "Aaron tueidj Tempus megazig",
         "category": "utilities",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

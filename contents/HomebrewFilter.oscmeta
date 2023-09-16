@@ -4,6 +4,7 @@
         "author": "Nano",
         "category": "utilities",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "rev47"
     },
     "source": {

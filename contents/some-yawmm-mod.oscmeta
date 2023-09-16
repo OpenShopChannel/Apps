@@ -4,6 +4,7 @@
         "author": "FIX94, various others",
         "category": "utilities",
         "peripherals": ["Wii Remote", "SDHC"],
+        "flags": ["writes_to_nand"],
         "version": "auto"
     },
     "source": {

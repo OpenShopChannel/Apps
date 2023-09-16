@@ -4,6 +4,7 @@
         "author": "Red Squirrel",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
         "version": "7.1"
     },
     "source": {

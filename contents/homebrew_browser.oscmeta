@@ -1,0 +1,25 @@
+{
+    "information": {
+        "name": "Homebrew Browser",
+        "author": "teknecal",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "version": "0.3.9e (OSC Edition)"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wii.guide/assets/files/homebrew_browser_v0.3.9e.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["homebrew_browser/", "apps/homebrew_browser/"]
+        },
+        {
+            "treatment": "contents.delete", "arguments": ["apps/homebrew_browser/ShopChannel.ogg"]
+        },
+        {
+            "treatment": "contents.move", "arguments": ["Readme.txt", "apps/homebrew_browser/Readme.txt"]
+        }
+    ]
+}

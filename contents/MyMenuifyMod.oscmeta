@@ -2,7 +2,7 @@
     "information": {
         "name": "MyMenuifyMod",
         "author": "Scooby74029",
-        "category": "emulators",
+        "category": "utilities",
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "auto"

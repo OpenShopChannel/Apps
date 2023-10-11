@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "WiiLink Mail Patcher",
+        "author": "Sketch",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "flags": ["writes_to_nand"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "WiiLink24/Mail-Patcher",
+        "file": "WiiLink-Mail-Patcher.zip"
+    }
+}

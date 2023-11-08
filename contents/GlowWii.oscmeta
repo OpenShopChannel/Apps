@@ -9,7 +9,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "larsenv/GlowWii",
-        "file": "GlowWii-*.zip"
+        "repository": "RiiConnect24/GlowWii",
+        "file": "GlowWii.zip"
     }
 }

@@ -2,7 +2,7 @@
     "information": {
         "name": "Not64",
         "author": "Extrems",
-        "category": "utilities",
+        "category": "emulators",
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },

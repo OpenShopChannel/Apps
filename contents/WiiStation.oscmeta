@@ -1,0 +1,25 @@
+{
+    "information": {
+        "name": "Wiistation",
+        "author": "xjsxjs197",
+        "category": "emulators",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "xjsxjs197/WiiSXRX_2022",
+        "file": "WiiStation_Ver*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["WiiStation_Ver*/apps/WiiStation_Ver*/", "apps/WiiStation/"]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": ["WiiStation_Ver*/"]
+        }
+    ]
+}

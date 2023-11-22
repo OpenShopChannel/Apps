@@ -15,11 +15,11 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["WiiStation_Ver*/apps/WiiStation_Ver*/", "apps/WiiStation/"]
+            "arguments": ["WiiStation_Ver2.4/apps/WiiStation_Ver2.4/", "apps/WiiStation/"]
         },
         {
             "treatment": "contents.delete",
-            "arguments": ["WiiStation_Ver*/"]
+            "arguments": ["WiiStation_Ver2.4/"]
         }
     ]
 }

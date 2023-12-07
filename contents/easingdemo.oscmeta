@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "EasingDemo",
+        "author": "Owen",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/easingdemo.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["easingdemo/", "apps/easingdemo/"]
+        }
+    ]
+}

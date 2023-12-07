@@ -16,21 +16,21 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/boot.dol?raw=true",
+                "https://dakotath.com/wiigptii/boot.dol",
                 "apps/WiiGPTii/boot.dol"
             ]
         },
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/meta.xml?raw=true",
+                "https://dakotath.com/wiigptii/meta.xml",
                 "apps/WiiGPTii/meta.xml"
             ]
         },
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/icon.png?raw=true",
+                "https://dakotath.com/wiigptii/icon.png",
                 "apps/WiiGPTii/icon.png"
             ]
         }

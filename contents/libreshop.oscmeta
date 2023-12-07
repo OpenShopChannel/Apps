@@ -4,18 +4,22 @@
         "author": "LibreShop Contributors",
         "category": "utilities",
         "peripherals": [
-            "Wii Remote",
+            "Wii Remote"
         ],
         "version": "auto"
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://git.donut.eu.org/nez/libreshop_client2/releases/download/0.1/LibreShop_v0.1.zip",
+        "location": "https://git.donut.eu.org/nez/libreshop_client2/releases/download/0.1/LibreShop_v0.1.zip"
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["libreshop/", "apps/libreshop/"]
-        },
+            "treatment": "contents.move",
+            "arguments": [
+                "libreshop/",
+                "apps/libreshop/"
+            ]
+        }
     ]
 }

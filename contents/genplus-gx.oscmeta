@@ -20,6 +20,15 @@
 		},
 		{
 			"treatment": "contents.delete", "arguments": ["genplus_cube.dol"]
+		},
+		{
+			"treatment": "contents.delete", "arguments": ["HISTORY.txt"]
+		},
+		{
+			"treatment": "contents.delete", "arguments": ["LICENSE.txt"]
+		},
+		{
+			"treatment": "contents.delete", "arguments": ["README.pdf"]
 		}
 	]
 }

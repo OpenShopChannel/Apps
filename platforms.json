@@ -1,0 +1,14 @@
+[
+  {
+    "name": "wii",
+    "display_name": "Wii"
+  },
+  {
+    "name": "vwii",
+    "display_name": "vWii"
+  },
+  {
+    "name": "wii_mini",
+    "display_name": "Wii Mini"
+  }
+]

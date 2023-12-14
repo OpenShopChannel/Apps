@@ -4,6 +4,7 @@
         "author": "Chadderz",
 		"category": "utilities",
 		"peripherals": ["Wii Remote", "SDHC"],
+		"supported_platforms": ["wii", "vwii", "wii_mini"],
 		"version": "auto"
 		},
 	"source": {

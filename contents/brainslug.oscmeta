@@ -1,0 +1,20 @@
+{
+    "information": {
+        "name": "brainslug",
+        "author": "Chadderz",
+		"category": "utilities",
+		"peripherals": ["Wii Remote", "SDHC"],
+		"supported_platforms": ["wii", "vwii", "wii_mini"],
+		"version": "auto"
+		},
+	"source": {
+        "type": "mediafire",
+        "format": "zip",
+        "location": "https://www.mediafire.com/file/xr8aylrap7tgxbr/brainslug.zip/file"
+				},
+		"treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["brainslug/", "apps/brainslug/"]
+		}
+	]
+}

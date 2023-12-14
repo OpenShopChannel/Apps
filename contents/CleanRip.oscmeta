@@ -14,10 +14,7 @@
     },
 	"treatments": [
 		{
-			"treatment": "contents.move", "arguments": ["readme.txt", "cleanrip-readme.txt"]
-		},
-		{
-			"treatment": "contents.delete", "arguments": ["cleanrip-gc.dol"]
+			"treatment": "contents.delete", "arguments": ["readme.txt"]
 		}
 	]
 }

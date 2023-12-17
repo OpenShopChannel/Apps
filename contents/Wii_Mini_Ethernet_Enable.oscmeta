@@ -3,6 +3,7 @@
         "name": "Wii Mini Ethernet Enable",
         "author": "Fullmetal5",
         "category": "utilities",
+        "supported_platforms": ["wii_mini"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "1"

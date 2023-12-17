@@ -3,6 +3,7 @@
         "name": "WiiVNC",
         "author": "PaulWagener",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "1.3"
     },

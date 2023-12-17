@@ -3,6 +3,7 @@
         "name": "WiiXplorer",
         "author": "Dimok",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
         "flags": ["writes_to_nand"],
         "version": "r259"

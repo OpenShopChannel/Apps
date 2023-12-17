@@ -3,6 +3,7 @@
         "name": "WiiSPACE",
         "author": "Seiken",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "Wii Zapper", "SDHC"],
         "version": "auto"
     },

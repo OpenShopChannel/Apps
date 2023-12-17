@@ -3,6 +3,7 @@
         "name": "Snes9x GX",
         "author": "Tantric",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },

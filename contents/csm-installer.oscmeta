@@ -3,6 +3,7 @@
         "name": "csm-installer",
         "author": "thepikachugamer",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote", "GameCube Controller"],
         "flags": ["writes_to_nand"],
         "version": "auto"

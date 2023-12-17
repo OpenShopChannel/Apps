@@ -3,6 +3,7 @@
         "name": "Eject DVD",
         "author": "hOTzENpLOTz",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": [
             "Wii Remote"
         ],

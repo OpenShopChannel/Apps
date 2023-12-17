@@ -3,6 +3,7 @@
         "name": "Bolt Thrower",
         "author": "Paul Overy",
         "category": "games",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Nunchuk"],
         "version": "v0.71"
     },

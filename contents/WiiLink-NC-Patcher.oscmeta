@@ -3,6 +3,7 @@
         "name": "WiiLink Nintendo Channel URL Patcher",
         "author": "Sketch",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "auto"

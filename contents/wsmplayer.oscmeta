@@ -3,6 +3,7 @@
         "name": "WiiSystemMenuPlayer",
         "author": "Dimok and Giantpune",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "v0.1"
     },

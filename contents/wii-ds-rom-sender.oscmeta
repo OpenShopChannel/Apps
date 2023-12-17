@@ -3,6 +3,7 @@
         "name": "Wii DS ROM Sender",
         "author": "FIX94",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

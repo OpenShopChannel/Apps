@@ -3,6 +3,7 @@
         "name": "PowerCheck",
         "author": "JoostinOnline",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": [
             "Wii Remote",
             "Wii Remote",

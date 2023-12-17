@@ -3,6 +3,7 @@
         "name": "RiiConnect24 Mail Patcher",
         "author": "RiiConnect24",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "SDHC"],
         "flags": ["writes_to_nand"],
         "version": "auto"

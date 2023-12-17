@@ -3,6 +3,7 @@
         "name": "chro.mono 2",
         "author": "thp",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "2.3.0",
         "comment": "I have contacted the author directly regarding migration of this as-of-recently itch.io paywalled application to the new system, and have received approval to continue distributing it."

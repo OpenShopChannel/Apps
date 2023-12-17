@@ -3,6 +3,7 @@
         "name": "WiiApple",
         "author": "yohanes",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller", "USB Keyboard"],
         "version": "auto"
     },

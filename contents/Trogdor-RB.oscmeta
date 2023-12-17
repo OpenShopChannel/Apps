@@ -3,6 +3,7 @@
         "name": "Trogdor: Reburninated",
         "author": "Mips96",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller"],
         "version": "auto"
     },

@@ -3,6 +3,7 @@
         "name": "Newo Asteroids",
         "author": "Owen",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "auto"
     },

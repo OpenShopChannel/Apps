@@ -3,6 +3,7 @@
         "name": "Retro Tennis 2",
         "author": "ZombieNW",
         "category": "games",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

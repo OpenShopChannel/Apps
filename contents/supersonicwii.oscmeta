@@ -3,6 +3,7 @@
         "name": "Supersonic Wii : Winter Edition",
         "author": "Aaron \"AerialX\"",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": [
             "Wii Remote",
             "Nunchuk",

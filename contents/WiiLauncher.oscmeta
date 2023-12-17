@@ -3,6 +3,7 @@
         "name": "WiiLauncher",
         "author": "conanac",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote", "SDHC"],
         "version": "0.2"
     },

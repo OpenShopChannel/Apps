@@ -3,6 +3,7 @@
         "name": "Helium Boy",
         "author": "Bertil",
         "category": "games",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Nunchuk", "SDHC"],
         "version": "auto"
     },

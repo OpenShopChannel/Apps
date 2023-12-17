@@ -3,6 +3,7 @@
         "name": "Tetwiis",
         "author": "Pembo",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "1.1"
     },

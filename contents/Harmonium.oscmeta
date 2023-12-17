@@ -3,6 +3,7 @@
         "name": "Harmonium",
         "author": "MetaFight",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote"],
         "version": "auto"
     },

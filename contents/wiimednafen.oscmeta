@@ -3,6 +3,7 @@
         "name": "WiiMednafen",
         "author": "raz0red",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller",

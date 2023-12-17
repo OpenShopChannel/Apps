@@ -3,6 +3,7 @@
         "name": "Homebrew Browser",
         "author": "teknecal",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
         "version": "0.3.9e (OSC Edition)"
     },

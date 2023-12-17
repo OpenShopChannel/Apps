@@ -3,6 +3,7 @@
         "name": "Yet Another BlueDump MOD",
         "author": "nicksasa, DarkMatterCore",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "GameCube Controller", "Classic Controller", "Nunchuk", "SDHC"],
         "version": "auto"
     },

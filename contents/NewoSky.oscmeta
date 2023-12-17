@@ -3,6 +3,7 @@
         "name": "Newo Sky",
         "author": "Owen",
         "category": "demos",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

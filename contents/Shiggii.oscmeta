@@ -10,17 +10,25 @@
         ],
         "version": "auto",
         "author_preferred_contacts": "Contact me on Discord: @korbosoft",
-        "supported_platforms": ["wii", "wii_mini" "vwii"]
+        "supported_platforms": [
+            "wii",
+            "wii_mini",
+            "vwii"
+        ]
     },
     "source": {
         "type": "github_release",
         "format": "zip",
         "repository": "Korbough/Shiggii",
         "file": "Shiggii.zip"
-    }
+    },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["*", "apps/Shiggii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "*",
+                "apps/Shiggii/"
+            ]
         }
     ]
 }

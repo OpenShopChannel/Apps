@@ -3,6 +3,7 @@
         "name": "Wii Trouble",
         "author": "hayden0729",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": [
             "Wii Remote",
             "Wii Remote",

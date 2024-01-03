@@ -3,6 +3,7 @@
         "name": "Dump Mii NAND",
         "author": "Maxternal/DarkMatterCore",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote"],
         "version": "v1.2"
     },

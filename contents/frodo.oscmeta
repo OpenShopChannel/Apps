@@ -3,6 +3,7 @@
         "name": "C64-network.org (Frodo)",
         "author": "Simon Kagstrom, Oibaf",
         "category": "emulators",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller"],
         "version": "auto"
     },

@@ -3,6 +3,7 @@
         "name": "Yabause",
         "author": "Yabause Team",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "GameCube Controller", "Nunchuk", "SDHC"],
         "version": "auto"
     },

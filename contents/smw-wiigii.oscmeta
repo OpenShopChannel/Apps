@@ -3,6 +3,7 @@
         "name": "Super Mario War Wii",
         "author": "Tantric",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller"],
         "version": "1.4"
     },

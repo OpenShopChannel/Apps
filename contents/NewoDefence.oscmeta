@@ -3,6 +3,7 @@
         "name": "Newo Defence",
         "author": "Owen",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

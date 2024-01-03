@@ -3,6 +3,7 @@
         "name": "Abuse Wii",
         "author": "Many",
         "category": "games",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "SDHC"],
         "version": "auto"
     },

@@ -3,6 +3,7 @@
         "name": "Newo Model Viewer",
         "author": "Owen",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "SDHC"],
         "version": "auto"
     },

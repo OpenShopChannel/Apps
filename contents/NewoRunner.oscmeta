@@ -3,6 +3,7 @@
         "name": "Newo Runner",
         "author": "Owen",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Classic Controller", "SDHC"],
         "version": "auto"
     },

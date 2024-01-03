@@ -3,6 +3,7 @@
         "name": "V-Unlock",
         "author": "Vega",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "auto"

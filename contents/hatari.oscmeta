@@ -3,6 +3,7 @@
         "name": "HatariWii",
         "author": "Wiimpathy",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote"],
         "version": "auto"
     },

@@ -3,6 +3,7 @@
         "name": "GxGeo",
         "author": "blizzo",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
         "version": "20101119"
     },

@@ -3,6 +3,7 @@
         "name": "RealWnD for Mini",
         "author": "pcfree, JoostinOnline, nitr8",
         "category": "utilities",
+        "supported_platforms": ["wii_mini"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "0.21b-Mini"

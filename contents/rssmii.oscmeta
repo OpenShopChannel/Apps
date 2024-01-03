@@ -3,6 +3,7 @@
         "name": "RSSMii",
         "author": "WiiDatabase.de, RiiConnect24, main()",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "auto"

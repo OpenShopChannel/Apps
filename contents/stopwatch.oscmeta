@@ -3,6 +3,7 @@
         "name": "Stopwatch",
         "author": "ILovemyhouse",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "v2.0.0 Alpha Dev v1"
     },

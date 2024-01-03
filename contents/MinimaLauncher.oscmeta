@@ -3,6 +3,7 @@
         "name": "MinimaLauncher",
         "author": "Glitch",
         "category": "utilities",
+        "supported_platforms": ["wii", "vwii"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

@@ -3,6 +3,7 @@
         "name": "SimpleIOSPatcher for Mini",
         "author": "R2-D2199, WiiPower, nitr8",
         "category": "utilities",
+        "supported_platforms": ["wii_mini"],
         "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "1.14-Mini"

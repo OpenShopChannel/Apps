@@ -3,6 +3,7 @@
         "name": "MPlayer CE",
         "author": "MPlayer CE Team",
         "category": "media",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "USB Keyboard", "SDHC"],
         "version": "0.80 r658"
     },

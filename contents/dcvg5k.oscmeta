@@ -3,6 +3,7 @@
         "name": "DCVG5K Wii",
         "author": "Danel Coulom",
         "category": "emulators",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote" , "SDHC"],
         "version": "r1"
     },

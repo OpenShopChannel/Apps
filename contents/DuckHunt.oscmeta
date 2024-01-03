@@ -3,6 +3,7 @@
         "name": "DuckHunt",
         "author": "Knight0fDragon",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller"],
         "version": "auto"
     },

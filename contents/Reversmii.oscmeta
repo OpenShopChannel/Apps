@@ -3,6 +3,7 @@
         "name": "Reversmii",
         "author": "chris",
         "category": "games",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote"],
         "version": "auto"
     },

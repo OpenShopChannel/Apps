@@ -3,6 +3,7 @@
         "name": "CleanRip",
         "author": "emu_kidid",
         "category": "utilities",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
         "version": "auto"
     },

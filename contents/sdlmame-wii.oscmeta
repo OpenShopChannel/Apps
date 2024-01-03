@@ -3,6 +3,7 @@
         "name": "MAME Wii",
         "author": "Toad King + MAME Team",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller",

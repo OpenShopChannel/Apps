@@ -3,6 +3,7 @@
         "name": "ResidualVM",
         "author": "Wiimpathy",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
         "version": "0.2"
     },

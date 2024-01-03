@@ -3,6 +3,7 @@
         "name": "ScummVM",
         "author": "The ScummVM Team",
         "category": "emulators",
+	"supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
         "version": "2.7.1"
     },

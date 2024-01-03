@@ -3,6 +3,7 @@
         "name": "ART_S55",
         "author": "axiot",
         "category": "media",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote"],
         "version": "auto"
     },

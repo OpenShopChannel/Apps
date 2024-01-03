@@ -3,6 +3,7 @@
         "name": "NeoCD-WII",
         "author": "Wiimpathy, Jacobeian",
         "category": "emulators",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller"],
         "version": "auto"
     },

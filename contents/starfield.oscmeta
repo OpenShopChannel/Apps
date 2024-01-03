@@ -3,8 +3,14 @@
         "name": "Starfield Demo",
         "author": "Owen",
         "category": "demos",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["starfield/", "apps/starfield/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "starfield/",
+                "apps/starfield/"
+            ]
         }
     ]
 }

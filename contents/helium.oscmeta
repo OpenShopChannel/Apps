@@ -3,8 +3,16 @@
         "name": "Helium Boy",
         "author": "Bertil",
         "category": "games",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Nunchuk", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,12 +20,16 @@
         "format": "zip",
         "location": "http://www.beril.se/bin/heliumwii.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["helium/", "apps/helium/"]
-		},
-		{
-			"treatment": "meta.remove_declaration"
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "helium/",
+                "apps/helium/"
+            ]
+        },
+        {
+            "treatment": "meta.remove_declaration"
+        }
+    ]
 }

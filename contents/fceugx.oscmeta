@@ -3,8 +3,21 @@
         "name": "FCE Ultra GX",
         "author": "Tantric",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,13 +28,24 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["FCEUltraGX/apps/", "apps/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "FCEUltraGX/apps/",
+                "apps/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["FCEUltraGX/fceugx/", "fceugx/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "FCEUltraGX/fceugx/",
+                "fceugx/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["FCEUltraGX"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "FCEUltraGX"
+            ]
         }
     ]
 }

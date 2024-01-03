@@ -3,9 +3,17 @@
         "name": "AnyTitle Deleter MOD",
         "author": "Red Squirrel",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "7.1"
     },
     "source": {
@@ -15,7 +23,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["v7.1/sd_root/apps/AnyTitleDeleterMOD/", "apps/AnyTitleDeleterMOD/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "v7.1/sd_root/apps/AnyTitleDeleterMOD/",
+                "apps/AnyTitleDeleterMOD/"
+            ]
         }
     ]
 }

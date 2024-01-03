@@ -3,8 +3,16 @@
         "name": "VectrexWii",
         "author": "Aruskano",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "0.3"
     },
     "source": {
@@ -14,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["vecxwii/", "apps/vecxwii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "vecxwii/",
+                "apps/vecxwii/"
+            ]
         }
     ]
 }

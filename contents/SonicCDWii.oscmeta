@@ -3,8 +3,14 @@
         "name": "Sonic CD",
         "author": "ultra0",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "Wii 2.0.1 (v1.3.0)"
     },
     "source": {
@@ -15,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/SonicCD/", "apps/SonicCDWii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/SonicCD/",
+                "apps/SonicCDWii/"
+            ]
         }
     ]
 }

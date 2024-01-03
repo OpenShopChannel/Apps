@@ -3,8 +3,12 @@
         "name": "d2x cIOS installer",
         "author": "dragbe",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "3.1"
     },
     "source": {
@@ -14,19 +18,34 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["d2x-cios-installer/", "apps/d2x-cios-installer/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "d2x-cios-installer/",
+                "apps/d2x-cios-installer/"
+            ]
         },
         {
             "treatment": "meta.remove_comments"
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/wiidev/d2x-cios/releases/download/d2x-v11-beta1/d2x-v11-beta1.7z", "d2x-v11-beta1.7z"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/wiidev/d2x-cios/releases/download/d2x-v11-beta1/d2x-v11-beta1.7z",
+                "d2x-v11-beta1.7z"
+            ]
         },
         {
-            "treatment": "archive.extract", "arguments": ["d2x-v11-beta1.7z", "apps/d2x-cios-installer/"]
+            "treatment": "archive.extract",
+            "arguments": [
+                "d2x-v11-beta1.7z",
+                "apps/d2x-cios-installer/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["d2x-v11-beta1.7z"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "d2x-v11-beta1.7z"
+            ]
         }
     ]
 }

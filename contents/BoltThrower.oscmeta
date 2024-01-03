@@ -3,8 +3,15 @@
         "name": "Bolt Thrower",
         "author": "Paul Overy",
         "category": "games",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Nunchuk"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk"
+        ],
         "version": "v0.71"
     },
     "source": {
@@ -12,9 +19,13 @@
         "format": "7z",
         "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wii-bolt-thrower/BoltThrower_v0.71.7z"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["BoltThrower_v0.71/", "apps/BoltThrower/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "BoltThrower_v0.71/",
+                "apps/BoltThrower/"
+            ]
+        }
+    ]
 }

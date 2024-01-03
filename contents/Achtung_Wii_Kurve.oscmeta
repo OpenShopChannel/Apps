@@ -3,7 +3,11 @@
         "name": "Achtung Wii Kurve",
         "author": "Profetylen",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "Wii Remote",

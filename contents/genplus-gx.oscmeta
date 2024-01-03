@@ -1,35 +1,66 @@
 {
-    "information": {
-        "name": "Genesis Plus GX",
-        "author": "Eke-Eke",
-        "category": "emulators",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
-        "version": "auto"
-    },
-    "source": {
-        "type": "url",
-        "format": "7z",
-        "location": "https://bitbucket.org/eke/genesis-plus-gx/downloads/genplus-gx-1.7.5-RC1.7z"
-    },
+	"information": {
+		"name": "Genesis Plus GX",
+		"author": "Eke-Eke",
+		"category": "emulators",
+		"supported_platforms": [
+			"wii",
+			"vwii",
+			"wii_mini"
+		],
+		"peripherals": [
+			"Wii Remote",
+			"Wii Remote",
+			"Wii Remote",
+			"Wii Remote",
+			"Classic Controller",
+			"GameCube Controller",
+			"SDHC"
+		],
+		"version": "auto"
+	},
+	"source": {
+		"type": "url",
+		"format": "7z",
+		"location": "https://bitbucket.org/eke/genesis-plus-gx/downloads/genplus-gx-1.7.5-RC1.7z"
+	},
 	"treatments": [
 		{
-			"treatment": "web.download", "arguments": ["https://github.com/ekeeke/Genesis-Plus-GX/raw/master/builds/genplus_wii.dol", "apps/genplus-gx/boot.dol"]
+			"treatment": "web.download",
+			"arguments": [
+				"https://github.com/ekeeke/Genesis-Plus-GX/raw/master/builds/genplus_wii.dol",
+				"apps/genplus-gx/boot.dol"
+			]
 		},
 		{
-			"treatment": "contents.delete", "arguments": ["genplus_wii.dol"]
+			"treatment": "contents.delete",
+			"arguments": [
+				"genplus_wii.dol"
+			]
 		},
 		{
-			"treatment": "contents.delete", "arguments": ["genplus_cube.dol"]
+			"treatment": "contents.delete",
+			"arguments": [
+				"genplus_cube.dol"
+			]
 		},
 		{
-			"treatment": "contents.delete", "arguments": ["HISTORY.txt"]
+			"treatment": "contents.delete",
+			"arguments": [
+				"HISTORY.txt"
+			]
 		},
 		{
-			"treatment": "contents.delete", "arguments": ["LICENSE.txt"]
+			"treatment": "contents.delete",
+			"arguments": [
+				"LICENSE.txt"
+			]
 		},
 		{
-			"treatment": "contents.delete", "arguments": ["README.pdf"]
+			"treatment": "contents.delete",
+			"arguments": [
+				"README.pdf"
+			]
 		}
 	]
 }

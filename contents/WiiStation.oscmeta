@@ -3,8 +3,21 @@
         "name": "Wiistation",
         "author": "xjsxjs197",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -16,11 +29,16 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["WiiStation_Ver2.4/apps/WiiStation_Ver2.4/", "apps/WiiStation/"]
+            "arguments": [
+                "WiiStation_Ver2.4/apps/WiiStation_Ver2.4/",
+                "apps/WiiStation/"
+            ]
         },
         {
             "treatment": "contents.delete",
-            "arguments": ["WiiStation_Ver2.4/"]
+            "arguments": [
+                "WiiStation_Ver2.4/"
+            ]
         }
     ]
 }

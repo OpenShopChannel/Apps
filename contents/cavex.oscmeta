@@ -3,8 +3,14 @@
         "name": "CavEX",
         "author": "ByteBit/xtreme8000",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "Alpha 0.3.0"
     },
     "source": {

@@ -3,22 +3,41 @@
         "name": "ScummVM",
         "author": "The ScummVM Team",
         "category": "emulators",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "2.7.1"
     },
     "source": {
         "type": "manual"
     },
-	"treatments": [
-		{
-			"treatment": "web.download", "arguments": ["https://downloads.scummvm.org/frs/scummvm/2.7.1/scummvm-2.7.1-wii.zip", "scummvm-wii.zip"]
-		},
+    "treatments": [
         {
-            "treatment": "archive.extract", "arguments": ["scummvm-wii.zip", "apps/scummvm/"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://downloads.scummvm.org/frs/scummvm/2.7.1/scummvm-2.7.1-wii.zip",
+                "scummvm-wii.zip"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["scummvm-wii.zip"]
+            "treatment": "archive.extract",
+            "arguments": [
+                "scummvm-wii.zip",
+                "apps/scummvm/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "scummvm-wii.zip"
+            ]
         }
-	]
+    ]
 }

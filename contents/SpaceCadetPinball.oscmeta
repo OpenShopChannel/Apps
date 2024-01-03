@@ -3,8 +3,16 @@
         "name": "3D Pinball Space Cadet",
         "author": "PacoChan",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Nunchuk", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "GameCube Controller"
+        ],
         "version": "0.2"
     },
     "source": {
@@ -12,28 +20,58 @@
     },
     "treatments": [
         {
-            "treatment": "web.download", "arguments": ["https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.1/SpaceCadetPinball-Wii-v0.1.7z", "OldSpaceCadetPinball.7z"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.1/SpaceCadetPinball-Wii-v0.1.7z",
+                "OldSpaceCadetPinball.7z"
+            ]
         },
         {
-            "treatment": "archive.extract", "arguments": ["OldSpaceCadetPinball.7z", ""]
+            "treatment": "archive.extract",
+            "arguments": [
+                "OldSpaceCadetPinball.7z",
+                ""
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["OldSpaceCadetPinball.7z"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "OldSpaceCadetPinball.7z"
+            ]
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.2-wii/SpaceCadetPinball-Wii-v0.2.7z", "NewSpaceCadetPinball.7z"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.2-wii/SpaceCadetPinball-Wii-v0.2.7z",
+                "NewSpaceCadetPinball.7z"
+            ]
         },
         {
-            "treatment": "archive.extract", "arguments": ["NewSpaceCadetPinball.7z", "apps/SpaceCadetPinball/"]
+            "treatment": "archive.extract",
+            "arguments": [
+                "NewSpaceCadetPinball.7z",
+                "apps/SpaceCadetPinball/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["apps/SpaceCadetPinball/SpaceCadetPinball.dol", "apps/SpaceCadetPinball/boot.dol"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/SpaceCadetPinball/SpaceCadetPinball.dol",
+                "apps/SpaceCadetPinball/boot.dol"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["NewSpaceCadetPinball.7z"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "NewSpaceCadetPinball.7z"
+            ]
         },
         {
-            "treatment": "meta.set", "arguments": ["version", "0.2"]
+            "treatment": "meta.set",
+            "arguments": [
+                "version",
+                "0.2"
+            ]
         }
     ]
 }

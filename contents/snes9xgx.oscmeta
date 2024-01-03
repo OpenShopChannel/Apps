@@ -3,8 +3,21 @@
         "name": "Snes9x GX",
         "author": "Tantric",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,13 +28,24 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["Snes9xGX/apps/", "apps/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Snes9xGX/apps/",
+                "apps/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["Snes9xGX/snes9xgx/", "snes9xgx/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Snes9xGX/snes9xgx/",
+                "snes9xgx/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["Snes9xGX"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "Snes9xGX"
+            ]
         }
     ]
 }

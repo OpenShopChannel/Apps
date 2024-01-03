@@ -3,12 +3,18 @@
         "name": "Pair My DS4",
         "author": "Xerpi",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],
         "version": "20150101",
-        "flags": ["writes_to_nand"],
+        "flags": [
+            "writes_to_nand"
+        ],
         "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
     },
     "source": {

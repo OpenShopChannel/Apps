@@ -3,7 +3,11 @@
         "name": "O2em",
         "author": "Consolius",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller",

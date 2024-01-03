@@ -3,8 +3,22 @@
         "name": "Nintendont",
         "author": "FIX94, crediar",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC", "USB Keyboard"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC",
+            "USB Keyboard"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,16 +26,32 @@
     },
     "treatments": [
         {
-            "treatment": "web.download", "arguments": ["https://github.com/FIX94/Nintendont/blob/master/loader/loader.dol?raw=true", "apps/Nintendont/boot.dol"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/FIX94/Nintendont/blob/master/loader/loader.dol?raw=true",
+                "apps/Nintendont/boot.dol"
+            ]
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/FIX94/Nintendont/blob/master/nintendont/meta.xml?raw=true", "apps/Nintendont/meta.xml"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/FIX94/Nintendont/blob/master/nintendont/meta.xml?raw=true",
+                "apps/Nintendont/meta.xml"
+            ]
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/FIX94/Nintendont/blob/master/nintendont/icon.png?raw=true", "apps/Nintendont/icon.png"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/FIX94/Nintendont/blob/master/nintendont/icon.png?raw=true",
+                "apps/Nintendont/icon.png"
+            ]
         },
         {
-            "treatment": "meta.set", "arguments": ["version", "Newer than 4.431"]
+            "treatment": "meta.set",
+            "arguments": [
+                "version",
+                "Newer than 4.431"
+            ]
         }
     ]
 }

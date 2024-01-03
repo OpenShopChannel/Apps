@@ -3,8 +3,14 @@
         "name": "Newo Sky",
         "author": "Owen",
         "category": "demos",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["newosky/", "apps/NewoSky/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "newosky/",
+                "apps/NewoSky/"
+            ]
         }
     ]
 }

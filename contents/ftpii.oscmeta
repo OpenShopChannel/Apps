@@ -3,8 +3,14 @@
         "name": "ftpii",
         "author": "joedj",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "0.0.22"
     },
     "source": {

@@ -3,7 +3,9 @@
         "name": "USB Toggle 2.0",
         "author": "Onion_Knight, jayjay123",
         "category": "utilities",
-        "supported_platforms": ["vwii"],
+        "supported_platforms": [
+            "vwii"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

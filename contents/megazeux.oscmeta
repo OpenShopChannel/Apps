@@ -3,8 +3,14 @@
         "name": "MegaZeux",
         "author": "Alexis Janson, Gilead Kutnick, Alistair Strachan, Alice Rowan, and others",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

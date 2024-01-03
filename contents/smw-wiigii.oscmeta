@@ -3,8 +3,18 @@
         "name": "Super Mario War Wii",
         "author": "Tantric",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller"
+        ],
         "version": "1.4"
     },
     "source": {
@@ -15,10 +25,17 @@
     },
     "treatments": [
         {
-            "treatment": "contents.delete", "arguments": ["readme.txt"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "readme.txt"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["apps/smw-wii/", "apps/smw-wiigii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/smw-wii/",
+                "apps/smw-wiigii/"
+            ]
         }
     ]
 }

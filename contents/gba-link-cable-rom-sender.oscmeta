@@ -3,7 +3,9 @@
         "name": "GBA Link Cable ROM Sender",
         "author": "FIX94",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "v1.2"
     },
     "source": {
@@ -12,15 +14,22 @@
         "repository": "FIX94/gba-link-cable-rom-sender",
         "file": "gba-link-cable-rom-sender-v1.2.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["gbaromsend_wii.dol", "apps/gba-link-cable-rom-sender/boot.dol"]
-		},
+    "treatments": [
         {
-			"treatment": "meta.init"
-		},
+            "treatment": "contents.move",
+            "arguments": [
+                "gbaromsend_wii.dol",
+                "apps/gba-link-cable-rom-sender/boot.dol"
+            ]
+        },
         {
-			"treatment": "contents.delete", "arguments": ["gbaromsend_gc.dol"]
-		}
-	]
+            "treatment": "meta.init"
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "gbaromsend_gc.dol"
+            ]
+        }
+    ]
 }

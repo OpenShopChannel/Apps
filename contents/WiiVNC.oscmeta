@@ -3,8 +3,14 @@
         "name": "WiiVNC",
         "author": "PaulWagener",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "1.3"
     },
     "source": {
@@ -14,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["WiiVNC/", "apps/WiiVNC/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "WiiVNC/",
+                "apps/WiiVNC/"
+            ]
         }
     ]
 }

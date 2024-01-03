@@ -3,8 +3,12 @@
         "name": "MyMenuifyMod",
         "author": "Scooby74029",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,9 +17,13 @@
         "repository": "scooby7402976/mymenuifymod",
         "file": "mymenuifymod.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["mymenuifymod/", "apps/MyMenuifyMod/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "mymenuifymod/",
+                "apps/MyMenuifyMod/"
+            ]
+        }
+    ]
 }

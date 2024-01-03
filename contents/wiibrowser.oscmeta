@@ -3,8 +3,15 @@
         "name": "WiiBrowser",
         "author": "gave92",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "rev132"
     },
     "source": {

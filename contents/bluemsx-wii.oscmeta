@@ -3,8 +3,19 @@
         "name": "BlueMSX-Wii",
         "author": "Tim Brugman, Wiimpathy",
         "category": "emulators",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "V1.0.3B"
     },
     "source": {
@@ -14,7 +25,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/blueMSXWii_SRL/", "apps/bluemsx-wii"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/blueMSXWii_SRL/",
+                "apps/bluemsx-wii"
+            ]
         }
     ]
 }

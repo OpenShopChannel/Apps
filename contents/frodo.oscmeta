@@ -3,14 +3,23 @@
         "name": "C64-network.org (Frodo)",
         "author": "Simon Kagstrom, Oibaf",
         "category": "emulators",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller"
+        ],
         "version": "auto"
     },
     "source": {
         "type": "github_release",
         "format": "gztar",
         "repository": "Oibaf66/frodo-wii",
-		"file": "c64-network.org-wii-*.bin.tar.gz"
+        "file": "c64-network.org-wii-*.bin.tar.gz"
     }
 }

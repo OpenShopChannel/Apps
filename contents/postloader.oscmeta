@@ -3,7 +3,9 @@
         "name": "postLoader",
         "author": "stfour",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "4.7.96"
     },
     "source": {
@@ -14,10 +16,18 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["historii.txt", "postloader_historii.txt"]
+            "treatment": "contents.move",
+            "arguments": [
+                "historii.txt",
+                "postloader_historii.txt"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["readmii.txt", "postloader_readmii.txt"]
+            "treatment": "contents.move",
+            "arguments": [
+                "readmii.txt",
+                "postloader_readmii.txt"
+            ]
         }
     ]
 }

@@ -3,9 +3,16 @@
         "name": "Snes9x GX Channel Installer",
         "author": "Tantric",
         "category": "emulators",
-        "supported_platforms": ["wii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {

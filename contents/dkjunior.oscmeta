@@ -3,8 +3,14 @@
         "name": "Donkey Kong Jr",
         "author": "Paul Goes",
         "category": "games",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,12 +18,19 @@
         "format": "zip",
         "location": "https://github.com/PaulGoes/Wii-Donkey-Kong-Jr/raw/master/download/DKJunior.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["dkjunior/", "apps/dkjunior/"]
-		},
-		{
-			"treatment": "contents.delete", "arguments": ["wad/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "dkjunior/",
+                "apps/dkjunior/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "wad/"
+            ]
+        }
+    ]
 }

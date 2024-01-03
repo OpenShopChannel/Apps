@@ -3,19 +3,28 @@
         "name": "Rumbler",
         "author": "emilydaemon",
         "category": "utilities",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
         "type": "url",
         "format": "zip",
-	"location": "https://donut.eu.org/downloads/rumbler.zip"
+        "location": "https://donut.eu.org/downloads/rumbler.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["rumbler/", "apps/rumbler/"]
+            "arguments": [
+                "rumbler/",
+                "apps/rumbler/"
+            ]
         }
     ]
 }

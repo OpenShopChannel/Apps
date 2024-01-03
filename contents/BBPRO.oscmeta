@@ -3,8 +3,14 @@
         "name": "BALANCE BOARD PRO",
         "author": "Paul Craven",
         "category": "utilities",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "1.1"
     },
     "source": {
@@ -12,15 +18,26 @@
         "format": "zip",
         "location": "http://www.paulplusemily.com/stuff/Balance_Board_Pro.v.1.1.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.delete", "arguments": ["source/"]
-		},
-		{
-			"treatment": "contents.move", "arguments": ["BBPRO/", "apps/BBPRO/"]
-		},
+    "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/BBPRO/Balance_Board_Pro.dol", "apps/BBPRO/boot.dol"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "source/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "BBPRO/",
+                "apps/BBPRO/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/BBPRO/Balance_Board_Pro.dol",
+                "apps/BBPRO/boot.dol"
+            ]
         }
-	]
+    ]
 }

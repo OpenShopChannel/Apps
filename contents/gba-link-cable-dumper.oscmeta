@@ -3,7 +3,9 @@
         "name": "GBA Link Cable Dumper",
         "author": "FIX94",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "v1.6"
     },
     "source": {
@@ -12,15 +14,22 @@
         "repository": "FIX94/gba-link-cable-dumper",
         "file": "gba-link-cable-dumper-v1.6.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["linkcabledump_wii.dol", "apps/gba-link-cable-dumper/boot.dol"]
-		},
+    "treatments": [
         {
-			"treatment": "meta.init"
-		},
+            "treatment": "contents.move",
+            "arguments": [
+                "linkcabledump_wii.dol",
+                "apps/gba-link-cable-dumper/boot.dol"
+            ]
+        },
         {
-			"treatment": "contents.delete", "arguments": ["linkcabledump_gc.dol"]
-		}
-	]
+            "treatment": "meta.init"
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "linkcabledump_gc.dol"
+            ]
+        }
+    ]
 }

@@ -3,8 +3,13 @@
         "name": "SysCheck ModMii Edition",
         "author": "blackb0x, JoostinOnline, Double_A, R2-D2199, Nano",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

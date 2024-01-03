@@ -3,8 +3,14 @@
         "name": "Helii",
         "author": "BHSPitMonkey",
         "category": "games",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "0.2"
     },
     "source": {
@@ -12,12 +18,19 @@
         "format": "zip",
         "location": "http://stepheneisenhauer.com/wii/helii-0.2.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.delete", "arguments": ["helii/meta.xml~"]
-		},
-		{
-			"treatment": "contents.move", "arguments": ["helii/", "apps/helii/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "helii/meta.xml~"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "helii/",
+                "apps/helii/"
+            ]
+        }
+    ]
 }

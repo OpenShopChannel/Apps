@@ -3,7 +3,16 @@
         "name": "Configurable USB Loader",
         "author": "oggzee, usptactical, gannon, Clipper,...",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "70 (release)"
     },
     "source": {
@@ -13,22 +22,45 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["Cfg_USB_Loader_70/inSDRoot/apps/", "apps/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Cfg_USB_Loader_70/inSDRoot/apps/",
+                "apps/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["Cfg_USB_Loader_70/inSDRoot/usb-loader/", "usb-loader/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Cfg_USB_Loader_70/inSDRoot/usb-loader/",
+                "usb-loader/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["apps/USBLoader/", "apps/usb-loader/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/USBLoader/",
+                "apps/usb-loader/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["Cfg_USB_Loader_70/LICENSE.txt", "LICENSE.txt"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Cfg_USB_Loader_70/LICENSE.txt",
+                "LICENSE.txt"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["Cfg_USB_Loader_70/README-CFG.txt", "README-CFG.txt"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Cfg_USB_Loader_70/README-CFG.txt",
+                "README-CFG.txt"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["Cfg_USB_Loader_70/"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "Cfg_USB_Loader_70/"
+            ]
         }
     ]
 }

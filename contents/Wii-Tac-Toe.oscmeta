@@ -3,8 +3,21 @@
         "name": "Wii-Tac-Toe",
         "author": "Crayon",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +28,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["Wii-Tac-Toe/", "apps/Wii-Tac-Toe/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Wii-Tac-Toe/",
+                "apps/Wii-Tac-Toe/"
+            ]
         }
     ]
 }

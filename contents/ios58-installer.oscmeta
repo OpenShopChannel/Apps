@@ -3,8 +3,12 @@
         "name": "IOS58 Installer",
         "author": "Tantric",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "1.0"
     },
     "source": {

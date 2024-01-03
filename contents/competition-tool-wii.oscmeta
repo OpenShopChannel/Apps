@@ -3,7 +3,9 @@
         "name": "MKWii Competition Patch",
         "author": "Leseratte",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

@@ -3,8 +3,15 @@
         "name": "WiiPhysics",
         "author": "Beardface",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote"
+        ],
         "version": "2.2.0b"
     },
     "source": {
@@ -14,10 +21,18 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["WiiPhysics/", "apps/WiiPhysics/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "WiiPhysics/",
+                "apps/WiiPhysics/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["Readme.txt", "WiiPhysics_Readme.txt"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Readme.txt",
+                "WiiPhysics_Readme.txt"
+            ]
         }
     ]
 }

@@ -3,8 +3,14 @@
         "name": "Stopwatch",
         "author": "ILovemyhouse",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "v2.0.0 Alpha Dev v1"
     },
     "source": {
@@ -14,19 +20,38 @@
     },
     "treatments": [
         {
-            "treatment": "contents.delete", "arguments": ["template.elf"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "template.elf"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["template.dol", "boot.dol"]
+            "treatment": "contents.move",
+            "arguments": [
+                "template.dol",
+                "boot.dol"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["boot.dol", "apps/stopwatch/boot.dol"]
+            "treatment": "contents.move",
+            "arguments": [
+                "boot.dol",
+                "apps/stopwatch/boot.dol"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["meta.xml", "apps/stopwatch/meta.xml"]
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/stopwatch/meta.xml"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["icon.png", "apps/stopwatch/icon.png"]
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/stopwatch/icon.png"
+            ]
         }
     ]
 }

@@ -3,8 +3,14 @@
         "name": "TinyLoad",
         "author": "marcan",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "0.2"
     },
     "source": {
@@ -14,16 +20,31 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad", "apps/TinyLoad/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "tinyload-0.2-bin/TinyLoad",
+                "apps/TinyLoad/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad/README", "apps/TinyLoad/README"]
+            "treatment": "contents.move",
+            "arguments": [
+                "tinyload-0.2-bin/TinyLoad/README",
+                "apps/TinyLoad/README"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["tinyload-0.2-bin/TinyLoad/COPYING", "apps/TinyLoad/COPYING"]
+            "treatment": "contents.move",
+            "arguments": [
+                "tinyload-0.2-bin/TinyLoad/COPYING",
+                "apps/TinyLoad/COPYING"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["tinyload-0.2-bin/"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "tinyload-0.2-bin/"
+            ]
         }
     ]
 }

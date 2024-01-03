@@ -3,8 +3,20 @@
         "name": "WiiMC-SS",
         "author": "SuperrSonic",
         "category": "media",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,8 +26,12 @@
         "file": "WiiMC-SS_*.7z"
     },
     "treatments": [
-		{
-			"treatment": "web.download", "arguments": ["http://riitube.rc24.xyz/onlinemedia.xml", "apps/WiiMC-SS/onlinemedia.xml"]
-		}
-	]
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "http://riitube.rc24.xyz/onlinemedia.xml",
+                "apps/WiiMC-SS/onlinemedia.xml"
+            ]
+        }
+    ]
 }

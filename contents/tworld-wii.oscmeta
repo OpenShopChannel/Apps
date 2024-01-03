@@ -3,7 +3,11 @@
         "name": "Tile world",
         "author": "Brian Raiter, Port by G lander",
         "category": "games",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "Classic Controller"

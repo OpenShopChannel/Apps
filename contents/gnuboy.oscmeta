@@ -3,8 +3,18 @@
         "name": "Gnuboy GX",
         "author": "Eke-Eke",
         "category": "emulators",
-	"supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "081214"
     },
     "source": {
@@ -12,15 +22,25 @@
         "format": "7z",
         "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gnuboy-gx/gnuboygx-081214.7z"
     },
-	"treatments": [
-		{
-			"treatment": "contents.delete", "arguments": ["gnuboy_wii.dol"]
-		},
-		{
-			"treatment": "contents.delete", "arguments": ["gnuboy_cube.dol"]
-		},
+    "treatments": [
         {
-            "treatment": "meta.set", "arguments": ["release_date", "20081215000000"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "gnuboy_wii.dol"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "gnuboy_cube.dol"
+            ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": [
+                "release_date",
+                "20081215000000"
+            ]
         }
-	]
+    ]
 }

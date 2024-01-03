@@ -3,7 +3,11 @@
         "name": "Libmii Example",
         "author": "mjbauer95",
         "category": "demos",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

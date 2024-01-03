@@ -3,8 +3,15 @@
         "name": "Newo Tokyo",
         "author": "Owen",
         "category": "demos",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["NewoTokyo/", "apps/NewoTokyo/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "NewoTokyo/",
+                "apps/NewoTokyo/"
+            ]
         }
     ]
 }

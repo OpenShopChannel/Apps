@@ -3,8 +3,19 @@
         "name": "HomebrewFilter (Installer)",
         "author": "Nano",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "rev47"
     },
     "source": {
@@ -12,12 +23,19 @@
         "format": "bztar",
         "location": "http://www.nanolx.org/hbf/Installer/HomebrewFilter-rev47.tar.bz2"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["dist/HomebrewFilter/", "apps/HomebrewFilter/"]
-		},
-		{
-			"treatment": "contents.remove", "arguments": ["dist/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "dist/HomebrewFilter/",
+                "apps/HomebrewFilter/"
+            ]
+        },
+        {
+            "treatment": "contents.remove",
+            "arguments": [
+                "dist/"
+            ]
+        }
+    ]
 }

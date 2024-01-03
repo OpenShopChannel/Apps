@@ -3,8 +3,14 @@
         "name": "WiiEarth",
         "author": "PaulWagener",
         "category": "utilities",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "2.3"
     },
     "source": {
@@ -14,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["WiiEarth/", "apps/WiiEarth/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "WiiEarth/",
+                "apps/WiiEarth/"
+            ]
         }
     ]
 }

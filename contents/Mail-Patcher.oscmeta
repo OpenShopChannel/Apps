@@ -4,7 +4,7 @@
         "author": "RiiConnect24",
         "category": "utilities",
         "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote", "SDHC"],
+        "peripherals": ["Wii Remote"],
         "flags": ["writes_to_nand"],
         "version": "auto"
     },
@@ -12,7 +12,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "RiiConnect24/Mail-Patcher",
-        "file": "Mail-Patcher.v*.zip"
+        "file": "Mail-Patcher.zip"
     },
     "treatments": [
         {

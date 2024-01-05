@@ -27,7 +27,7 @@
             "treatment": "contents.move",
             "arguments": [
                 "*",
-                "apps/Shiggii/"
+                "apps/"
             ]
         }
     ]

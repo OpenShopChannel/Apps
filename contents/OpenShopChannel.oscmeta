@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "Open Shop Channel",
+        "author": "teknecal",
+        "category": "utility",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "1.0.0"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/EndrDragon44/OSC-THE-CHANNEL/releases/download/OSC/OSC.Channel.zip"
+    }
+}

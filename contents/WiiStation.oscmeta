@@ -30,14 +30,14 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "WiiStation_Ver2.4/apps/WiiStation_Ver2.4/",
+                "WiiStation_Ver3.0/apps/WiiStation_Ver3.0/",
                 "apps/WiiStation/"
             ]
         },
         {
             "treatment": "contents.delete",
             "arguments": [
-                "WiiStation_Ver2.4/"
+                "WiiStation_Ver3.0/"
             ]
         }
     ]

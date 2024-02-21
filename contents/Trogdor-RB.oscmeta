@@ -17,21 +17,21 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "Mips96/Trogdor-Reburninated",
+        "repository": "Mode8fx/Trogdor-Reburninated",
         "file": "Trogdor-Reburninated-v*-wii.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
             "arguments": [
-                "Trogdor-Reburninated-v2.01-wii/apps/",
+                "Trogdor-Reburninated-wii/apps/",
                 "apps/"
             ]
         },
         {
             "treatment": "contents.delete",
             "arguments": [
-                "Trogdor-Reburninated-v2.01-wii/"
+                "Trogdor-Reburninated-wii/"
             ]
         }
     ]

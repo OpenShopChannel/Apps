@@ -24,8 +24,8 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "donut/",
-                "apps/donut/"
+                "korbodonut/",
+                "apps/korbodonut/"
             ]
         }
     ]

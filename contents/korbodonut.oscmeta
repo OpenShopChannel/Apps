@@ -1,0 +1,32 @@
+{
+    "information": {
+        "name": "Korbo's Wii Donut Mod",
+        "author": "Korbo",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "author_preferred_contacts": "Contact me on Discord: @korbosoft",
+        "supported_platforms": [
+            "wii",
+            "wii_mini",
+            "vwii"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "korbosoft/wii-donut",
+        "file": "donut.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "korbodonut/",
+                "apps/korbodonut/"
+            ]
+        }
+    ]
+}

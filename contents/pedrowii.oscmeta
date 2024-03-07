@@ -4,7 +4,9 @@
         "author": "oscie",
         "author_preferred_contacts": "oscie.net",
         "category": "demos",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -16,7 +18,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["/", "apps/pedrowii/"]
+            "arguments": [
+                ".",
+                "apps/pedrowii/"
+            ]
         }
     ]
 }

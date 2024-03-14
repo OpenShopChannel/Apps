@@ -19,8 +19,22 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                ".",
-                "apps/pedrowii/"
+                "boot.dol",
+                "apps/pedrowii/boot.dol"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/pedrowii/icon.png"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/pedrowii/meta.xml"
             ]
         }
     ]

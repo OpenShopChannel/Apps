@@ -8,7 +8,12 @@
             "vwii",
             "wii_mini"
         ],
-        "peripherals": ["Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {

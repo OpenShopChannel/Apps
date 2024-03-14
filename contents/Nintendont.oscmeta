@@ -49,7 +49,9 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/FIX94/Nintendont/raw/master/controllerconfigs/controllers.zip?raw=true"
+                "https://github.com/FIX94/Nintendont/raw/master/controllerconfigs/controllers.zip?raw=true",
+                "controllers.zip"
+            ]
             ]
         },
         {

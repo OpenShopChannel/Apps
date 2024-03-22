@@ -29,6 +29,9 @@
                 "newozero/",
                 "apps/NewoZero/"
             ]
+        },
+        { 
+            "treatment": "meta.remove_declaration" 
         }
     ]
 }

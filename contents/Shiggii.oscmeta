@@ -29,6 +29,13 @@
                 "Shiggii/",
                 "apps/Shiggii/"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": [
+                "release_date",
+                "0"
+            ]
         }
     ]
 }

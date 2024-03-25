@@ -29,13 +29,6 @@
             "treatment": "contents.move",
             "arguments": [
                 "template.dol",
-                "boot.dol"
-            ]
-        },
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "boot.dol",
                 "apps/stopwatch/boot.dol"
             ]
         },

@@ -32,7 +32,7 @@
             ]
         },
         {
-            "treatment": "contents.remove",
+            "treatment": "contents.delete",
             "arguments": [
                 "dist/"
             ]

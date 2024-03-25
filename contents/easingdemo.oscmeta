@@ -25,6 +25,9 @@
                 "easingdemo/",
                 "apps/easingdemo/"
             ]
+        },
+        {
+            "treatment": "meta.remove_declaration"
         }
     ]
 }

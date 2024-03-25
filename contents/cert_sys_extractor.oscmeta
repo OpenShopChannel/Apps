@@ -19,5 +19,10 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/cert_sys_extractor.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.remove_declaration"
+        }
+    ]
 }

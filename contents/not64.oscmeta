@@ -3,7 +3,21 @@
         "name": "Not64",
         "author": "Extrems",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,10 +28,17 @@
     },
     "treatments": [
         {
-            "treatment": "contents.delete", "arguments": ["not64.dol"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "not64.dol"
+            ]
         },
         {
-            "treatment": "meta.set", "arguments": ["coder", "Extrems"]
+            "treatment": "meta.set",
+            "arguments": [
+                "coder",
+                "Extrems"
+            ]
         }
     ]
 }

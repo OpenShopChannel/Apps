@@ -3,8 +3,12 @@
         "name": "AnyGlobe Changer",
         "author": "fishguy6564",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +19,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/AnyGlobe Changer/", "apps/AnyGlobe_Changer/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/AnyGlobe Changer/",
+                "apps/AnyGlobe_Changer/"
+            ]
         }
     ]
 }

@@ -3,6 +3,11 @@
         "name": "Covid 19 Apocalapse",
         "author": "Gremlin Software",
         "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

@@ -3,8 +3,25 @@
         "name": "Priiloader Installer",
         "author": "DacoTaco/Crediar",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC", "USB Keyboard"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC",
+            "USB Keyboard"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +32,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/priiloader/META.XML", "apps/priiloader/meta.xml"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/priiloader/META.XML",
+                "apps/priiloader/meta.xml"
+            ]
         }
     ]
 }

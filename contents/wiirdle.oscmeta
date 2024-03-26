@@ -3,7 +3,14 @@
         "name": "Wiirdle",
         "author": "HTV04",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

@@ -3,7 +3,16 @@
         "name": "Newo Runner",
         "author": "Owen",
         "category": "games",
-        "peripherals": ["Wii Remote", "Classic Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["NewoRunner/", "apps/NewoRunner/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "NewoRunner/",
+                "apps/NewoRunner/"
+            ]
         }
     ]
 }

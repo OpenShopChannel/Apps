@@ -3,8 +3,17 @@
         "name": "WiiFlow Channel Installer",
         "author": "FIX94",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +23,11 @@
     },
     "treatments": [
         {
-            "treatment": "meta.set", "arguments": ["release_date", "20130103000000"]
+            "treatment": "meta.set",
+            "arguments": [
+                "release_date",
+                "20130103000000"
+            ]
         }
     ]
 }

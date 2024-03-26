@@ -3,7 +3,14 @@
         "name": "Wiimmfi Patcher",
         "author": "MrBean35000vr,Chadderz,Leseratte",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

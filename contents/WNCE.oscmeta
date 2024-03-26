@@ -3,8 +3,13 @@
         "name": "Wii Network Config Editor",
         "author": "Bazmoc",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/WNCE/BOOT.dol", "apps/WNCE/boot.dol"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/WNCE/BOOT.dol",
+                "apps/WNCE/boot.dol"
+            ]
         }
     ]
 }

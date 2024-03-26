@@ -3,7 +3,19 @@
         "name": "WiiMC",
         "author": "Tantric, rodries",
         "category": "media",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Classic Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,8 +25,12 @@
         "file": "WiiMC.*.New.Install.zip"
     },
     "treatments": [
-		{
-			"treatment": "web.download", "arguments": ["http://riitube.rc24.xyz/onlinemedia.xml", "apps/wiimc/onlinemedia.xml"]
-		}
-	]
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "http://riitube.rc24.xyz/onlinemedia.xml",
+                "apps/wiimc/onlinemedia.xml"
+            ]
+        }
+    ]
 }

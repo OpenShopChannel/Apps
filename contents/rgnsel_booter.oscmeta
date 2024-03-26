@@ -3,7 +3,14 @@
         "name": "rgnsel booter",
         "author": "iCON",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,9 +19,13 @@
         "repository": "Brawl345/rgnsel_booter",
         "file": "rgnsel_booter-*.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["rgnsel_booter/", "apps/rgnsel_booter/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "rgnsel_booter/",
+                "apps/rgnsel_booter/"
+            ]
+        }
+    ]
 }

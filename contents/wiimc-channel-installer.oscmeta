@@ -3,8 +3,16 @@
         "name": "WiiMC Channel Installer",
         "author": "Tantric",
         "category": "media",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "2.0"
     },
     "source": {

@@ -3,6 +3,10 @@
         "name": "SEEPROM Viewer",
         "author": "Vega, Team Twiizers",
         "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

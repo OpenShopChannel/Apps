@@ -3,6 +3,11 @@
         "name": "WiiX-Ball",
         "author": "KMS",
         "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "Wii Remote",

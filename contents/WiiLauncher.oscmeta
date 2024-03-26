@@ -3,7 +3,14 @@
         "name": "WiiLauncher",
         "author": "conanac",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "0.2"
     },
     "source": {
@@ -13,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["wiilauncher/", "apps/WiiLauncher/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "wiilauncher/",
+                "apps/WiiLauncher/"
+            ]
         }
     ]
 }

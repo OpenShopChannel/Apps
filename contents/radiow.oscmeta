@@ -3,7 +3,15 @@
         "name": "WiiRadio",
         "author": "Scanff",
         "category": "media",
-        "peripherals": ["Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "0.7"
     },
     "source": {

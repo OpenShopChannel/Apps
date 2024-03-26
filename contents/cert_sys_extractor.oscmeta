@@ -3,6 +3,11 @@
         "name": "Simple cert.sys Extractor",
         "author": "FIX94",
         "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "SDHC"
@@ -14,5 +19,10 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/cert_sys_extractor.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.remove_declaration"
+        }
+    ]
 }

@@ -3,8 +3,17 @@
         "name": "V-Unlock",
         "author": "Vega",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,13 +21,25 @@
     },
     "treatments": [
         {
-            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/boot.dol?raw=true", "apps/V-Unlock/boot.dol"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/boot.dol?raw=true",
+                "apps/V-Unlock/boot.dol"
+            ]
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/meta.xml?raw=true", "apps/V-Unlock/meta.xml"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/meta.xml?raw=true",
+                "apps/V-Unlock/meta.xml"
+            ]
         },
         {
-            "treatment": "web.download", "arguments": ["https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/icon.png?raw=true", "apps/V-Unlock/icon.png"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/VegaASM/V-Unlock/blob/main/V-Unlock/icon.png?raw=true",
+                "apps/V-Unlock/icon.png"
+            ]
         }
     ]
 }

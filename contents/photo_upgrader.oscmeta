@@ -3,8 +3,18 @@
         "name": "photo_upgrader",
         "author": "thepikachugamer",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {

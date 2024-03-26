@@ -3,7 +3,16 @@
         "name": "Fridge Magnets",
         "author": "Paul Overy",
         "category": "games",
-        "peripherals": ["Wii Remote", "Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["FridgeMagnets/", "apps/FridgeMagnets/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "FridgeMagnets/",
+                "apps/FridgeMagnets/"
+            ]
         }
     ]
 }

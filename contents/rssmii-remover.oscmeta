@@ -3,8 +3,16 @@
         "name": "RSSMii Remover",
         "author": "WiiDatabase.de",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {

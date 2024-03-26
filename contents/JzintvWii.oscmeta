@@ -3,7 +3,18 @@
         "name": "jzintvWii",
         "author": "jenergy",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -11,13 +22,24 @@
     },
     "treatments": [
         {
-            "treatment": "web.download", "arguments": ["https://wiibrew.org/w/images/a/a9/JzintvWii.zip", "JzintvWii.zip"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://wiibrew.org/w/images/a/a9/JzintvWii.zip",
+                "JzintvWii.zip"
+            ]
         },
         {
-            "treatment": "archive.extract", "arguments": ["JzintvWii.zip", "apps/JzintvWii/"]
+            "treatment": "archive.extract",
+            "arguments": [
+                "JzintvWii.zip",
+                "apps/JzintvWii/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["JzintvWii.zip"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "JzintvWii.zip"
+            ]
         }
     ]
 }

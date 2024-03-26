@@ -3,7 +3,18 @@
         "name": "UAE Wii",
         "author": "Oibaf, Simon Kagstrom",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller"
+        ],
         "version": "12"
     },
     "source": {

@@ -3,7 +3,11 @@
         "name": "GCMM",
         "author": "suloku",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +18,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["gcmm_*/wii/gcmm/", "apps/gcmm/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "gcmm_*/wii/gcmm/",
+                "apps/gcmm/"
+            ]
         }
     ]
 }

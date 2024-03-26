@@ -3,7 +3,15 @@
         "name": "BounceWii",
         "author": "Greeg0",
         "category": "media",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["BounceWii/", "apps/BounceWii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "BounceWii/",
+                "apps/BounceWii/"
+            ]
         }
     ]
 }

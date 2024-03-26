@@ -3,12 +3,19 @@
         "name": "CavEX",
         "author": "ByteBit/xtreme8000",
         "category": "games",
-        "peripherals": ["Wii Remote"],
-        "version": "Alpha 0.2.1"
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "Alpha 0.3.0"
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://aos.party/download_public/cavex_a002b.zip"
+        "location": "https://aos.party/download_public/cavex_a003.zip"
     }
 }

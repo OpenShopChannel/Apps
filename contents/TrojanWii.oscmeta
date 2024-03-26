@@ -3,6 +3,11 @@
         "name": "TrojanWii",
         "author": "Jon Conrad",
         "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller"

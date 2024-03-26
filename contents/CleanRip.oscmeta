@@ -3,7 +3,16 @@
         "name": "CleanRip",
         "author": "emu_kidid",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,9 +21,12 @@
         "repository": "emukidid/cleanrip",
         "file": "CleanRip-*.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.delete", "arguments": ["readme.txt"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "readme.txt"
+            ]
+        }
+    ]
 }

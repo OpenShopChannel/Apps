@@ -3,7 +3,14 @@
         "name": "TEXT ADVENTURE READER",
         "author": "Ernani da Silva Costa",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "1.0"
     },
     "source": {

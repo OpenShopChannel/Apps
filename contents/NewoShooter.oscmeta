@@ -3,7 +3,18 @@
         "name": "Newo Shooter",
         "author": "Owen",
         "category": "games",
-        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,7 +24,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["NewoShooter/", "apps/NewoShooter/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "NewoShooter/",
+                "apps/NewoShooter/"
+            ]
         }
     ]
 }

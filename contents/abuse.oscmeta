@@ -3,7 +3,17 @@
         "name": "Abuse Wii",
         "author": "Many",
         "category": "games",
-        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -12,9 +22,13 @@
         "repository": "HunterZ/abuse-wii",
         "file": "abuse.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["abuse/", "apps/abuse/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "abuse/",
+                "apps/abuse/"
+            ]
+        }
+    ]
 }

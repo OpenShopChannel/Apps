@@ -1,0 +1,41 @@
+{
+    "information": {
+        "name": "pedrowii",
+        "author": "oscie",
+        "author_preferred_contacts": "oscie.net",
+        "category": "demos",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "oscie57/pedrowii",
+        "file": "release.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "boot.dol",
+                "apps/pedrowii/boot.dol"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/pedrowii/icon.png"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/pedrowii/meta.xml"
+            ]
+        }
+    ]
+}

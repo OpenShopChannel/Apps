@@ -3,7 +3,18 @@
         "name": "Yabause",
         "author": "Yabause Team",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "GameCube Controller", "Nunchuk", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "GameCube Controller",
+            "Nunchuk",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,13 +24,24 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/apps/yabause/", "apps/yabause/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "yabause-r2926wii-beta26/HBC/apps/yabause/",
+                "apps/yabause/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["yabause-r2926wii-beta26/HBC/yabause/", "yabause/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "yabause-r2926wii-beta26/HBC/yabause/",
+                "yabause/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["yabause-r2926wii-beta26"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "yabause-r2926wii-beta26"
+            ]
         }
     ]
 }

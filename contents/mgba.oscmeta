@@ -4,7 +4,14 @@
         "author": "Vicki Pfau (endrift)",
         "author_preferred_contacts": "",
         "category": "emulators",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["mGBA-*-wii/", "apps/mgba/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "mGBA-*-wii/",
+                "apps/mgba/"
+            ]
         }
     ]
 }

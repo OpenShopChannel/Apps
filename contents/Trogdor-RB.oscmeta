@@ -3,21 +3,36 @@
         "name": "Trogdor: Reburninated",
         "author": "Mips96",
         "category": "games",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
         "version": "auto"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "Mips96/Trogdor-Reburninated",
+        "repository": "Mode8fx/Trogdor-Reburninated",
         "file": "Trogdor-Reburninated-v*-wii.zip"
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["Trogdor-Reburninated-v2.01-wii/apps/", "apps/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Trogdor-Reburninated-wii/apps/",
+                "apps/"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["Trogdor-Reburninated-v2.01-wii/"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "Trogdor-Reburninated-wii/"
+            ]
         }
     ]
 }

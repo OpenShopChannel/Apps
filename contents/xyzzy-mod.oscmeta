@@ -3,7 +3,14 @@
         "name": "Xyzzy",
         "author": "Bushing, DarkMatterCore",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/xyzzy", "apps/xyzzy-mod"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/xyzzy",
+                "apps/xyzzy-mod"
+            ]
         }
     ]
 }

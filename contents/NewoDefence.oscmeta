@@ -3,7 +3,14 @@
         "name": "Newo Defence",
         "author": "Owen",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["NewoDefence/", "apps/NewoDefence/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "NewoDefence/",
+                "apps/NewoDefence/"
+            ]
         }
     ]
 }

@@ -3,6 +3,11 @@
         "name": "Wiiengine",
         "author": "Hermes",
         "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "Wii Remote",

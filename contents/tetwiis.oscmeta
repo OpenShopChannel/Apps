@@ -3,7 +3,14 @@
         "name": "Tetwiis",
         "author": "Pembo",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "1.1"
     },
     "source": {
@@ -14,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["tetwiis/", "apps/tetwiis/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "tetwiis/",
+                "apps/tetwiis/"
+            ]
         }
     ]
 }

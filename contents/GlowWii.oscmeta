@@ -3,7 +3,9 @@
         "name": "GlowWii",
         "author": "Larsenv",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

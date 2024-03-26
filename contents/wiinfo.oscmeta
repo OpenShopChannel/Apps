@@ -3,6 +3,11 @@
         "name": "WiiNFO",
         "author": "VTSTech",
         "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

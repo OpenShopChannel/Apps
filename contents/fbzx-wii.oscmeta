@@ -3,7 +3,17 @@
         "name": "FBZX Wii",
         "author": "Oibaf (Fabio Olimpieri)",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "SDHC"
+        ],
         "version": "v15"
     },
     "source": {

@@ -3,6 +3,11 @@
         "name": "NeoPop GX",
         "author": "Eke-Eke",
         "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

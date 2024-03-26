@@ -3,7 +3,15 @@
         "name": "DuckHunt",
         "author": "Knight0fDragon",
         "category": "games",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
         "version": "auto"
     },
     "source": {
@@ -11,16 +19,31 @@
     },
     "treatments": [
         {
-            "treatment": "web.download", "arguments": ["https://wiibrew.org/w/images/3/3b/DuckHunt.zip", "DuckHunt.zip"]
+            "treatment": "web.download",
+            "arguments": [
+                "https://wiibrew.org/w/images/3/3b/DuckHunt.zip",
+                "DuckHunt.zip"
+            ]
         },
         {
-            "treatment": "archive.extract", "arguments": ["DuckHunt.zip", "apps/DuckHunt/"]
+            "treatment": "archive.extract",
+            "arguments": [
+                "DuckHunt.zip",
+                "apps/DuckHunt/"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["apps/DuckHunt/icon.PNG", "apps/DuckHunt/icon.png"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/DuckHunt/icon.PNG",
+                "apps/DuckHunt/icon.png"
+            ]
         },
         {
-            "treatment": "contents.delete", "arguments": ["DuckHunt.zip"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "DuckHunt.zip"
+            ]
         },
         {
             "treatment": "meta.init"

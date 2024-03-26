@@ -3,7 +3,17 @@
         "name": "WiiXL",
         "author": "raz0red",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Classic Controller", "GameCube Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller"
+        ],
         "version": "auto"
     },
     "source": {

@@ -3,7 +3,15 @@
         "name": "Newo Model Viewer",
         "author": "Owen",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["NewoModelViewer/", "apps/NewoModelViewer/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "NewoModelViewer/",
+                "apps/NewoModelViewer/"
+            ]
         }
     ]
 }

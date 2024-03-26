@@ -3,7 +3,21 @@
         "name": "Snes9x TX",
         "author": "Tanooki",
         "category": "emulators",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +28,10 @@
     },
     "treatments": [
         {
-            "treatment": "contents.delete", "arguments": ["source-code/"]
+            "treatment": "contents.delete",
+            "arguments": [
+                "source-code/"
+            ]
         }
     ]
 }

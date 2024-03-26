@@ -3,7 +3,10 @@
         "name": "GCPadder",
         "author": "InvoxiPlayGames",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "GameCube Controller"],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
         "version": "auto"
     },
     "source": {

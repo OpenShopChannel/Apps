@@ -3,7 +3,14 @@
         "name": "WoxelCraft",
         "author": "DaeFennek",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "0.0.7"
     },
     "source": {
@@ -14,13 +21,25 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["meta.xml", "apps/WoxelCraft/meta.xml"]
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/WoxelCraft/meta.xml"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["icon.png", "apps/WoxelCraft/icon.png"]
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/WoxelCraft/icon.png"
+            ]
         },
         {
-            "treatment": "contents.move", "arguments": ["boot.elf", "apps/WoxelCraft/boot.elf"]
+            "treatment": "contents.move",
+            "arguments": [
+                "boot.elf",
+                "apps/WoxelCraft/boot.elf"
+            ]
         },
         {
             "treatment": "meta.remove_declaration"

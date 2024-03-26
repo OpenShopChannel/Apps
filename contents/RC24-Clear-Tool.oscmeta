@@ -3,8 +3,13 @@
         "name": "RiiConnect24 Clear Tool",
         "author": "RiiConnect24",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "SDHC"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -13,9 +18,13 @@
         "repository": "RiiConnect24/RC24-Clear-Tool",
         "file": "RC24-Clear-Tool.*.zip"
     },
-	"treatments": [
-		{
-			"treatment": "contents.move", "arguments": ["RC24-Clear-Tool/", "apps/RC24-Clear-Tool/"]
-		}
-	]
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "RC24-Clear-Tool/",
+                "apps/RC24-Clear-Tool/"
+            ]
+        }
+    ]
 }

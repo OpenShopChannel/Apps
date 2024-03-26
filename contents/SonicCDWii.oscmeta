@@ -3,18 +3,32 @@
         "name": "Sonic CD",
         "author": "ultra0",
         "category": "games",
-        "peripherals": ["Wii Remote"],
-        "version": "Wii 2.0.1 (v1.3.0)"
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller"
+        ],
+        "version": "auto"
     },
     "source": {
         "type": "github_release",
-        "format": "7z",
+        "format": "zip",
         "repository": "ultra0000/Sonic-CD-11-Decompilation",
-        "file": "RSDKv3-Wii.7z"
+        "file": "RSDKv3.Wii.zip"
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/SonicCD/", "apps/SonicCDWii/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/RSDKv3/",
+                "apps/SonicCDWii/"
+            ]
         }
     ]
 }

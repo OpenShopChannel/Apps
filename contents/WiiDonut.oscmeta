@@ -3,7 +3,14 @@
         "name": "Wii Donut",
         "author": "jornmann, Andy Sloane",
         "category": "demos",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,7 +21,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["WiiDonut/", "apps/WiiDonut/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "WiiDonut/",
+                "apps/WiiDonut/"
+            ]
         }
     ]
 }

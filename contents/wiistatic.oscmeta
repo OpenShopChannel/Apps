@@ -3,18 +3,29 @@
         "name": "Wii Static",
         "author": "emilydaemon",
         "category": "media",
-        "peripherals": ["Wii Remote", "Classic Controller"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller"
+        ],
         "version": "auto"
     },
     "source": {
         "type": "url",
         "format": "zip",
-	"location": "https://donut.eu.org/downloads/wiistatic.zip"
+        "location": "https://donut.eu.org/downloads/wiistatic.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["wiistatic/", "apps/wiistatic/"]
+            "arguments": [
+                "wiistatic/",
+                "apps/wiistatic/"
+            ]
         }
     ]
 }

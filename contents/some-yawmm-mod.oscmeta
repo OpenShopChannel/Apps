@@ -3,8 +3,13 @@
         "name": "Some YAWMM Mod",
         "author": "FIX94, various others",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "SDHC"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,7 +20,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["some-yawmm-mod/", "apps/some-yawmm-mod/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "some-yawmm-mod/",
+                "apps/some-yawmm-mod/"
+            ]
         }
     ]
 }

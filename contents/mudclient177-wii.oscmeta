@@ -3,6 +3,11 @@
         "name": "RuneScape",
         "author": "Jagex Ltd. & Zorian Medwid",
         "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

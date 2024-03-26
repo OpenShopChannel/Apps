@@ -3,19 +3,32 @@
         "name": "RiiConnect24 Mail Patcher",
         "author": "RiiConnect24",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "SDHC"],
-        "flags": ["writes_to_nand"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
         "repository": "RiiConnect24/Mail-Patcher",
-        "file": "Mail-Patcher.v*.zip"
+        "file": "Mail-Patcher.zip"
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["Mail-Patcher/", "apps/Mail-Patcher/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "Mail-Patcher/",
+                "apps/Mail-Patcher/"
+            ]
         }
     ]
 }

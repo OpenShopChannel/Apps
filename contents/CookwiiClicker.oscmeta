@@ -1,0 +1,29 @@
+{
+    "information": {
+        "name": "Cookwii Clicker",
+        "author": "TheHighTide",
+        "category": "games",
+        "supported_platforms": [
+            "wii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://hightide.coolpage.biz/projects/cookwii_clicker/source.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "cookwiiclicker/",
+                "apps/cookwiiclicker/"
+            ]
+        }
+    ]
+}

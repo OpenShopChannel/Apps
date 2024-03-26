@@ -3,7 +3,15 @@
         "name": "Schism Tracker",
         "author": "Storlek, mrpapersonic",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "USB Keyboard"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "USB Keyboard"
+        ],
         "version": "20220125"
     },
     "source": {
@@ -14,7 +22,11 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["apps/schismtracker/schismtracker.elf", "apps/schismtracker/boot.elf"]
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/schismtracker/schismtracker.elf",
+                "apps/schismtracker/boot.elf"
+            ]
         }
     ]
 }

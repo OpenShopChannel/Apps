@@ -15,5 +15,20 @@
         "type": "url",
         "format": "rar",
         "location": "https://wiibrew.org/w/images/8/85/OfflineNetworkEnabler.rar"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "src/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "Readme.txt",
+                "apps/net_enabler/"
+            ]
+        }
+    ]
 }

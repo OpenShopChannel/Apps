@@ -22,7 +22,7 @@
             "treatment": "contents.move",
             "arguments": [
                 "cookwiiclicker/",
-                "apps/cookwiiclicker/"
+                "apps/CookwiiClicker/"
             ]
         }
     ]

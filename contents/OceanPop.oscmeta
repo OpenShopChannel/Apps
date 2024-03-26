@@ -24,7 +24,7 @@
             "treatment": "contents.move",
             "arguments": [
                 "oceanpop/",
-                "apps/oceanpop/"
+                "apps/OceanPop/"
             ]
         }
     ]

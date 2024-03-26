@@ -13,7 +13,7 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "supported platforms": [
+        "supported_platforms": [
             "wii",
             "vwii"
         ],

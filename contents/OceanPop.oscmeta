@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "A relaxing match 3 puzzle game",
+        "author": "Wouter Wijsman",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "supported_platforms": [
+            "wii",
+            "wii_mini",
+            "vwii"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "mardy/oceanpop",
+        "file": "oceanpop*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "oceanpop/",
+                "apps/oceanpop/"
+            ]
+        }
+    ]
+}

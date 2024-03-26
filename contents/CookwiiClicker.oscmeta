@@ -10,7 +10,7 @@
             "Wii Remote",
             "SDHC"
         ],
-        "version": "0.0.2"
+        "version": "auto"
     },
     "source": {
         "type": "url",

@@ -1,7 +1,7 @@
 {
     "information": {
-        "name": "Riivolution",
-        "author": "Aaron tueidj Tempus megazig",
+        "name": "Riivolution for Wii Mini",
+        "author": "Aaron, tueidj, Tempus, megazig, r00t1024",
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
@@ -14,8 +14,7 @@
             "SDHC"
         ],
         "supported platforms": [
-            "wii",
-            "vwii"
+            "wii_mini"
         ],
         "flags": [
             "writes_to_nand"
@@ -23,16 +22,17 @@
         "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://aerialx.github.io/rvlution.net/riivolution.zip"
+        "repository": "r00t1024/rawksd",
+        "file": "riivolution.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
             "arguments": [
                 "riivolution/",
-                "apps/riivolution/"
+                "apps/riivolution-mini/"
             ]
         }
     ]

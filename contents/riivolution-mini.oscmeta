@@ -1,11 +1,24 @@
 {
     "information": {
-        "name": "Riivolution-mini",
+        "name": "Riivolution for Wii Mini",
         "author": "Aaron, tueidj, Tempus, megazig, r00t1024",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
-		"supported platforms": ["wii_mini"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "supported platforms": [
+            "wii_mini"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -14,9 +27,13 @@
         "repository": "r00t1024/rawksd",
         "file": "riivolution.zip"
     },
-	"treatments": [
+    "treatments": [
         {
-            "treatment": "contents.move", "arguments": ["riivolution/", "apps/riivolution/"]
+            "treatment": "contents.move",
+            "arguments": [
+                "riivolution/",
+                "apps/riivolution-mini/"
+            ]
         }
-	]
+    ]
 }

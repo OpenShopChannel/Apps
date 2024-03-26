@@ -27,7 +27,7 @@
             "treatment": "contents.move",
             "arguments": [
                 "Readme.txt",
-                "apps/net_enabler/"
+                "apps/net_enabler/Readme.txt"
             ]
         }
     ]

@@ -24,6 +24,9 @@
                 "apps/AnyGlobe Changer/",
                 "apps/AnyGlobe_Changer/"
             ]
+        },
+        {
+            "treatment": "meta.remove_declaration"
         }
     ]
 }

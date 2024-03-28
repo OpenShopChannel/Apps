@@ -1,0 +1,37 @@
+{
+    "information": {
+        "name": "WiiNut",
+        "author": "Dakotath",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote",
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://dakotath.com/wiiApps/wiinut/boot.dol",
+                "apps/WiiNut/boot.dol"
+            ]
+        },
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://dakotath.com/wiiApps/wiinut/meta.xml",
+                "apps/WiiNut/meta.xml"
+            ]
+        },
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://dakotath.com/wiiApps/wiinut/icon.png",
+                "apps/WiiNut/icon.png"
+            ]
+        }
+    ]
+}

@@ -27,6 +27,13 @@
     },
     "treatments": [
         {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/WiiMC/",
+                "apps/WiiMC-SS/"
+            ]
+        },
+        {
             "treatment": "web.download",
             "arguments": [
                 "http://riitube.rc24.xyz/onlinemedia.xml",

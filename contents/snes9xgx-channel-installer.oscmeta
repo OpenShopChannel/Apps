@@ -13,12 +13,11 @@
         "flags": [
             "writes_to_nand"
         ],
-        "version": "auto"
+        "version": "1.2"
     },
     "source": {
-        "type": "github_release",
+        "type": "url",
         "format": "zip",
-        "repository": "dborth/snes9xgx",
-        "file": "Snes9xGX-Channel-Installer.zip"
+        "location": "https://hbbarchive.oscwii.org/snes9xgx-channel-installer.zip"
     }
 }

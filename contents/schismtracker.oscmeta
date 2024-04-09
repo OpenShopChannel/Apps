@@ -1,7 +1,7 @@
 {
     "information": {
         "name": "Schism Tracker",
-        "author": "Storlek, mrpapersonic",
+        "author": "Storlek, Paper, Mrs. Brisby",
         "category": "utilities",
         "supported_platforms": [
             "wii",
@@ -12,21 +12,12 @@
             "Wii Remote",
             "USB Keyboard"
         ],
-        "version": "20220125"
+        "version": "20240409"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "mrpapersonic/schismtracker",
-        "file": "schismtracker-20220125-wii.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "apps/schismtracker/schismtracker.elf",
-                "apps/schismtracker/boot.elf"
-            ]
-        }
-    ]
+        "repository": "schismtracker/schismtracker",
+        "file": "schismtracker-20240409-wii.zip"
+    }
 }

@@ -13,7 +13,7 @@
             "Nunchuk",
             "GameCube Controller"
         ],
-        "version": "0.2"
+        "version": "0.3"
     },
     "source": {
         "type": "manual"
@@ -22,34 +22,28 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.1/SpaceCadetPinball-Wii-v0.1.7z",
-                "OldSpaceCadetPinball.7z"
-            ]
-        },
-        {
-            "treatment": "archive.extract",
-            "arguments": [
-                "OldSpaceCadetPinball.7z",
-                ""
-            ]
-        },
-        {
-            "treatment": "contents.delete",
-            "arguments": [
-                "OldSpaceCadetPinball.7z"
+                "https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.3-wii/SpaceCadetPinball-Wii-v0.3.7z",
+                "SpaceCadetPinball.7z"
             ]
         },
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.2-wii/SpaceCadetPinball-Wii-v0.2.7z",
-                "NewSpaceCadetPinball.7z"
+                "https://raw.githubusercontent.com/MaikelChan/SpaceCadetPinball/46bfe91ed014ce1d4a175667eabfd0a46c3327bc/sd/apps/SpaceCadetPinball/meta.xml",
+                "apps/SpaceCadetPinball/meta.xml"
+            ]
+        },
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://raw.githubusercontent.com/MaikelChan/SpaceCadetPinball/46bfe91ed014ce1d4a175667eabfd0a46c3327bc/sd/apps/SpaceCadetPinball/icon.png",
+                "apps/SpaceCadetPinball/icon.png"
             ]
         },
         {
             "treatment": "archive.extract",
             "arguments": [
-                "NewSpaceCadetPinball.7z",
+                "SpaceCadetPinball.7z",
                 "apps/SpaceCadetPinball/"
             ]
         },
@@ -63,14 +57,7 @@
         {
             "treatment": "contents.delete",
             "arguments": [
-                "NewSpaceCadetPinball.7z"
-            ]
-        },
-        {
-            "treatment": "meta.set",
-            "arguments": [
-                "version",
-                "0.2"
+                "SpaceCadetPinball.7z"
             ]
         }
     ]

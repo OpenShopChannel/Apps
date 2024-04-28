@@ -14,9 +14,10 @@
         "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://git.donut.eu.org/nez/libreshop_client2/releases/download/0.1/LibreShop_v0.1.zip"
+        "repository": "OpenShopChannel/libreshop-client",
+        "file": "libreshop.zip"
     },
     "treatments": [
         {

@@ -1,0 +1,318 @@
+{
+    "$id": "https://raw.githubusercontent.com/OpenShopChannel/Apps/master/schemas/ValidationSchema.1.0.0.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Open Shop Channel Repository Manager Manifest Validation Schema",
+    "type": "object",
+    "required": [
+        "information",
+        "source"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "information": {
+            "$id": "#root/information",
+            "title": "Information",
+            "description": "Basic information about the application",
+            "type": "object",
+            "required": [
+                "name",
+                "author",
+                "category",
+                "peripherals",
+                "version"
+            ],
+            "additionalProperties": true,
+            "properties": {
+                "name": {
+                    "$id": "#root/information/name",
+                    "title": "Application Name",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "Danbo"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "author": {
+                    "$id": "#root/information/author",
+                    "title": "Author",
+                    "description": "The main developer that worked in the application",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "Danbo"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "author_preferred_contacts": {
+                    "$id": "#root/information/author_preferred_contacts",
+                    "title": "Author Preferred Contacts",
+                    "description": "Free text for explaining how the application author may be officially contacted",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "Danbo"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "authors": {
+                    "$id": "#root/information/authors",
+                    "title": "Authors",
+                    "description": "An array of other developers that worked in the application",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "$id": "#root/information/authors/items",
+                        "title": "Authors",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Danbo"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                },
+                "contributors": {
+                    "$id": "#root/information/contributors",
+                    "title": "Contributors",
+                    "description": "An array of developers that contributed to the application",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "$id": "#root/information/contributors/items",
+                        "title": "Contributors",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Danbo"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                },
+                "category": {
+                    "$id": "#root/information/category",
+                    "title": "Category",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "utilities"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "supported_platforms": {
+                    "$id": "#root/information/supported_platforms",
+                    "title": "Supported Platforms",
+                    "description": "An array of the platforms this application is guaranteed to work",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "$id": "#root/information/supported_platforms/items",
+                        "title": "Items",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "wii"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                },
+                "peripherals": {
+                    "$id": "#root/information/peripherals",
+                    "title": "Peripherals",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "$id": "#root/information/peripherals/items",
+                        "title": "Items",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "Wii Remote"
+                        ],
+                        "pattern": "^.*$"
+                    }
+                },
+                "version": {
+                    "$id": "#root/information/version",
+                    "title": "Version",
+                    "description": "The version of this application. Set to \"auto\" to obtain from meta.xml",
+                    "type": "string",
+                    "default": "auto",
+                    "examples": [
+                        "auto"
+                    ],
+                    "pattern": "^.*$"
+                }
+            }
+        },
+        "source": {
+            "$id": "#root/source",
+            "title": "Source",
+            "description": "Information on how to obtain the application",
+            "type": "object",
+            "required": [
+                "format",
+                "type"
+            ],
+            "additionalProperties": true,
+            "properties": {
+                "additional_files": {
+                    "$id": "#root/information/additional_files",
+                    "title": "Additional Files",
+                    "description": "An array of additional files to download from the GitHub release, for GitHub Release type only!",
+                    "type": "array",
+                    "default": [],
+                    "items": {
+                        "$id": "#root/information/additional_files/items",
+                        "title": "Files",
+                        "type": "string",
+                        "default": "",
+                        "examples": [""],
+                        "pattern": "^.*$"
+                    }
+                },
+                "creator": {
+                    "$id": "#root/source/creator",
+                    "title": "Itch.io Creator",
+                    "description": "Itch.io game creator username, for Itch.io type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "file": {
+                    "$id": "#root/source/file",
+                    "title": "Archive Name",
+                    "description": "The archive to obtain from the GitHub release, for GitHub Release type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "format": {
+                    "$id": "#root/source/format",
+                    "title": "Archive Format",
+                    "description": "Name of the archive format that needs to be extracted",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "zip",
+                        "rar",
+                        "7z"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "game": {
+                    "$id": "#root/source/game",
+                    "title": "Itch.io Game ID",
+                    "description": "Itch.io game ID, for Itch.io type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "location": {
+                    "$id": "#root/source/location",
+                    "title": "Archive Location",
+                    "description": "The URL to download the archive from, for MediaFire and URL types only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "project": {
+                    "$id": "#root/source/project",
+                    "title": "SourceForge Project",
+                    "description": "Name of the SourceForge project, for SourceForge type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "repository": {
+                    "$id": "#root/source/repository",
+                    "title": "GitHub Repository",
+                    "description": "GitHub repository to obtain the release from, for GitHub Release type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "type": {
+                    "$id": "#root/source/type",
+                    "title": "Type",
+                    "type": "string",
+                    "default": "",
+                    "examples": [
+                        "github_release",
+                        "manual",
+                        "url"
+                    ],
+                    "pattern": "^.*$"
+                },
+                "upload": {
+                    "$id": "#root/source/upload",
+                    "title": "Itch.io Upload Name",
+                    "description": "Itch.io game upload file name, for Itch.io type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                },
+                "user-agent": {
+                    "$id": "#root/source/user-agent",
+                    "title": "User Agent",
+                    "description": "Custom User Agent to use when downloading the archive, for URL type only!",
+                    "type": "string",
+                    "default": "",
+                    "examples": [],
+                    "pattern": "^.*$"
+                }
+            }
+        },
+        "treatments": {
+            "$id": "#root/treatments",
+            "title": "Treatments",
+            "description": "Operations to prepare the application for distribution",
+            "type": "array",
+            "default": [],
+            "items": {
+                "$id": "#root/treatments/items",
+                "title": "Treatments",
+                "type": "object",
+                "required": [
+                    "treatment"
+                ],
+                "additionalProperties": true,
+                "properties": {
+                    "treatment": {
+                        "$id": "#root/treatments/items/treatment",
+                        "title": "Treatment",
+                        "description": "The treatment to execute",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "web.download"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "arguments": {
+                        "$id": "#root/treatments/items/arguments",
+                        "title": "Arguments",
+                        "type": "array",
+                        "default": [],
+                        "items": {
+                            "$id": "#root/treatments/items/arguments/items",
+                            "title": "Arguments",
+                            "description": "Arguments to pass to the treatment",
+                            "type": "string",
+                            "default": "",
+                            "examples": [],
+                            "pattern": "^.*$"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

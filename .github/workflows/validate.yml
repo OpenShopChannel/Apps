@@ -1,0 +1,20 @@
+name: Validate Manifests
+
+on:
+  push:
+    paths:
+      - 'contents/**.oscmeta'
+  pull_request:
+    paths:
+      - 'contents/**.oscmeta'
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate Manifests
+        uses: dsanders11/json-schema-validate-action@v1.1.2
+        with:
+          schema: schemas/ValidationSchema.1.0.0.json
+          files: contents/**.oscmeta

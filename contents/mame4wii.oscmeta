@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "MAME4Wii",
+        "author": "Nebiun",
+        "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://nebiun.altervista.org/wii_games/mame4wii-1.35.2.zip"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "information": {
+        "name": "Shark",
+        "author": "Nebiun",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://nebiun.altervista.org/wii_games/shark1.1.zip"
+    }
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/hbc/",
+                "apps/shark/"
+            ]
+        }
+    ]
+}

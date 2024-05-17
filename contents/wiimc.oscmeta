@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "WiiMC",
-        "author": "Tantric, rodries",
+        "author": "Tantric",
+        "authors": [
+            "rodries"
+        ],
         "category": "media",
         "supported_platforms": [
             "wii",

@@ -1,7 +1,13 @@
 {
     "information": {
         "name": "Riivolution for Wii Mini",
-        "author": "Aaron, tueidj, Tempus, megazig, r00t1024",
+        "author": "Aaron",
+        "authors": [
+            "tueidj",
+            "Tempus",
+            "megazig",
+            "r00t1024"
+        ],
         "category": "utilities",
         "peripherals": [
             "Wii Remote",
@@ -38,7 +44,7 @@
         {
             "treatment": "meta.set",
             "arguments": [
-                "name", 
+                "name",
                 "Riivolution for Wii Mini"
             ]
         }

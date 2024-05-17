@@ -1,7 +1,11 @@
 {
     "information": {
         "name": "RSSMii",
-        "author": "WiiDatabase.de, RiiConnect24, main()",
+        "author": "WiiDatabase.de",
+        "authors": [
+            "RiiConnect24",
+            "main()"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",

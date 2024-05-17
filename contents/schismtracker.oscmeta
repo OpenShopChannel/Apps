@@ -1,7 +1,11 @@
 {
     "information": {
         "name": "Schism Tracker",
-        "author": "Storlek, Paper, Mrs. Brisby",
+        "author": "Storlek",
+        "authors": [
+            "Paper",
+            "Mrs. Brisby"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",

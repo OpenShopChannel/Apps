@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "System Settings Replace Tool",
-        "author": "Tona, PabloACZ",
+        "author": "Tona",
+        "authors": [
+            "PabloACZ"
+        ],
         "category": "utilities",
         "peripherals": [
             "Wii Remote"

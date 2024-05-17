@@ -1,7 +1,11 @@
 {
     "information": {
         "name": "SimpleIOSPatcher for Mini",
-        "author": "R2-D2199, WiiPower, nitr8",
+        "author": "R2-D2199",
+        "authors": [
+            "WiiPower",
+            "nitr8"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii_mini"

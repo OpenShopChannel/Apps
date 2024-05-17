@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "UAE Wii",
-        "author": "Oibaf, Simon Kagstrom",
+        "author": "Oibaf",
+        "authors": [
+            "Simon Kagstrom"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

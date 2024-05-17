@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "FCE Ultra GX",
-        "author": "NiuuS, Tantric",
+        "author": "NiuuS",
+        "authors": [
+            "Tantric"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

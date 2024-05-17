@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Wii Donut",
-        "author": "jornmann, Andy Sloane",
+        "author": "jornmann",
+        "authors": [
+            "Andy Sloane"
+        ],
         "category": "demos",
         "supported_platforms": [
             "wii",

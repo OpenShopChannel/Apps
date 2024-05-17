@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Nintendont",
-        "author": "FIX94, crediar",
+        "author": "FIX94",
+        "authors": [
+            "crediar"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",

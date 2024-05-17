@@ -1,7 +1,12 @@
 {
     "information": {
         "name": "WiiSXR",
-        "author": "Wii64 Team, matguitarist, Daxtsu, Mystro256",
+        "author": "Wii64 Team",
+        "authors": [
+            "matguitarist",
+            "Daxtsu",
+            "Mystro256"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

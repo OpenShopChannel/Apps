@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "NeoCD-WII",
-        "author": "Wiimpathy, Jacobeian",
+        "author": "Wiimpathy",
+        "authors": [
+            "Jacobeian"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

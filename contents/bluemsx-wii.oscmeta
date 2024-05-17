@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "BlueMSX-Wii",
-        "author": "Tim Brugman, Wiimpathy",
+        "author": "Tim Brugman",
+        "authors": [
+            "Wiimpathy"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

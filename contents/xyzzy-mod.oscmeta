@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Xyzzy",
-        "author": "Bushing, DarkMatterCore",
+        "author": "Bushing",
+        "authors": [
+            "DarkMatterCore"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",

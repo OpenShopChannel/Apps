@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "C64-network.org (Frodo)",
-        "author": "Simon Kagstrom, Oibaf",
+        "author": "Simon Kagstrom",
+        "authors": [
+            "Oibaf"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

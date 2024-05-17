@@ -1,7 +1,11 @@
 {
     "information": {
         "name": "Wiimmfi Patcher",
-        "author": "MrBean35000vr,Chadderz,Leseratte",
+        "author": "MrBean35000vr",
+        "authors": [
+            "Chadderz",
+            "Leseratte"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",

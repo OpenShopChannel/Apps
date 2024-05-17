@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Settings Editor GUI",
-        "author": "JoostinOnline, stfour",
+        "author": "JoostinOnline",
+        "authors": [
+            "stfour"
+        ],
         "category": "utilities",
         "peripherals": [
             "Wii Remote"

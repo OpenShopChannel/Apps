@@ -1,7 +1,15 @@
 {
     "information": {
         "name": "MegaZeux",
-        "author": "Alexis Janson, Gilead Kutnick, Alistair Strachan, Alice Rowan, and others",
+        "author": "Alexis Janson",
+        "authors": [
+            "Gilead Kutnick",
+            "Alistair Strachan",
+            "Alice Rowan"
+        ],
+        "contributors": [
+            "And others"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

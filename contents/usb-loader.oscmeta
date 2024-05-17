@@ -1,7 +1,12 @@
 {
     "information": {
         "name": "Configurable USB Loader",
-        "author": "oggzee, usptactical, gannon, Clipper,...",
+        "author": "oggzee",
+        "authors": [
+            "usptactical",
+            "gannon",
+            "Clipper"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",
@@ -24,7 +29,7 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/Cfg_USB_Loader_70_Mod_r78.11.zip",
-        "comment": "Obtained from ModMii's GitHub repo @ https://github.com/modmii/modmii.github.io"
+        "comment": "Obtained from ModMii\u0027s GitHub repo @ https://github.com/modmii/modmii.github.io"
     },
     "treatments": [
         {

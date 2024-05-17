@@ -1,7 +1,12 @@
 {
     "information": {
         "name": "SysCheck HacksDen Edition",
-        "author": "JoostinOnline, Double_A, R2-D2199, Nano",
+        "author": "JoostinOnline",
+        "authors": [
+            "Double_A",
+            "R2-D2199",
+            "Nano"
+        ],
         "category": "utilities",
         "peripherals": [
             "Wii Remote"

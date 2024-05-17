@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Yet Another BlueDump MOD",
-        "author": "nicksasa, DarkMatterCore",
+        "author": "nicksasa",
+        "authors": [
+            "DarkMatterCore"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",
@@ -27,21 +30,21 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/boot.dol?raw=true",
+                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/boot.dol?raw\u003dtrue",
                 "apps/Yet-Another-BlueDump-Mod/boot.dol"
             ]
         },
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/meta.xml?raw=true",
+                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/meta.xml?raw\u003dtrue",
                 "apps/Yet-Another-BlueDump-Mod/meta.xml"
             ]
         },
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/icon.png?raw=true",
+                "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/icon.png?raw\u003dtrue",
                 "apps/Yet-Another-BlueDump-Mod/icon.png"
             ]
         }

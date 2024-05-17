@@ -1,7 +1,10 @@
 {
     "information": {
         "name": "Wii Mod Lite",
-        "author": "jskyboo,kkline38",
+        "author": "jskyboo",
+        "authors": [
+            "kkline38"
+        ],
         "category": "utilities",
         "supported_platforms": [
             "wii",
@@ -18,6 +21,7 @@
             "SDHC"
         ],
         "flags": [
+            "deprecated",
             "writes_to_nand"
         ],
         "version": "auto"

@@ -151,7 +151,6 @@
             "description": "Information on how to obtain the application",
             "type": "object",
             "required": [
-                "format",
                 "type"
             ],
             "additionalProperties": true,

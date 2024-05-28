@@ -24,7 +24,7 @@
             "treatment": "contents.move",
             "arguments": [
                 "billardgl/",
-                "apps/billardgl/"
+                "apps/BillardGL/"
             ]
         }
     ]

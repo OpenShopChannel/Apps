@@ -1,1 +1,22 @@
 
+{
+    "information": {
+        "name": "ChristmasCountdown",
+        "author": "PaceMaker",
+        "category": "utility",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "0.1"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://web.archive.org/web/20160805222749/https://pacemaker-productions.googlecode.com/files/ChristmasCountdown-0.1-HBC-Binary.zip"
+    }
+}

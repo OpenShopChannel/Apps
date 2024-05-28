@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "3D pool billiard simulator",
+        "author": "T. Nopper, S. Disch, M. Welte",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "supported_platforms": [
+            "wii",
+            "wii_mini",
+            "vwii"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "mardy/billardgl",
+        "file": "billardgl*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "billardgl/",
+                "apps/billardgl/"
+            ]
+        }
+    ]
+}

@@ -17,7 +17,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://wii.guide/assets/files/Wii_Mini_Ethernet_Enable.zip"
+        "location": "https://hbbarchive.oscwii.org/Wii_Mini_Ethernet_Enable.zip"
     },
     "treatments": [
         {

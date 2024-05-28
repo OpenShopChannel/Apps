@@ -18,7 +18,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://wii.guide/assets/files/homebrew_browser_v0.3.9e.zip"
+        "location": "https://hbbarchive.oscwii.org/homebrew_browser_v0.3.9e.zip"
     },
     "treatments": [
         {

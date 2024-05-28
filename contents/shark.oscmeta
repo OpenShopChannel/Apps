@@ -22,7 +22,7 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "apps/hbc/",
+                "hbc/",
                 "apps/shark/"
             ]
         }

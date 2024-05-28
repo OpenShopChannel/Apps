@@ -1,0 +1,27 @@
+{
+    "information": {
+        "name": "Cave Story",
+        "author": "autumn_mnya",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://autumn-mnya.github.io/games/cavestorywii/files/cavestorywii.zip"
+    }
+}

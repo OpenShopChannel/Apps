@@ -17,7 +17,7 @@
         "type": "url",
         "format": "zip",
         "location": "http://nebiun.altervista.org/wii_games/shark1.1.zip"
-    }
+    },
     "treatments": [
         {
             "treatment": "contents.move",

@@ -3,7 +3,20 @@
         "name": "Cave Story",
         "author": "autumn_mnya",
         "category": "games",
-        "peripherals": ["Wii Remote", "Classic Controller", "GameCube Controller", "SDHC"],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "version": "auto"
     },
     "source": {

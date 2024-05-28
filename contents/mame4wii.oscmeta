@@ -1,0 +1,32 @@
+{
+    "information": {
+        "name": "MAME4Wii",
+        "author": "Nebiun",
+        "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://hbbarchive.oscwii.org/mame4wii.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/mame4wii/mame4wii.png",
+                "apps/mame4wii/icon.png"
+            ]
+        }
+    ]
+}

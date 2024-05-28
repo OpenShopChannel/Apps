@@ -18,6 +18,15 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "http://nebiun.altervista.org/wii_games/mame4wii-1.35.2.zip"
-    }
+        "location": "https://hbbarchive.oscwii.org/mame4wii.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/mame4wii/mame4wii.png",
+                "apps/mame4wii/icon.png"
+            ]
+        }
+    ]
 }

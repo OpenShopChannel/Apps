@@ -1,8 +1,8 @@
 
 {
     "information": {
-        "name": "ChristmasCountdown",
-        "author": "PaceMaker",
+        "name": "Wii Chatter",
+        "author": "ThatOtherPerson",
         "category": "utility",
         "supported_platforms": [
             "wii",
@@ -12,11 +12,11 @@
         "peripherals": [
             "Wii Remote"
         ],
-        "version": "0.1"
+        "version": "0.3"
     },
     "source": {
         "type": "url",
-        "format": "zip",
-        "location": "https://web.archive.org/web/20160805222749/https://pacemaker-productions.googlecode.com/files/ChristmasCountdown-0.1-HBC-Binary.zip"
+        "format": "rar",
+        "location": "https://platonicrobot.com/filehost/download.php?idnum=262"
     }
 }

@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "GL-117",
+        "author": "Thomas A. Drexl",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "mardy/gl-117",
+        "file": "gl-117*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "gl-117/",
+                "apps/gl-117/"
+            ]
+        }
+    ]
+}

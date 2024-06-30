@@ -36,7 +36,7 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://download944.mediafire.com/t7gint8mvn0g9jKAmcJUM2uwn4dw8yfTl_wOECrcLIG8udKgXVkTImQxeM9y6saUbjI9Fmjx4vEAZHlXuYgrEAqsytYlOrHl-W85Xo5k7hbI1EDyp_5gVbi0DXDBCdVr-Vl2uJCg9tVgbOv3AWG4USAwSd9Vg7C5TAzhaxt3sF0/ibu3m6ks3hm47hi/onlinemedia.xml",
+                "https://riitube.rc24.xyz/onlinemedia.xml",
                 "apps/wiimc/onlinemedia.xml"
             ]
         }

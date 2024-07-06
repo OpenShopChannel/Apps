@@ -36,8 +36,8 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "http://riitube.rc24.xyz/onlinemedia.xml",
-                "apps/WiiMC-SS/onlinemedia.xml"
+                "https://riitube.rc24.xyz/onlinemedia.xml",
+                "apps/wiimc/onlinemedia.xml"
             ]
         }
     ]

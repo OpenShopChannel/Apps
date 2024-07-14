@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "CarHorn Wii",
+        "author": "Dakotath",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "dakotath/carhorn",
+        "file": "release_1720955079.65711.zip"
+    }
+}

@@ -25,5 +25,27 @@
         "format": "zip",
         "repository": "dborth/snes9xgx",
         "file": "Snes9xGX-*[!GameCube].zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "Snes9xGX/apps/",
+                "apps/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "Snes9xGX/snes9xgx/",
+                "snes9xgx/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "Snes9xGX"
+            ]
+        }
+    ]
 }

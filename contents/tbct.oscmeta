@@ -1,0 +1,26 @@
+{
+    "information": {
+        "name": "Text-based Controller Test",
+        "author": "sctech-tr",
+        "author_preferred_contacts": "",
+        "category": "utilities",
+        "version": "auto",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller"],
+        "flags": [
+            "deprecated"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "sctech-tr/tbct-wii",
+        "file": "tbct.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["tbct/", "apps/tbct/"]
+        }
+    ]
+}

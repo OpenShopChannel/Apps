@@ -4,9 +4,9 @@
         "author": "sctech-tr",
         "author_preferred_contacts": "",
         "category": "games",
-        "version": "auto"
-        "supported_platforms": ["wii", "vwii", "wii_mini"]
-        "peripherals": ["Wii Remote"],
+        "version": "auto",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "peripherals": ["Wii Remote"]
     },
     "source": {
         "type": "github_release",

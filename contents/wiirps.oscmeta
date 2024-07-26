@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "wiiRPS",
+        "author": "sctech-tr",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "version": "auto",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "peripherals": ["Wii Remote"]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "sctech-tr/wiiRPS",
+        "file": "wiirps.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["wiirps/", "apps/wiirps/"]
+        }
+    ]
+}

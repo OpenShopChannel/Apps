@@ -5,8 +5,14 @@
         "author_preferred_contacts": "",
         "category": "utilities",
         "version": "auto",
-        "supported_platforms": ["wii", "vwii", "wii_mini"],
-        "peripherals": ["Wii Remote"]
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ]
     },
     "source": {
         "type": "github_release",
@@ -17,7 +23,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["wcalc/", "apps/wcalc/"]
+            "arguments": [
+                "wcalc/",
+                "apps/wcalc/"
+            ]
         }
     ]
 }

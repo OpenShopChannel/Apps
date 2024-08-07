@@ -10,14 +10,14 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://wfc.wiilink24.com/patcher/WiiLink%20WFC%20Patcher.zip",
+        "location": "https://wfc.wiilink24.com/patcher/WiiLink%20WFC%20Patcher.zip"
     },
 	"treatments": [
         {
             "treatment": "contents.move", "arguments": ["WiiLink WFC Patcher/", "apps/WiiLink WFC Patcher/"]
-        }
-		{
-			"treatment": "contents.delete", "arguments": ["__MACOSX/"]
-		}
+        },
+	{
+		"treatment": "contents.delete", "arguments": ["__MACOSX/"]
+	}
 	]
 }

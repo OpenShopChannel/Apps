@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "WiiLink WFC Patcher",
+        "author": "Palapeli",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Wii Remote", "Wii Remote", "Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+		"supported platforms": ["Wii, vWii, wii_mini"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://wfc.wiilink24.com/patcher/WiiLink%20WFC%20Patcher.zip"
+    },
+	"treatments": [
+        {
+            "treatment": "contents.move", "arguments": ["WiiLink WFC Patcher/", "apps/WiiLink WFC Patcher/"]
+        },
+	{
+		"treatment": "contents.delete", "arguments": ["__MACOSX/"]
+	}
+	]
+}

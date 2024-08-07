@@ -17,6 +17,6 @@
         "type": "github_release",
         "format": "zip",
         "repository": "bor-real/GRRLIB-Examples-Collection",
-        "file": "SortMii.zip"
+        "file": "release.zip"
     }
 }

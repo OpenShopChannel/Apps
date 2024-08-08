@@ -24,10 +24,21 @@
     },
     "treatments": [
         {
-            "treatment": "contents.move",
+            "treatment": "contents.delete",
             "arguments": [
-                "Mail-Patcher/",
-                "apps/Mail-Patcher/"
+                "__MACOSX/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/.DS_Store"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/Mail-Patcher/.DS_Store"
             ]
         }
     ]

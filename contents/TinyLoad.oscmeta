@@ -29,14 +29,14 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "tinyload-0.2-bin/TinyLoad/README",
+                "tinyload-0.2-bin/README",
                 "apps/TinyLoad/README"
             ]
         },
         {
             "treatment": "contents.move",
             "arguments": [
-                "tinyload-0.2-bin/TinyLoad/COPYING",
+                "tinyload-0.2-bin/COPYING",
                 "apps/TinyLoad/COPYING"
             ]
         },

@@ -30,8 +30,8 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "VisualBoyAdvanceGX/apps/",
-                "apps/"
+                "VisualBoyAdvanceGX/apps/vbagx/",
+                "apps/vbagx/"
             ]
         },
         {

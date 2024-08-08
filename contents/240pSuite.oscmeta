@@ -11,13 +11,13 @@
         "peripherals": [
             "Wii Remote"
         ],
-        "version": "1.17"
+        "version": "1.19"
     },
     "source": {
         "type": "itchio",
         "creator": "artemiourbina",
         "game": "240p-test-suite",
-        "upload": "240p Test Suite for Wii 1.17",
+        "upload": "240p Test Suite for Wii 1.19",
         "format": "zip"
     },
     "treatments": [

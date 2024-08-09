@@ -1,0 +1,15 @@
+{
+    "information": {
+        "name": "ClassiCube",
+        "author": "Unknownshadow200",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "peripherals": ["Wii Remote", "Classic Controller", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://cdn.classicube.net/client/latest/ClassiCube-wii.zip"
+    }
+}

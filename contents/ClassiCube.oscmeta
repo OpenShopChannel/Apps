@@ -4,7 +4,7 @@
         "author": "Unknownshadow200",
         "author_preferred_contacts": "",
         "category": "games",
-        "peripherals": ["Wii Remote", "Classic Controller", "SDHC"],
+        "peripherals": ["Wii Remote", "Classic Controller", "Nunchuk", "GameCube Controller", "USB Keyboard", "SDHC"],
         "version": "auto"
     },
     "source": {

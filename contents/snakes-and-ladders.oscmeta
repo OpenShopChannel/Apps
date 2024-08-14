@@ -1,0 +1,26 @@
+{
+    "information": {
+        "name": "Snakes and Ladders",
+        "author": "sctech-tr",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "version": "auto",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "peripherals": ["Wii Remote"],
+        "flags": [
+            "deprecated"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "sctech-tr/snakes-and-ladders-wii",
+        "file": "snakes-and-ladders.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["snakes-and-ladders/", "apps/snakes-and-ladders/"]
+        }
+    ]
+}

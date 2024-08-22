@@ -19,7 +19,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "Naim2000/directory",
+        "repository": "Naim2000/csm-installer",
         "file": "csm-installer.zip"
     }
 }

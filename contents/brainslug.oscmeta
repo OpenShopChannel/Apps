@@ -15,16 +15,16 @@
 		"version": "auto"
 	},
 	"source": {
-		"type": "mediafire",
+		"type": "github_release",
 		"format": "zip",
-		"location": "https://www.mediafire.com/file/xr8aylrap7tgxbr/brainslug.zip/file"
+		"repository": "Chadderz121/wup-028-bslug",
+		"file": "wup-028-bslug-v*.zip"
 	},
 	"treatments": [
 		{
-			"treatment": "contents.move",
+			"treatment": "contents.delete",
 			"arguments": [
-				"brainslug/",
-				"apps/brainslug/"
+				"bslug/"
 			]
 		}
 	]

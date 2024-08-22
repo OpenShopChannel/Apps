@@ -15,10 +15,10 @@
 		"version": "auto"
 	},
 	"source": {
-        "type": "github_release",
-        "format": "zip",
-        "repository": "Chadderz121/wup-028-bslug",
-        "file": "wup-028-bslug-v*.zip"
+		"type": "github_release",
+		"format": "zip",
+		"repository": "Chadderz121/wup-028-bslug",
+		"file": "wup-028-bslug-v*.zip"
 	},
 	"treatments": [
 		{

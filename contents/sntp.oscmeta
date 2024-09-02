@@ -3,6 +3,10 @@
         "name": "sntp",
         "author": "ErikZ",
         "category": "utilities",
+     "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller"

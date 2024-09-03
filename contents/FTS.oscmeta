@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "Find The Silver",
+        "author": "Mia",
+        "author_preferred_contacts": "https://miastonished.github.io/contact",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "itchio",
+        "creator": "miagaming",
+        "game": "findthesilver",
+        "upload": "FTS Wii.zip",
+        "format": "zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["FTS/", "apps/FTS/"]
+        }
+    ]
+}

@@ -3,6 +3,10 @@
         "name": "NTP client",
         "author": "Galaxy Master",
         "category": "utilities",
+     "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote",
             "GameCube Controller"

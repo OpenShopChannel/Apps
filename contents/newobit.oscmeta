@@ -1,0 +1,33 @@
+{
+    "information": {
+        "name": "Newo Bit",
+        "author": "Owen",
+        "category": "Games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+         "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "1.0"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://owensoft.net/project/newogame/dl/newobit.zip",
+    },
+	"treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "newobit/",
+                "apps/newobit/"
+            ]
+        }
+}

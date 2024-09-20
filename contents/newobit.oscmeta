@@ -20,7 +20,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://owensoft.net/project/newogame/dl/newobit.zip",
+        "location": "https://owensoft.net/project/newogame/dl/newobit.zip"
     },
 	"treatments": [
         {

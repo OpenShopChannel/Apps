@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Cheat Manager",
+        "author": "Spritez",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "version": "0.3"
+    },
+    "source": {
+        "type": "url",
+        "format": "rar",
+        "location": "https://wiibrew.org/w/images/c/c7/Cheat_manager_v0_3.rar"
+    }
+}

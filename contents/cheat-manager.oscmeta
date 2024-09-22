@@ -18,5 +18,14 @@
         "type": "url",
         "format": "rar",
         "location": "https://wiibrew.org/w/images/c/c7/Cheat_manager_v0_3.rar"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/cheat manager/",
+                "apps/cheat-manager/"
+            ]
+        }
+    ]
 }

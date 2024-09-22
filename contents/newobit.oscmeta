@@ -8,7 +8,7 @@
             "vwii",
             "wii_mini"
         ],
-         "peripherals": [
+        "peripherals": [
             "Wii Remote",
             "Nunchuk",
             "Classic Controller",
@@ -22,7 +22,7 @@
         "format": "zip",
         "location": "https://owensoft.net/project/newogame/dl/newobit.zip"
     },
-	"treatments": [
+    "treatments": [
         {
             "treatment": "contents.move",
             "arguments": [

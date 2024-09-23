@@ -29,6 +29,9 @@
                 "newobit/",
                 "apps/newobit/"
             ]
+        },
+        { 
+            "treatment": "meta.remove_declaration" 
         }
     ]
 }

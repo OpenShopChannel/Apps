@@ -21,14 +21,5 @@
         "format": "zip",
         "repository": "Mode8fx/blockamok",
         "file": "BlockamokRemix-wii.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "apps/BlockamokRemix/",
-                "apps/BlockamokRemix/"
-            ]
-        }
-    ]
+    }
 }

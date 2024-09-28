@@ -23,7 +23,7 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "70 Mod r78.12"
+        "version": "70 Mod r78.13"
     },
     "source": {
         "type": "url",
@@ -42,7 +42,7 @@
         },
         {
             "treatment": "web.download",
-            "arguments": ["http://cfgusbloader.ntd.homelinux.org/binaries/dol/r12/cfg70r78.12.dol", "apps/usb-loader/boot.dol"]
+            "arguments": ["https://github.com/nitraiolo/CfgUSBLoader/releases/download/r13/cfg70r78.13.dol", "apps/usb-loader/boot.dol"]
         }
     ]
 }

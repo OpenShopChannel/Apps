@@ -1,0 +1,27 @@
+
+{
+    "information": {
+        "name": "ReadMii",
+        "author": "sctech-tr",
+        "author_preferred_contacts": "",
+        "category": "utilities",
+        "version": "auto",
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
+        "peripherals": ["Wii Remote"],
+        "flags": [
+            "deprecated"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "sctech-tr/readmii",
+        "file": "readmii"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["readmii/", "apps/readmii/"]
+        }
+    ]
+}

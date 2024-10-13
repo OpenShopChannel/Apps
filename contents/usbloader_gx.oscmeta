@@ -29,10 +29,6 @@
     "treatments": [
         {
             "treatment": "meta.remove_comments"
-        },
-        {
-            "treatment": "meta.set",
-            "arguments": ["arguments", "<arg>--ios=249</arg> <arg>--bootios=58</arg> <arg>--usbport=0</arg> <arg>--mountusb=1</arg> <arg>--sdmode=0</arg>"]
         }
     ]
 }

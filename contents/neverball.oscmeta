@@ -1,0 +1,34 @@
+{
+    "information": {
+        "name": "Neverball",
+        "author": "Jānis Rūcis",
+        "authors": [
+            "Alberto Mardegan (port)"
+        ],
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "mardy/neverball",
+        "file": "neverball*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "neverball/",
+                "apps/neverball/"
+            ]
+        }
+    ]
+}

@@ -18,5 +18,25 @@
         "format": "zip",
         "repository": "WiiLink24/AccountLinker",
         "file": "account_linker.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "__MACOSX/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/.DS_Store"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/wiilink-account-linker/.DS_Store"
+            ]
+        }
+    ]
 }

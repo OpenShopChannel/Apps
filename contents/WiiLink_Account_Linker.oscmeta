@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "WiiLink Account Linker",
+        "author": "Sketch",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "WiiLink24/AccountLinker",
+        "file": "account_linker.zip"
+    }
+}

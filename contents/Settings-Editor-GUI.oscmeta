@@ -6,6 +6,10 @@
             "stfour"
         ],
         "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

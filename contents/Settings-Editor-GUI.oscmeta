@@ -8,7 +8,8 @@
         "category": "utilities",
         "supported_platforms": [
             "wii",
-            "vwii"
+            "vwii",
+            "wii_mini"
         ],
         "peripherals": [
             "Wii Remote"

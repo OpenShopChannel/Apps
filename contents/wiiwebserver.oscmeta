@@ -15,12 +15,11 @@
             "Nunchuk",
             "SDHC"
         ],
-        "version": "alpha v1.1",
-        "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
+        "version": "auto"
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/wiiwebserver.zip"
+        "location": "https://hbbarchive.oscwii.org/wiiwebserver.zip"
     }
 }

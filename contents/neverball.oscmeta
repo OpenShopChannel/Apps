@@ -29,6 +29,12 @@
                 "neverball/",
                 "apps/neverball/"
             ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/neverball/.neverball-dev/"
+            ]
         }
     ]
 }

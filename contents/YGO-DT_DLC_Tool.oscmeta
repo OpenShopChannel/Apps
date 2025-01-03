@@ -14,9 +14,9 @@
         "version": "1.0"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "7z",
-        "location": "https://www.mediafire.com/file/vtmay373zzrdnxr/YGO-DT_Tool.7z"
+        "location": "https://hbbarchive.oscwii.org/YGO-DT_Tool.7z"
     },
     "treatments": [
         {

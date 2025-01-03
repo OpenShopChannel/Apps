@@ -22,9 +22,9 @@
         "version": "V1.0.3B"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "zip",
-        "location": "https://www.mediafire.com/file/sf3no3tsx0181r9/BlueMSX-Wii_v1.0.3B_Wiimpathy_MSXWii_SRL-saulfabreg.zip"
+        "location": "https://hbbarchive.oscwii.org/BlueMSX-Wii_v1.0.3B_Wiimpathy_MSXWii_SRL-saulfabreg.zip"
     },
     "treatments": [
         {

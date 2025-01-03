@@ -13,9 +13,9 @@
         "version": "v1.2"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "zip",
-        "location": "https://www.mediafire.com/file/tu97z15x94auuzm/Dump_Mii_NAND_v1.2.zip"
+        "location": "https://hbbarchive.oscwii.org/DumpMiiNANDv1.2.zip"
     },
     "treatments": [
         {

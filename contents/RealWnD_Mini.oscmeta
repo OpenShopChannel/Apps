@@ -19,8 +19,8 @@
         "version": "0.21b-Mini"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "zip",
-        "location": "http://www.mediafire.com/file/a1dzg9b6ahkdj06/RealWnD_Mini.zip"
+        "location": "https://hbbarchive.oscwii.org/RealWnD_Mini.zip"
     }
 }

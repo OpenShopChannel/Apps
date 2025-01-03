@@ -18,9 +18,9 @@
         "version": "auto"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "zip",
-        "location": "https://www.mediafire.com/file/gzz3n5cd0plcca9/yabause-r2926wii-beta26.zip"
+        "location": "https://hbbarchive.oscwii.org/yabause-r2926wii-beta26.zip"
     },
     "treatments": [
         {

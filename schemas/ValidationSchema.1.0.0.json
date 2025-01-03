@@ -213,7 +213,7 @@
                 "location": {
                     "$id": "#root/source/location",
                     "title": "Archive Location",
-                    "description": "The URL to download the archive from, for MediaFire and URL types only!",
+                    "description": "The URL to download the archive from, for URL type only!",
                     "type": "string",
                     "default": "",
                     "examples": [],

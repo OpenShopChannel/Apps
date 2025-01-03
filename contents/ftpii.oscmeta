@@ -14,8 +14,8 @@
         "version": "0.0.22"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "7z",
-        "location": "https://www.mediafire.com/file/j594b8b3ac56zbf/FTPii_0.0.22_HBC_package.7z"
+        "location": "https://hbbarchive.oscwii.org/FTPii_0.0.22_HBC_package.7z"
     }
 }

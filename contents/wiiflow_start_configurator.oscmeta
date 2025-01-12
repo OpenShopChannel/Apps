@@ -18,5 +18,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/wiiflow_start_configurator.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20140122000000"]
+        }
+    ]
 }

@@ -19,5 +19,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/supertux.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20231208000000"]
+        }
+    ]
 }

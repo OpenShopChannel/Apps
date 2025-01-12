@@ -18,5 +18,11 @@
         "format": "zip",
         "repository": "HTV04/wiirdle",
         "file": "wiirdle.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20220418000000"]
+        }
+    ]
 }

@@ -27,6 +27,10 @@
                 "mGBA-*-wii/",
                 "apps/mgba/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20241208000000"]
         }
     ]
 }

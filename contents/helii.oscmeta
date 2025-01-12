@@ -31,6 +31,10 @@
                 "helii/",
                 "apps/helii/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20091018000000"]
         }
     ]
 }

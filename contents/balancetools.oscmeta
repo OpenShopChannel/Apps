@@ -17,5 +17,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/baltools-1.0.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20090610000000"]
+        }
+    ]
 }

@@ -47,6 +47,10 @@
                 "name",
                 "Riivolution for Wii Mini"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20231125000000"]
         }
     ]
 }

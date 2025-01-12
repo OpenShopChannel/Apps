@@ -27,6 +27,10 @@
                 "240pSuite/",
                 "apps/240pSuite/"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240801000000"]
         }
     ]
 }

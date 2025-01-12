@@ -23,5 +23,11 @@
         "format": "zip",
         "repository": "schismtracker/schismtracker",
         "file": "schismtracker-*-wii.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20241226000000"]
+        }
+    ]
 }

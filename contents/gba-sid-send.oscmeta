@@ -30,6 +30,10 @@
             "arguments": [
                 "gbasidsend_gc.dol"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20171105000000"]
         }
     ]
 }

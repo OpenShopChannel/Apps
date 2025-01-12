@@ -61,6 +61,10 @@
 			"arguments": [
 				"README.pdf"
 			]
-		}
+		},
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240801000000"]
+        }
 	]
 }

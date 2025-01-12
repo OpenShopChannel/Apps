@@ -19,5 +19,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/PattView-Wii.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20191201000000"]
+        }
+    ]
 }

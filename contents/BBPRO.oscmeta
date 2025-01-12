@@ -38,6 +38,10 @@
                 "apps/BBPRO/Balance_Board_Pro.dol",
                 "apps/BBPRO/boot.dol"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20090725000000"]
         }
     ]
 }

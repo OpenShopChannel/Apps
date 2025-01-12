@@ -33,6 +33,10 @@
                 "Readme.txt",
                 "WiiPhysics_Readme.txt"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20081027000000"]
         }
     ]
 }

@@ -18,5 +18,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/chippy.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20080806000000"]
+        }
+    ]
 }

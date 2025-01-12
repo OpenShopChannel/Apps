@@ -39,6 +39,10 @@
                 "https://riitube.rc24.xyz/onlinemedia.xml",
                 "apps/wiimc/onlinemedia.xml"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240330000000"]
         }
     ]
 }

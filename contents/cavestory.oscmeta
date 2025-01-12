@@ -23,5 +23,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://autumn-mnya.github.io/games/cavestorywii/files/cavestorywii.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240525000000"]
+        }
+    ]
 }

@@ -26,6 +26,10 @@
                 "dcvg5k/",
                 "apps/dcvg5k/"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20130812000000"]
         }
     ]
 }

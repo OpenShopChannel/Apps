@@ -36,6 +36,10 @@
             "arguments": [
                 "dist/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20160817000000"]
         }
     ]
 }

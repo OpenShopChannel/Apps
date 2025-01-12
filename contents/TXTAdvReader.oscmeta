@@ -17,5 +17,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://wiibrew.org/w/images/3/37/TXTAdvReader.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20220819000000"]
+        }
+    ]
 }

@@ -30,6 +30,10 @@
             "arguments": [
                 "linkcabledump_gc.dol"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20160722000000"]
         }
     ]
 }

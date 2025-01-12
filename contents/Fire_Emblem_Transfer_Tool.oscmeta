@@ -18,5 +18,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/Fire_Emblem_Transfer_Tool.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20220422000000"]
+        }
+    ]
 }

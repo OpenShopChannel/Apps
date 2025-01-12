@@ -26,6 +26,10 @@
                 "libreshop/",
                 "apps/libreshop/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240427000000"]
         }
     ]
 }

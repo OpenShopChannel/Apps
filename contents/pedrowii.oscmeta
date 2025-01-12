@@ -36,6 +36,10 @@
                 "meta.xml",
                 "apps/pedrowii/meta.xml"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20240214000000"]
         }
     ]
 }

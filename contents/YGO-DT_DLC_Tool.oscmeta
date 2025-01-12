@@ -25,6 +25,10 @@
                 "apps/YGO-DT DLC Tool/",
                 "apps/YGO-DT_DLC_Tool/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20220315000000"]
         }
     ]
 }

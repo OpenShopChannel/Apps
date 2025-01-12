@@ -17,5 +17,14 @@
         "type": "url",
         "format": "zip",
         "location": "https://hbbarchive.oscwii.org/legacy/Wii-Themer.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.init"
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20230131000000"]
+        }
+    ]
 }

@@ -25,6 +25,10 @@
                 "WiiVNC/",
                 "apps/WiiVNC/"
             ]
+        },
+		{
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20121224000000"]
         }
     ]
 }

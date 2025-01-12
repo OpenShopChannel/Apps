@@ -22,5 +22,11 @@
         "format": "zip",
         "repository": "JeffRuLz/OpenHCL",
         "file": "OpenHCL_Wii.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["release_date", "20230809000000"]
+        }
+    ]
 }

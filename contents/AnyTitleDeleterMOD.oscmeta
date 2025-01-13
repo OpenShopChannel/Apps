@@ -24,10 +24,15 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": [
-                "v7.1/sd_root/apps/AnyTitleDeleterMOD/",
-                "apps/AnyTitleDeleterMOD/"
-            ]
+            "arguments": ["v7.1/sd_root/apps/AnyTitleDeleterMOD/", "apps/AnyTitleDeleterMOD/"]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": ["v7.1/sd_root/database.txt", "database.txt"]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": ["v7.1"]
         }
     ]
 }

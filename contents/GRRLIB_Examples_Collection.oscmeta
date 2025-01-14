@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "GRRLIB Examples Collection",
+        "author": "boreal",
+        "category": "demos",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://codeberg.org/boreal/SortMii/releases/download/latest/SortMii.zip"
+    }
+}

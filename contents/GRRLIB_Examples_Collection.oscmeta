@@ -17,5 +17,11 @@
         "type": "url",
         "format": "zip",
         "location": "https://codeberg.org/boreal/GRRLIB-Examples-Collection/releases/download/latest/release.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["apps/GRRLIB-Examples-Collection", "apps/GRRLIB_Examples_Collection"]
+        }
+    ]
 }

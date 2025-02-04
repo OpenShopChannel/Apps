@@ -69,6 +69,12 @@
                 "version",
                 "Newer than 4.431"
             ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "controllers.zip"
+            ]
         }
     ]
 }

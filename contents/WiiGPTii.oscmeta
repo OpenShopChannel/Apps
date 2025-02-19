@@ -1,0 +1,38 @@
+{
+    "information": {
+        "name": "WiiGPTii",
+        "author": "Dakotath",
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "USB Keyboard"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/boot.dol?raw=true",
+                "apps/WiiGPTii/boot.dol"
+            ]
+        },
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/meta.xml?raw=true",
+                "apps/WiiGPTii/meta.xml"
+            ]
+        },
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://github.com/dakotath/wiigptii/raw/master/Homebrew/apps/WiiGPTii/icon.png?raw=true",
+                "apps/WiiGPTii/icon.png"
+            ]
+        }
+    ]
+}

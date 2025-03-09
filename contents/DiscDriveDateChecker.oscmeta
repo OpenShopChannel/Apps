@@ -1,0 +1,26 @@
+{
+    "information": {
+        "name": "Disc Drive Date Checker",
+        "author": "Aep",
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "flags": [
+            
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Aeplexi/DiscDriveDateChecker",
+        "file": "DiscDriveDateChecker.zip"
+    }
+}

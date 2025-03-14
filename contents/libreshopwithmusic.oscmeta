@@ -3,6 +3,11 @@
         "name": "Libreshop but with music",
         "author": "tails1154",
         "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
         "peripherals": [
             "Wii Remote"
         ],

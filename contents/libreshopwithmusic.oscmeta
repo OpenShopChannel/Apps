@@ -1,0 +1,36 @@
+{
+    "information": {
+        "name": "Libreshop but with music",
+        "author": "tails1154",
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "0.2"
+    },
+    "source": {
+        "type": "manual"
+    },
+    "treatments": [
+        {
+            "treatment": "web.download",
+            "arguments": [
+                "https://tails1154.github.io/tailsshare/libreshop.zip",
+                "libreshop.zip"
+            ]
+        },
+        {
+            "treatment": "archive.extract",
+            "arguments": [
+                "libreshop.zip",
+                "apps/LibreShopMusic/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "libreshop.zip"
+            ]
+        }
+    ]
+}

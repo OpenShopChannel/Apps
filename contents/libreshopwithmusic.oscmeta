@@ -14,7 +14,10 @@
         "version": "0.2"
     },
     "source": {
-        "type": "manual"
+        "type": "github_release",
+        "format": "zip",
+        "repository": "tails1154/libreshopmusicsource",
+        "file": "source.zip"
     },
     "treatments": [
         {

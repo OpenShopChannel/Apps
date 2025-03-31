@@ -11,7 +11,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "wiidev/d2x-cios/",
+        "repository": "wiidev/d2x-cios",
         "file": "d2x-v11-*[!-vWii].zip"
     }
 }

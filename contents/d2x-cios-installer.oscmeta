@@ -3,49 +3,15 @@
         "name": "d2x cIOS installer",
         "author": "dragbe",
         "category": "utilities",
-        "peripherals": [
-            "Wii Remote"
-        ],
-        "flags": [
-            "writes_to_nand"
-        ],
-        "version": "3.1"
+        "peripherals": ["Wii Remote"],
+        "supported_platforms": ["wii"],
+        "flags": ["writes_to_nand"],
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/d2x-cios-installer/d2x%20cIOS%20Installer%20v3.1.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "d2x-cios-installer/",
-                "apps/d2x-cios-installer/"
-            ]
-        },
-        {
-            "treatment": "meta.remove_comments"
-        },
-        {
-            "treatment": "web.download",
-            "arguments": [
-                "https://github.com/wiidev/d2x-cios/releases/download/d2x-v11-beta3/d2x-v11-beta3.zip",
-                "d2x-v11-beta3.zip"
-            ]
-        },
-        {
-            "treatment": "archive.extract",
-            "arguments": [
-                "d2x-v11-beta3.zip",
-                "apps/d2x-cios-installer/"
-            ]
-        },
-        {
-            "treatment": "contents.delete",
-            "arguments": [
-                "d2x-v11-beta3.zip"
-            ]
-        }
-    ]
+        "repository": "wiidev/d2x-cios/",
+        "file": "d2x-v11-*[!-vWii].zip"
+    }
 }

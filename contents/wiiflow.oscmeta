@@ -18,7 +18,7 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "auto"
+        "version": "5.5.4_1"
     },
     "source": {
         "type": "github_release",

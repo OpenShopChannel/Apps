@@ -20,11 +20,5 @@
         "format": "zip",
         "repository": "emukidid/cleanrip",
         "file": "CleanRip-*[!-gq].zip"
-    },
-    "treatments": [
-        {
-            "treatment": "meta.set",
-            "arguments": ["version", "2.3.0"]
-        }
-    ]
+    }
 }

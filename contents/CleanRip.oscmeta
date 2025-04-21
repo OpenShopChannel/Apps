@@ -19,14 +19,12 @@
         "type": "github_release",
         "format": "zip",
         "repository": "emukidid/cleanrip",
-        "file": "CleanRip-*.zip"
+        "file": "CleanRip-*[!-gq].zip"
     },
     "treatments": [
         {
-            "treatment": "contents.delete",
-            "arguments": [
-                "readme.txt"
-            ]
+            "treatment": "meta.set",
+            "arguments": ["version", "2.3.0"]
         }
     ]
 }

@@ -31,7 +31,7 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://github.com/FIX94/Nintendont/blob/master/loader/loader.dol?raw=true",
+                "https://raw.githubusercontent.com/FIX94/Nintendont/a69f2f134daf0f06a1b01da4b5337a984ac6dcf1/loader/loader.dol",
                 "apps/Nintendont/boot.dol"
             ]
         },

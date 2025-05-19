@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "Rainbii",
+        "author": "Def64",
+        "author_preferred_contacts": "",
+        "category": "media",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://drive.google.com/uc?export=download&id=1nV2-gDF3xFxMoOCXh75_t85YEMemPF-_"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["Rainbii/", "apps/Rainbii/"]
+        }
+    ]
+}

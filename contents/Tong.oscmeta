@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "TONG!",
+        "author": "Owen Swerkstrom",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://nongnu.org/tong/tong-wii.zip"
+    }
+}

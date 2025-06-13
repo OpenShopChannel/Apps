@@ -2,15 +2,15 @@
     "information": {
         "name": "Rainbii",
         "author": "Def64",
-        "author_preferred_contacts": "",
         "category": "media",
         "peripherals": ["Wii Remote"],
-        "version": "0.0.1"
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://drive.google.com/uc?export=download&id=1is4E1DBk8Jmn6vv7JtA8KVYsnlVXgNJp"
+        "repository": "defdoesworld/rainbii",
+        "file": "Rainbii.zip"
     },
     "treatments": [
         {

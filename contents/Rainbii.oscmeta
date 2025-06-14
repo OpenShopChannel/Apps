@@ -3,7 +3,14 @@
         "name": "Rainbii",
         "author": "Def64",
         "category": "media",
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -11,11 +18,5 @@
         "format": "zip",
         "repository": "defdoesworld/rainbii",
         "file": "Rainbii.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",
-            "arguments": ["Rainbii/", "apps/Rainbii/"]
-        }
-    ]
+    }
 }

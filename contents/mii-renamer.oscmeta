@@ -1,0 +1,25 @@
+{
+  "information": {
+    "name": "Mii Renamer",
+    "author": "Floogle",
+    "category": "utilities",
+    "supported_platforms": [
+      "wii",
+      "vwii",
+      "wii_mini"
+    ],
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "flags": [
+        "writes_to_nand"
+    ],
+    "version": "auto"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "skyfloogle/mii-renamer",
+    "file": "mii-renamer-*.zip"
+  }
+}

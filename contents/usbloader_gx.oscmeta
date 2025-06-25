@@ -25,10 +25,5 @@
         "format": "zip",
         "repository": "wiidev/usbloadergx",
         "file": "usbloadergx_r*.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "meta.remove_comments"
-        }
-    ]
+    }
 }

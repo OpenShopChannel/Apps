@@ -9,7 +9,7 @@
             "wii_mini"
         ],
         "peripherals": [
-            "Keyboard"
+            "USB Keyboard"
         ],
         "version": "auto"
     },

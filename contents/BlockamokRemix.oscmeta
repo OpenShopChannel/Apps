@@ -20,6 +20,6 @@
         "type": "github_release",
         "format": "zip",
         "repository": "Mode8fx/blockamok",
-        "file": "BlockamokRemix-wii.zip"
+        "file": "BlockamokRemix-*-wii.zip"
     }
 }

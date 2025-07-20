@@ -1,7 +1,7 @@
 {
     "information": {
         "name": "Trogdor: Reburninated",
-        "author": "Mips96",
+        "author": "Mode8fx",
         "category": "games",
         "supported_platforms": [
             "wii",
@@ -10,7 +10,9 @@
         ],
         "peripherals": [
             "Wii Remote",
-            "GameCube Controller"
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
         ],
         "version": "auto"
     },

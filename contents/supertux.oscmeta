@@ -1,7 +1,7 @@
 {
     "information": {
         "name": "SuperTux Wii",
-        "author": "Two devs",
+        "author": "Two devs, scanff, Arikado, DeltaResero",
         "category": "games",
         "supported_platforms": [
             "wii",
@@ -12,18 +12,12 @@
             "Wii Remote",
             "SDHC"
         ],
-        "version": "1.3",
-        "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/supertux.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "meta.set",
-            "arguments": ["release_date", "20231208000000"]
-        }
-    ]
+        "repository": "DeltaResero/SuperTux-Wii",
+        "file": "SuperTuxWii-*.zip"
+    }
 }

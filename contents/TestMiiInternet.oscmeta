@@ -5,7 +5,7 @@
         "category": "utilities",
         "supported_platforms": [
             "wii",
-            "vwii
+            "vwii"
         ],
         "peripherals": [
             "Wii Remote"

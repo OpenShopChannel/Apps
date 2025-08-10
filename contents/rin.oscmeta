@@ -1,0 +1,46 @@
+{
+    "information": {
+        "name": "RIN Wii",
+        "author": "Mirakichi, Askot, Hell Hibou",
+        "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "16-12-2008"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "http://perso.latribu.com/decker/wii/download/rin-GC-Wii-20081216-WHL.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "rinwii.dol"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "rinwii.elf"
+            ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": [
+                "release_date",
+                "20081216000000"
+            ]
+        }
+    ]
+}

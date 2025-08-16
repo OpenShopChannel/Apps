@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "Hexaswiiper",
+        "author": "Roddy Rappaport",
+        "author_preferred_contacts": "roddy.rappaport@gmail.com",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "tar",
+        "repository": "roddyrap/hexaswiiper"
+        "file": "hexaswiiper-osc.tar"
+    }
+}

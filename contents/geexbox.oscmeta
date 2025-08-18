@@ -1,0 +1,29 @@
+{
+    "information": {
+        "name": "GeeXboX",
+        "author": "farter",
+        "category": "media",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "USB Keyboard",
+            "SDHC"
+        ],
+        "version": "0.1beta3 IOS/MINI"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://downloads.sourceforge.net/project/geexboxforwii/GeeXboX%20for%20Wii%20%28IOS%29/0.1beta3/geexbox-wii-ios-0.1beta3.tar.bz2?ts=gAAAAABoozt8j0t9-fkLxPLyPm9876NxFzZFq61Ep7ttwpRL5kBRWLcUSEa8WrjjxwqQNcDRMBzYK6-q6tXWt_gBOEVhFUwzag%3D%3D&use_mirror=phoenixnap&r=https%3A%2F%2Fwww.wiibrew.org%2F"
+    }
+}

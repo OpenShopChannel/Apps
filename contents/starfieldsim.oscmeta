@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "Starfield Simulator",
+        "author": "GatoWare",
+        "author_preferred_contacts": "",
+        "category": "demos",
+        "peripherals": ["Wii Remote"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "7z",
+        "location": "https://www.mediafire.com/file/ekzt5lmeul3e50c/starfield.7z/"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["starfield/", "apps/starfield/"]
+        }
+    ]
+}

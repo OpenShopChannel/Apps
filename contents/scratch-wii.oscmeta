@@ -11,7 +11,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "NateXS/Scratch-Everywhere",
+        "repository": "ScratchEverywhere/ScratchEverywhere",
         "file": "scratch-wii.zip"
     }
 }

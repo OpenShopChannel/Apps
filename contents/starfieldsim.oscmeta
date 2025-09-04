@@ -2,7 +2,6 @@
     "information": {
         "name": "Starfield Simulator",
         "author": "GatoWare",
-        "author_preferred_contacts": "",
         "category": "demos",
         "peripherals": ["Wii Remote"],
         "version": "auto"

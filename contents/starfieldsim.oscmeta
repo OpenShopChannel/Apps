@@ -10,12 +10,13 @@
         "type": "github_release",
         "format": "zip",
         "repository": "OxyZin/starfield",
-        "file": "starfield.zip"
+        "file": "starfieldsim.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["starfield/", "apps/starfield/"]
+            "arguments": ["starfieldsim/", "apps/starfieldsim/"]
         }
     ]
 }
+

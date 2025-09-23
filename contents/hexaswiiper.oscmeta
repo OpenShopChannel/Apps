@@ -10,7 +10,7 @@
     "source": {
         "type": "github_release",
         "format": "tar",
-        "repository": "roddyrap/hexaswiiper"
+        "repository": "roddyrap/hexaswiiper",
         "file": "hexaswiiper-osc.tar"
     }
 }

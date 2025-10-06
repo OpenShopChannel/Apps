@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "WiiFractals",
+        "author": "Abdelali221",
+        "category": "media",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Abdelali221/WiiFractals",
+        "file": "WiiFractals.zip"
+    }
+}

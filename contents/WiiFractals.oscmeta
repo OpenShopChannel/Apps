@@ -2,7 +2,7 @@
     "information": {
         "name": "WiiFractals",
         "author": "Abdelali221",
-        "category": "media",
+        "category": "demos",
         "supported_platforms": [
             "wii",
             "vwii"

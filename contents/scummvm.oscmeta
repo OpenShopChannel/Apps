@@ -13,7 +13,7 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "2.8.1"
+        "version": "2.9.0"
     },
     "source": {
         "type": "manual"
@@ -22,7 +22,7 @@
         {
             "treatment": "web.download",
             "arguments": [
-                "https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-wii.zip",
+                "https://downloads.scummvm.org/frs/scummvm/2.9.0/scummvm-2.9.0-wii.zip",
                 "scummvm-wii.zip"
             ]
         },

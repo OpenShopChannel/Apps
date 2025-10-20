@@ -12,9 +12,6 @@
             "vwii",
             "wii_mini"
         ],
-        "flags": [
-            
-        ],
         "version": "auto"
     },
     "source": {

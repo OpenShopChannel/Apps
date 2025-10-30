@@ -1,0 +1,24 @@
+{
+    "information": {
+        "name": "Silly Sound Maker",
+        "author": "DaniLionn",
+        "category": "demo",
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+        ],
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "DaniLionn/silly-sounds-homebrew-wii",
+        "file": "Silly-sounds.zip"
+    }
+}

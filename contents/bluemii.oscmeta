@@ -19,5 +19,14 @@
         "format": "zip",
         "repository": "Zarithya/BlueMii",
         "file": "BlueMii.*.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/BlueMii/",
+                "apps/bluemii/"
+            ]
+        }
+    ]
 }

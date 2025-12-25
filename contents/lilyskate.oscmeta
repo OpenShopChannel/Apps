@@ -26,6 +26,13 @@
                 "lilyskate/",
                 "apps/lilyskate/"
             ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "__MACOSX/"
+            ]
         }
     ]
 }
+

@@ -1,0 +1,38 @@
+{
+    "information": {
+        "name": "Lily Skate",
+        "author": "lliy",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
+        "version": "1.0"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/xOx-Liy-Codez-XD-oXo/lilyskate/releases/download/1.0/lilyskate-1_0.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "lilyskate/",
+                "apps/lilyskate/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "__MACOSX/"
+            ]
+        }
+    ]
+}
+

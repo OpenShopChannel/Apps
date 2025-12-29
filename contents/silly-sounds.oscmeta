@@ -6,7 +6,7 @@
         "peripherals": [
             "Wii Remote",
             "Nunchuk",
-            "Classic Controller",
+            "Classic Controller"
         ],
         "supported_platforms": [
             "wii",

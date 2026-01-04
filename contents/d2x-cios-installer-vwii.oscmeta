@@ -1,6 +1,6 @@
 {
     "information": {
-        "name": "d2x cIOS installer vWii",
+        "name": "d2x cIOS installer for vWii",
         "author": "dragbe, FIX94",
         "category": "utilities",
         "peripherals": ["Wii Remote"],
@@ -18,6 +18,11 @@
         {
             "treatment": "contents.move",
             "arguments": ["apps/d2x-cios-installer/", "apps/d2x-cios-installer-vwii/"]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": ["name", "d2x cIOS installer for vWii"]
         }
     ]
+
 }

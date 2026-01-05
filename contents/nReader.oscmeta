@@ -1,0 +1,16 @@
+{
+    "information": {
+        "name": "nReader",
+        "author": "hediibl",
+        "category": "utilities",
+        "peripherals": ["Wii Remote"],
+        "supported_platforms": ["wii", "wii_mini"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "hediibl/nReader",
+        "file": "nReader_2.5_wii.zip"
+    }
+}

@@ -11,6 +11,6 @@
         "type": "github_release",
         "format": "zip",
         "repository": "hediibl/nReader",
-        "file": "nReader_2.5_wii.zip"
+        "file": "nReader_wii.zip"
     }
 }

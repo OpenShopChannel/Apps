@@ -16,7 +16,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "defdoesworld/rainbii",
+        "repository": "Def64/rainbii",
         "file": "Rainbii.zip"
     }
 }

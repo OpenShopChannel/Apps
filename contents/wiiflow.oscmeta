@@ -18,7 +18,7 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "5.5.4_1"
+        "version": "auto"
     },
     "source": {
         "type": "github_release",
@@ -27,3 +27,4 @@
         "file": "wiiflow_v*.zip"
     }
 }
+

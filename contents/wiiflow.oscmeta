@@ -18,13 +18,20 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "auto"
+        "version": "5.6.1"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
         "repository": "Fledge68/WiiFlow_Lite",
         "file": "wiiflow_v*.zip"
-    }
+    },
+    "treatments": [
+        {
+            "treatment": "meta.set",
+            "arguments": ["version", "5.6.1"]
+        }
+    ]
 }
+
 

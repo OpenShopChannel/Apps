@@ -18,6 +18,6 @@
         "type": "github_release",
         "format": "zip",
         "repository": "DeltaResero/SuperTux-Wii",
-        "file": "SuperTuxWii-*.zip"
+        "file": "SuperTux-Wii-v0.1.4-wii-d.05.zip"
     }
 }

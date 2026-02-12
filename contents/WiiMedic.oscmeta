@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "WiiMedic",
+        "author": "PowFPS1",
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "PowFPS1/WiiMedic",
+        "file": "WiiMedic-*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "meta.remove_declaration"
+        }
+    ]
+}

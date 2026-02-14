@@ -21,12 +21,34 @@
         "flags": [
             "writes_to_nand"
         ],
-        "version": "rev127",
-        "note": "This application has been automatically migrated from the legacy repository system to the new system, as a last resort method. This application manifest should ideally be updated to remove use of hbbarchive.oscwii.org if possible."
+        "version": "rev127"
     },
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://hbbarchive.oscwii.org/legacy/SaveGame_Manager_GX.zip"
-    }
+        "location": "https://master.dl.sourceforge.net/project/savegame-manager-gx/HBC_SetUp_R127.zip?viasf=1"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "boot.dol",
+                "apps/SaveGame_Manager_GX/boot.dol"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/SaveGame_Manager_GX/icon.png"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/SaveGame_Manager_GX/meta.xml"
+            ]
+        }
+    ]
 }

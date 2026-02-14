@@ -13,7 +13,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "PowFPS1/WiiMedic",
-        "file": "WiiMedic-*.zip"
+        "file": "WiiMedic_v1.1.0.zip"
     },
     "treatments": [
         {

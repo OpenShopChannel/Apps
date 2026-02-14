@@ -1,7 +1,10 @@
 {
     "information": {
-        "name": "FCEUX TX",
+        "name": "FCE Ultra TX",
         "author": "Tanooki",
+        "authors": [
+            "Tantric"
+        ],
         "category": "emulators",
         "supported_platforms": [
             "wii",

@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "wii heimdall",
+        "author": "A1D3N",
+        "author_preferred_contacts": "",
+        "category": "utilites",
+        "peripherals": ["Wii Remote", "SDHC"],
+        "version": "auto"
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://github.com/tbriggs123-byte/Wii-heimdall/releases/download/v0.0.1-beta.0/heim.1.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["heim/", "apps/heimdall"]
+        }
+    ]
+}

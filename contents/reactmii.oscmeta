@@ -5,7 +5,7 @@
         "author_preferred_contacts": "",
         "category": "games",
         "peripherals": ["Wii Remote"],
-        "version": "auto"
+        "version": "auto",
         "supported_platforms": [
           "wii",
           "vwii"
@@ -17,4 +17,5 @@
         "repository": "Some-Random-Guy123456/ReactMii",
         "file": "reactmii.zip"
     }
+
 }

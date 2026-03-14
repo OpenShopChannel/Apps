@@ -17,7 +17,7 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["aurorachat-wii*/", "apps/aurorachat-wii/"]
+            "arguments": ["aurorachat*/", "apps/aurorachat/"]
         }
     ]
 }

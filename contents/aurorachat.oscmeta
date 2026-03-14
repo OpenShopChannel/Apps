@@ -1,7 +1,7 @@
 {
     "information": {
-        "name": "Aurorachat Wii",
-        "author": "Virtualle",
+        "name": "Aurorachat",
+        "author": "Unitendo",
         "author_preferred_contacts": "",
         "category": "utilities",
         "supported_platforms": ["wii", "wii_mini", "vwii"],
@@ -11,13 +11,13 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "Orstando/aurorawii",
-        "file": "aurorawii-*.zip"
+        "repository": "Unitendo/aurorachat",
+        "file": "aurorachat-wii*.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["aurorawii-*/", "apps/aurorawii/"]
+            "arguments": ["aurorachat*/", "apps/aurorachat/"]
         }
     ]
 }

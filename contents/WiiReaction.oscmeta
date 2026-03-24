@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "WiiReaction",
+        "author": "KyleWii(U)",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
+        "version": "v0.2.0"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "KyleWii/WiiReaction",
+        "file": "WiiReaction.zip"
+    }
+}

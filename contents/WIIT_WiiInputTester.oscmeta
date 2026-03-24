@@ -5,7 +5,7 @@
         "author_preferred_contacts": "@BlocksumoGuys on twitter, @BlocksumoGuys on discord, @BlocksumoGuys on youtube",
         "category": "utilities",
         "peripherals": ["Wii Remote", "Nunchuk"],
-        "version": "auto"
+        "version": "auto",
         "supported_platforms": [
           "wii",
        ]

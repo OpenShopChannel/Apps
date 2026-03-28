@@ -1,0 +1,19 @@
+{
+    "information": {
+        "name": "WIIT",
+        "author": "BlocksumoGuys",
+        "author_preferred_contacts": "@BlocksumoGuys on twitter, @BlocksumoGuys on discord, @BlocksumoGuys on youtube",
+        "category": "utilities",
+        "peripherals": ["Wii Remote", "Nunchuk"],
+        "version": "auto",
+        "supported_platforms": [
+          "wii",
+       ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "BlocksumoGuys/WIIT",
+        "file": "wiit.zip"
+    }
+}

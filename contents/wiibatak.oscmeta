@@ -1,0 +1,15 @@
+{
+  "information": {
+    "name": "Wii Batak",
+    "author": "Koopa van Beethoven",
+    "author_preferred_contacts": "https://github.com/ludwigkoopaa/wiibatak",
+    "category": "games",
+    "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+    "version": "auto"
+  },
+  "source": {
+    "type": "url",
+    "format": "zip",
+    "location": "https://github.com/ludwigkoopaa/wiibatak/releases/download/v0.1.1/wiibatak-0.1.1.zip"
+  }
+}

@@ -40,6 +40,13 @@
                 "dvd-riivolution/",
                 "apps/dvd-riivolution/"
             ]
+        },
+        {
+            "treatment": "meta.set",
+            "arguments": [
+                "short_description",
+                "DVD-Riivolution Patcher"
+            ]
         }
     ]
 }

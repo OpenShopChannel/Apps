@@ -9,7 +9,8 @@
             "wii_mini"
         ],
         "peripherals": [
-            "Wii Remote"
+            "Wii Remote",
+            "GameCube Controller"
         ],
         "version": "1.0"
     },

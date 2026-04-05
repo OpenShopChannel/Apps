@@ -30,7 +30,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "location": "DankCoffee/DVD-Riivolution"
+        "location": "DankCoffee/DVD-Riivolution",
         "file": "riiv.zip"
     },
     "treatments": [

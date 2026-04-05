@@ -1,0 +1,45 @@
+{
+    "information": {
+        "name": "DVD-Riivolution",
+        "author": "DankCoffee",
+        "authors": [
+            "tueidj",
+            "Tempus",
+            "megazig",
+            "Aaron"
+        ],
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "supported_platforms": [
+            "wii"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "location": "DankCoffee/DVD-Riivolution"
+        "file": "riiv.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "dvd-riivolution/",
+                "apps/dvd-riivolution/"
+            ]
+        }
+    ]
+}

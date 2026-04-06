@@ -1,0 +1,25 @@
+{
+    "information": {
+        "name": "PieChart",
+        "author": "Dude2kx",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "version": "0.8",
+        "peripherals": ["Wii Remote"]
+    },
+    "source": {
+        "type": "url",
+        "format": "7z",
+        "location": "https://dlhb.gamebrew.org/wiihomebrews/piechartwii.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "archive.extract",
+            "arguments": ["PieChart_0.8.rar", "./"]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": ["PieChart/", "apps/piechart/"]
+        }
+    ]
+}

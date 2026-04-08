@@ -4,16 +4,28 @@
         "author": "BlocksumoGuys",
         "author_preferred_contacts": "@BlocksumoGuys on twitter, @BlocksumoGuys on discord, @BlocksumoGuys on youtube",
         "category": "utilities",
-        "peripherals": ["Wii Remote", "Nunchuk"],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk"
+        ],
         "version": "auto",
         "supported_platforms": [
-          "wii",
-       ]
+            "wii"
+        ]
     },
     "source": {
         "type": "github_release",
         "format": "zip",
         "repository": "BlocksumoGuys/WIIT",
-        "file": "wiit.zip"
-    }
+        "file": "WIIT.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/WIIT/",
+                "apps/WIIT_WiiInputTester/"
+            ]
+        }
+    ]
 }

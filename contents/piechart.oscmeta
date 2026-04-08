@@ -9,14 +9,10 @@
     },
     "source": {
         "type": "url",
-        "format": "7z",
-        "location": "https://dlhb.gamebrew.org/wiihomebrews/piechartwii.7z"
+        "format": "rar",
+        "location": "https://filetrip.net/files/f/23776-PieChart_0.8.rar"
     },
     "treatments": [
-        {
-            "treatment": "archive.extract",
-            "arguments": ["PieChart_0.8.rar", "./"]
-        },
         {
             "treatment": "contents.move",
             "arguments": ["PieChart/", "apps/piechart/"]

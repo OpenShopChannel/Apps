@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "PieChart",
+        "author": "Dude2kx",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "version": "0.8",
+        "peripherals": ["Wii Remote"]
+    },
+    "source": {
+        "type": "url",
+        "format": "rar",
+        "location": "https://filetrip.net/files/f/23776-PieChart_0.8.rar"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["PieChart/", "apps/piechart/"]
+        }
+    ]
+}

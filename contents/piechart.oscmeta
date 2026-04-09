@@ -15,7 +15,7 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["PieChart/*", "apps/piechart/"]
+            "arguments": ["PieChart/", "apps/piechart/"]
         }
     ]
 }

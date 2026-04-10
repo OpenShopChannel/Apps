@@ -17,7 +17,7 @@
         "type": "itchio",
         "creator": "artemiourbina",
         "game": "240p-test-suite",
-        "upload": "240pSuite-Wii-1.20",
+        "upload": "240p Test Suite for Wii 1.20",
         "format": "zip"
     },
     "treatments": [
@@ -30,7 +30,10 @@
         },
         {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20240801000000"]
+            "arguments": [
+                "release_date",
+                "20240801000000"
+            ]
         }
     ]
 }

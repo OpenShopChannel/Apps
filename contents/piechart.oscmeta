@@ -27,9 +27,6 @@
                 "apps/piechart/META.XML",
                 "apps/piechart/meta.xml"
             ]
-        },
-        {
-            "treatment": "meta.init"
         }
     ]
 }

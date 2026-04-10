@@ -2,10 +2,11 @@
     "information": {
         "name": "PieChart",
         "author": "Dude2kx",
-        "author_preferred_contacts": "",
         "category": "games",
         "version": "0.8",
-        "peripherals": ["Wii Remote"]
+        "peripherals": [
+            "Wii Remote"
+        ]
     },
     "source": {
         "type": "url",
@@ -15,7 +16,20 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["PieChart/", "apps/piechart/"]
+            "arguments": [
+                "PieChart/",
+                "apps/piechart/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/piechart/META.XML",
+                "apps/piechart/meta.xml"
+            ]
+        },
+        {
+            "treatment": "meta.init"
         }
     ]
 }

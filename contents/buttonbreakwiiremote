@@ -1,0 +1,30 @@
+{
+  "information": {
+    "slug": "buttonbreak-wii-remote",
+    "name": "ButtonBreakWiiRemote",
+    "author": "Strong Enough",
+    "author_preferred_contacts": "",
+    "category": "games",
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "v0.5"
+  },
+  "source": {
+    "type": "github_release",
+    "repository": "StrongEnough295/Apps",
+    "file": "ButtonBreakWiiRemote.zip",
+    "arguments": [
+      "--extract-all"
+    ]
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "ButtonBreakWiiRemote/",
+        "apps/ButtonBreakWiiRemote/"
+      ]
+    }
+  ]
+}

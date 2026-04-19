@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "ButtonBreakWiiRemote",
+        "author": "Strong Enough",
+        "author_preferred_contacts": "",
+        "category": "games",
+        "peripherals": ["Wii Remote"],
+        "version": "v0.5"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "StrongEnough295/Apps",
+        "file": "ButtonBreakWiiRemote.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": ["StrongEnough295/", "Apps/ButtonBreakWii Remote and Nunchuk/"]
+        }
+    ]
+}

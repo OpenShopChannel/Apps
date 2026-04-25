@@ -2,15 +2,14 @@
   "information": {
     "name": "ButtonBreakWiiRemote",
     "author": "Strong Enough",
-    "author_preferred_contacts": "",
     "category": "games",
+    "supported_platforms": ["wii", "vwii", "wii_mini"],
     "peripherals": ["Wii Remote", "SDHC"],
     "version": "0.5"
   },
   "source": {
     "type": "url",
     "format": "zip",
-  "location":
-"https://github.com/StrongEnough295/ButtonBreakWiiRemote/releases/download/v0.5/ButtonBreakWiiRemote.zip"
+    "location": "https://github.com/StrongEnough295/ButtonBreakWiiRemote/releases/download/v0.5/ButtonBreakWiiRemote.zip"
   }
 }

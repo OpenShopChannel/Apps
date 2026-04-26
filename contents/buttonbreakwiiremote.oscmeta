@@ -2,6 +2,7 @@
   "information": {
     "name": "ButtonBreakWiiRemote",
     "author": "Strong Enough",
+    "author_preferred_contacts": "StrongEnough295",
     "category": "games",
     "supported_platforms": ["wii", "vwii", "wii_mini"],
     "peripherals": ["Wii Remote", "SDHC"],

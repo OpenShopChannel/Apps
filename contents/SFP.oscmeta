@@ -5,13 +5,13 @@
         "category": "utilities",
         "supported_platforms": [
             "wii",
-            "vwii",
             "wii_mini"
         ],
         "peripherals": [
             "Wii Remote"
         ],
-        "version": "auto"
+        "version": "auto",
+        "flags": ["writes_to_nand"]
     },
     "source": {
         "type": "github_release",

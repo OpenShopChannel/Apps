@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "Standby-Fan-Patcher",
+        "author": "Abdelali221",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "flags": ["writes_to_nand"]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "abdelali221/Standby-Fan-Patcher",
+        "file": "SFP.zip"
+    }
+}

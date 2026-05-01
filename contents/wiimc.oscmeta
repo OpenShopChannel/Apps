@@ -26,14 +26,5 @@
         "format": "zip",
         "repository": "dborth/wiimc",
         "file": "WiiMC.*.New.Install.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "web.download",
-            "arguments": [
-                "https://riitube.rc24.xyz/onlinemedia.xml",
-                "apps/wiimc/onlinemedia.xml"
-            ]
-        }
-    ]
+    }
 }

@@ -30,9 +30,12 @@
                 "apps/SonicCDWii/"
             ]
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20240212000000"]
+            "arguments": [
+                "release_date",
+                "20240212000000"
+            ]
         }
     ]
 }

@@ -29,9 +29,10 @@
     "treatments": [
         {
             "treatment": "meta.set",
-            "arguments": ["version", "5.6.1"]
+            "arguments": [
+                "version",
+                "5.6.1"
+            ]
         }
     ]
 }
-
-

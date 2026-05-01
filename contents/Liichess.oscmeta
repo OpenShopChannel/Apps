@@ -4,7 +4,9 @@
         "author": "26gy2",
         "author_preferred_contacts": "Discord: @26gy2",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -16,7 +18,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["Liichess/", "apps/Liichess/"]
+            "arguments": [
+                "Liichess/",
+                "apps/Liichess/"
+            ]
         }
     ]
 }

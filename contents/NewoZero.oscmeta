@@ -30,8 +30,8 @@
                 "apps/NewoZero/"
             ]
         },
-        { 
-            "treatment": "meta.remove_declaration" 
+        {
+            "treatment": "meta.remove_declaration"
         }
     ]
 }

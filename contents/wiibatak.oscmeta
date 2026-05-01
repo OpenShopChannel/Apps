@@ -4,7 +4,11 @@
     "author": "Koopa van Beethoven",
     "author_preferred_contacts": "https://github.com/ludwigkoopaa/wiibatak",
     "category": "games",
-    "peripherals": ["Wii Remote", "GameCube Controller", "SDHC"],
+    "peripherals": [
+      "Wii Remote",
+      "GameCube Controller",
+      "SDHC"
+    ],
     "version": "auto"
   },
   "source": {

@@ -25,9 +25,12 @@
                 "apps/MyMenuifyMod/"
             ]
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20230226000000"]
+            "arguments": [
+                "release_date",
+                "20230226000000"
+            ]
         }
     ]
 }

@@ -26,9 +26,12 @@
                 "apps/some-yawmm-mod/"
             ]
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20171016000000"]
+            "arguments": [
+                "release_date",
+                "20171016000000"
+            ]
         }
     ]
 }

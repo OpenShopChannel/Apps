@@ -12,9 +12,7 @@
             "vwii",
             "wii_mini"
         ],
-        "flags": [
-            
-        ],
+        "flags": [],
         "version": "auto"
     },
     "source": {

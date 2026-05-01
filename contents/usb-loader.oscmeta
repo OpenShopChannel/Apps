@@ -34,15 +34,24 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["apps/usbloader_cfg/", "apps/usb-loader/"]
+            "arguments": [
+                "apps/usbloader_cfg/",
+                "apps/usb-loader/"
+            ]
         },
         {
             "treatment": "web.download",
-            "arguments": ["http://cfgusbloader.ntd.homelinux.org/binaries/sd/meta.xml", "apps/usb-loader/meta.xml"]
+            "arguments": [
+                "http://cfgusbloader.ntd.homelinux.org/binaries/sd/meta.xml",
+                "apps/usb-loader/meta.xml"
+            ]
         },
         {
             "treatment": "web.download",
-            "arguments": ["https://github.com/nitraiolo/CfgUSBLoader/releases/download/r13/cfg70r78.13.dol", "apps/usb-loader/boot.dol"]
+            "arguments": [
+                "https://github.com/nitraiolo/CfgUSBLoader/releases/download/r13/cfg70r78.13.dol",
+                "apps/usb-loader/boot.dol"
+            ]
         }
     ]
 }

@@ -3,9 +3,15 @@
         "name": "d2x cIOS installer for vWii",
         "author": "dragbe, FIX94",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "supported_platforms": ["vwii"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "supported_platforms": [
+            "vwii"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {
@@ -17,12 +23,17 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["apps/d2x-cios-installer/", "apps/d2x-cios-installer-vwii/"]
+            "arguments": [
+                "apps/d2x-cios-installer/",
+                "apps/d2x-cios-installer-vwii/"
+            ]
         },
         {
             "treatment": "meta.set",
-            "arguments": ["name", "d2x cIOS installer for vWii"]
+            "arguments": [
+                "name",
+                "d2x cIOS installer for vWii"
+            ]
         }
     ]
-
 }

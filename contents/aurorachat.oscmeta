@@ -4,8 +4,14 @@
         "author": "Unitendo",
         "author_preferred_contacts": "",
         "category": "utilities",
-        "supported_platforms": ["wii", "wii_mini", "vwii"],
-        "peripherals": ["Wii Remote"],
+        "supported_platforms": [
+            "wii",
+            "wii_mini",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -17,7 +23,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["aurorachat*/", "apps/aurorachat/"]
+            "arguments": [
+                "aurorachat*/",
+                "apps/aurorachat/"
+            ]
         }
     ]
 }

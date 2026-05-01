@@ -12,7 +12,7 @@
       "Wii Remote"
     ],
     "flags": [
-        "writes_to_nand"
+      "writes_to_nand"
     ],
     "version": "auto"
   },

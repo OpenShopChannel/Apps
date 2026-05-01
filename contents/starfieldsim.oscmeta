@@ -3,7 +3,9 @@
         "name": "Starfield Simulator",
         "author": "GatoWare",
         "category": "demos",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {
@@ -15,8 +17,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["starfieldsim/", "apps/starfieldsim/"]
+            "arguments": [
+                "starfieldsim/",
+                "apps/starfieldsim/"
+            ]
         }
     ]
 }
-

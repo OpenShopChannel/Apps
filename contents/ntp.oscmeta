@@ -3,7 +3,7 @@
         "name": "NTP client",
         "author": "Galaxy Master",
         "category": "utilities",
-     "supported_platforms": [
+        "supported_platforms": [
             "wii",
             "wii_mini"
         ],

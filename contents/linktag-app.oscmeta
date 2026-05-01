@@ -17,7 +17,7 @@
         "type": "github_release",
         "format": "zip",
         "repository": "emilydaemon/linktag-app",
-	"file": "linktag-app.zip"
+        "file": "linktag-app.zip"
     },
     "treatments": [
         {

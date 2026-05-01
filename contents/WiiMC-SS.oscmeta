@@ -33,9 +33,12 @@
                 "apps/WiiMC-SS/"
             ]
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20240330000000"]
+            "arguments": [
+                "release_date",
+                "20240330000000"
+            ]
         }
     ]
 }

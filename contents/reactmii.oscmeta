@@ -4,12 +4,14 @@
         "author": "Some_Random_guy",
         "author_preferred_contacts": "",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto",
         "supported_platforms": [
-          "wii",
-          "vwii"
-       ]
+            "wii",
+            "vwii"
+        ]
     },
     "source": {
         "type": "github_release",
@@ -17,5 +19,4 @@
         "repository": "Some-Random-Guy123456/ReactMii",
         "file": "reactmii.zip"
     }
-
 }

@@ -33,9 +33,12 @@
                 "apps/VC_Test/"
             ]
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20180803000000"]
+            "arguments": [
+                "release_date",
+                "20180803000000"
+            ]
         }
     ]
 }

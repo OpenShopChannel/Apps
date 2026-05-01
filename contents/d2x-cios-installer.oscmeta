@@ -3,9 +3,15 @@
         "name": "d2x cIOS installer",
         "author": "dragbe",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "supported_platforms": ["wii"],
-        "flags": ["writes_to_nand"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "supported_platforms": [
+            "wii"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
         "version": "auto"
     },
     "source": {

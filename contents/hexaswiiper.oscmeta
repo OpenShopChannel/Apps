@@ -4,7 +4,9 @@
         "author": "Roddy Rappaport",
         "author_preferred_contacts": "roddy.rappaport@gmail.com",
         "category": "games",
-        "peripherals": ["Wii Remote"],
+        "peripherals": [
+            "Wii Remote"
+        ],
         "version": "auto"
     },
     "source": {

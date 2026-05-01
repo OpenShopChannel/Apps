@@ -22,7 +22,10 @@
     "treatments": [
         {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20220422000000"]
+            "arguments": [
+                "release_date",
+                "20220422000000"
+            ]
         }
     ]
 }

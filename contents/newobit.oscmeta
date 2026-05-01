@@ -30,8 +30,8 @@
                 "apps/newobit/"
             ]
         },
-        { 
-            "treatment": "meta.remove_declaration" 
+        {
+            "treatment": "meta.remove_declaration"
         }
     ]
 }

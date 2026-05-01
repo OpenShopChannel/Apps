@@ -21,7 +21,10 @@
     "treatments": [
         {
             "treatment": "contents.move",
-            "arguments": ["apps/GRRLIB-Examples-Collection", "apps/GRRLIB_Examples_Collection"]
+            "arguments": [
+                "apps/GRRLIB-Examples-Collection",
+                "apps/GRRLIB_Examples_Collection"
+            ]
         }
     ]
 }

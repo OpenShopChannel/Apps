@@ -4,8 +4,17 @@
         "author": "NateXS",
         "author_preferred_contacts": "@NateXS on Youtube, @nate3ds on Discord",
         "category": "emulators",
-        "supported_platforms": ["wii","vwii"],
-        "peripherals": ["Wii Remote", "Nunchuk", "Classic Controller", "GameCube Controller", "SDHC"],
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
         "version": "auto"
     },
     "source": {

@@ -31,9 +31,12 @@
         {
             "treatment": "meta.remove_declaration"
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20090204000000"]
+            "arguments": [
+                "release_date",
+                "20090204000000"
+            ]
         }
     ]
 }

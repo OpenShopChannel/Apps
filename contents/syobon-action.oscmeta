@@ -24,9 +24,12 @@
         {
             "treatment": "meta.init"
         },
-		{
+        {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20191201000000"]
+            "arguments": [
+                "release_date",
+                "20191201000000"
+            ]
         }
     ]
 }

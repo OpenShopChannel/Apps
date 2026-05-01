@@ -3,8 +3,13 @@
         "name": "nReader",
         "author": "hediibl",
         "category": "utilities",
-        "peripherals": ["Wii Remote"],
-        "supported_platforms": ["wii", "wii_mini"],
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "supported_platforms": [
+            "wii",
+            "wii_mini"
+        ],
         "version": "auto"
     },
     "source": {

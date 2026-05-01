@@ -41,7 +41,10 @@
         },
         {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20090725000000"]
+            "arguments": [
+                "release_date",
+                "20090725000000"
+            ]
         }
     ]
 }

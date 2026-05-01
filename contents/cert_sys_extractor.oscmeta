@@ -26,7 +26,10 @@
         },
         {
             "treatment": "meta.set",
-            "arguments": ["release_date", "20200104000000"]
+            "arguments": [
+                "release_date",
+                "20200104000000"
+            ]
         }
     ]
 }

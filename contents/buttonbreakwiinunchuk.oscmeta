@@ -1,0 +1,16 @@
+{
+  "information": {
+    "name": "ButtonBreakWiiNunchuk",
+    "author": "Strong Enough",
+    "author_preferred_contacts": "StrongEnough295",
+    "category": "games",
+    "supported_platforms": ["wii", "vwii", "wii_mini"],
+    "peripherals": ["Wii Remote", "SDHC"],
+    "version": "0.5"
+  },
+  "source": {
+    "type": "url",
+    "format": "zip",
+    "location": "https://github.com/StrongEnough295/ButtonBreakWiiNunchuk/releases/download/v0.5/ButtonBreakWiiNunchuk.zip"
+  }
+}

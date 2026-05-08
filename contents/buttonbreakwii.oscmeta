@@ -1,6 +1,6 @@
 {
     "information": {
-        "name": "ButtonBreakWiiRemote",
+        "name": "ButtonBreakWii",
         "author": "Strong Enough",
         "author_preferred_contacts": "StrongEnough295",
         "category": "games",
@@ -11,6 +11,7 @@
         ],
         "peripherals": [
             "Wii Remote",
+            "Nunchuk",
             "SDHC"
         ],
         "version": "auto"
@@ -19,14 +20,14 @@
         "type": "github_release",
         "format": "zip",
         "repository": "StrongEnough295/ButtonBreakWiiRemote",
-        "file": "ButtonBreakWiiRemote.zip"
+        "file": "ButtonBreakWii.zip"
     },
     "treatments": [
         {
             "treatment": "contents.move",
             "arguments": [
-                "ButtonBreakWiiRemote/",
-                "apps/buttonbreakwiiremote/"
+                "ButtonBreakWii/",
+                "apps/buttonbreakwii/"
             ]
         }
     ]

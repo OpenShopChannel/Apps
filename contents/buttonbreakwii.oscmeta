@@ -14,7 +14,7 @@
             "Nunchuk",
             "SDHC"
         ],
-        "version": "auto"
+        "version": "v1.0"
     },
     "source": {
         "type": "github_release",

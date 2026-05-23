@@ -22,14 +22,5 @@
         "format": "zip",
         "repository": "ScratchEverywhere/ScratchEverywhere",
         "file": "scratch-wii.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "meta.set",
-            "arguments": [
-                "version",
-                "0.40"
-            ]
-        }
-    ]
+    }
 }

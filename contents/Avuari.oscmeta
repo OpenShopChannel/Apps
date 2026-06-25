@@ -1,0 +1,27 @@
+{
+  "information": {
+    "name": "Avuari",
+    "author": "ColdHorizon",
+    "category": "games",
+    "peripherals": [
+      "Wii Remote",
+      "SDHC"
+    ],
+    "version": "auto"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "username/repository": "ColdHorizon/Avuari",
+    "file": "Avuari.zip"
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "Avuari/apps/Avuari",
+        "apps/Avuari/"
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@
         "category": "games",
         "peripherals": [
             "Wii Remote",
+            "Classic Controller",
             "GameCube Controller",
             "SDHC"
         ],

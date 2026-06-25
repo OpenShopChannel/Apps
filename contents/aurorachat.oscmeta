@@ -17,7 +17,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "Unitendo/aurorachat",
+        "repository": "Unitendo/aurorachat-wii",
         "file": "aurorachat-wii*.zip"
     },
     "treatments": [

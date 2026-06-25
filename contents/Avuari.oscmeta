@@ -12,7 +12,7 @@
   "source": {
     "type": "github_release",
     "format": "zip",
-    "username/repository": "ColdHorizon/Avuari",
+    "repository": "ColdHorizon/Avuari",
     "file": "Avuari.zip"
   },
   "treatments": [

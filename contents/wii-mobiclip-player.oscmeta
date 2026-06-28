@@ -16,7 +16,7 @@
             "Nunchuk",
             "Classic Controller",
             "GameCube Controller",
-            "SDHC",
+            "SDHC"
         ],
         "flags": [
             "writes_to_nand"

@@ -2,7 +2,7 @@
     "information": {
         "name": "Choices",
         "author": "awes145",
-        "supported_platforms:" ["wii", "vwii", "wii_mini"],
+        "supported_platforms": ["wii", "vwii", "wii_mini"],
         "author_preferred_contacts": "",
         "category": "games",
         "peripherals": ["Wii Remote"],

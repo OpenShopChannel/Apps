@@ -6,7 +6,7 @@
         "author_preferred_contacts": "",
         "category": "games",
         "peripherals": ["Wii Remote"],
-        "version": "1.2-wii"
+        "version": "auto"
     },
     "source": {
         "type": "github_release",

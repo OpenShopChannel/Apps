@@ -1,0 +1,19 @@
+{
+  "information": {
+    "name": "Mp3Player-Wii",
+    "author": "AmineTheJurk",
+    "author_preferred_contacts": "mailto:amineamono200@gmail.com",
+    "category": "media",
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "auto"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "AmineTheJurk/OSC_Mp3Player-Wii",
+    "file": "*.zip",
+    "publish_per_release": true
+  }
+}

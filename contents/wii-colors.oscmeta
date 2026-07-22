@@ -1,0 +1,18 @@
+{
+  "information": {
+    "name": "Wii Colors",
+    "author": "AmineTheJurk",
+    "author_preferred_contacts": "mailto:amineamono200@gmail.com",
+    "category": "utilities",
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "1.0"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "AmineTheJurk/OSC_wii-colors",
+    "file": "*.zip"
+  }
+}

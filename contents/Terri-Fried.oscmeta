@@ -18,6 +18,7 @@
         "creator": "polymars",
         "game": "terri-fried",
         "upload": "Terri-Fried.zip (Nintendo Wii)",
-        "format": "zip"
+        "format": "zip",
+        "update": false
     }
 }

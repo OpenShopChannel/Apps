@@ -2,6 +2,7 @@
     "information": {
         "name": "VectrexWii",
         "author": "Aruskano",
+        "authors": ["cmyksoda"],
         "category": "emulators",
         "supported_platforms": [
             "wii",
@@ -13,12 +14,12 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "0.3"
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://wiibrew.org/w/images/2/2c/Vecxwii.zip"
+        "location": "https://github.com/cmyksoda/vectrexwii"
     },
     "treatments": [
         {

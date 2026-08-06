@@ -26,26 +26,9 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "boot.dol",
-                "apps/vecxwii/boot.dol"
+                "vecxwii/",
+                "apps/vecxwii/"
             ]
-        },
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "icon.png",
-                "apps/vecxwii/icon.png"
-            ]
-        },
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "meta.xml",
-                "apps/vecxwii/meta.xml"
-            ]
-        },
-        {
-            "treatment": "meta.init"
         },
         {
             "treatment": "meta.set",

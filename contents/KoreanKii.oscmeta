@@ -13,7 +13,7 @@
         "version": "auto"
     },
     "source": {
-        "type": "mediafire",
+        "type": "url",
         "format": "zip",
         "location": "http://hbbarchive.oscwii.org/KoreanKii-1.1.zip"
     }

@@ -1,0 +1,27 @@
+{
+    "information": {
+        "name": "KoreanKii",
+        "author": "tueidj",
+        "authors": [
+            "JoostinOnline"
+        ],
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
+        "version": "auto",
+        "supported_platforms": [
+            "wii"
+        ]
+    },
+    "source": {
+        "type": "url",
+        "format": "zip",
+        "location": "https://hbbarchive.oscwii.org/KoreanKii-1.1.zip",
+        "update": false
+    }
+}

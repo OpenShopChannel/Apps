@@ -1,0 +1,24 @@
+{
+    "information": {
+        "name": "Space Showdown",
+        "author": "George Cottrell",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "GeorgeCottrell/SpaceShowdown",
+        "file": "SpaceShowdown-Wii-*.zip"
+    }
+}

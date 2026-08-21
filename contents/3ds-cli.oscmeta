@@ -1,0 +1,23 @@
+{
+    "information": {
+        "name": "3DS-CLI",
+        "author": "cmdada",
+        "category": "emulators",
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "cmdada/3DS-CLI",
+        "file": "oscwii-3ds-cli.zip"
+    }
+}

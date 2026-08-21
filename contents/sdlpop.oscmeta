@@ -10,6 +10,7 @@
       "Wii Remote",
       "Nunchuk",
       "Classic Controller",
+      "USB Keyboard",
       "SDHC"
     ],
     "version": "auto"

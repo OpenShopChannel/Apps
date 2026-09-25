@@ -17,7 +17,7 @@
 			"GameCube Controller",
 			"SDHC"
 		],
-		"version": "auto"
+		"version": "1.7.5-2026.09.23"
 	},
 	"source": {
 		"type": "url",
@@ -45,21 +45,24 @@
 			]
 		},
 		{
-			"treatment": "contents.delete",
+			"treatment": "contents.move",
 			"arguments": [
-				"HISTORY.txt"
+				"HISTORY.txt",
+				"apps/genplus-gx/HISTORY.txt"
 			]
 		},
 		{
-			"treatment": "contents.delete",
+			"treatment": "contents.move",
 			"arguments": [
-				"LICENSE.txt"
+				"LICENSE.txt",
+				"apps/genplus-gx/LICENSE.txt"
 			]
 		},
 		{
-			"treatment": "contents.delete",
+			"treatment": "contents.move",
 			"arguments": [
-				"README.pdf"
+				"README.pdf",
+				"apps/genplus-gx/README.pdf"
 			]
 		},
 		{

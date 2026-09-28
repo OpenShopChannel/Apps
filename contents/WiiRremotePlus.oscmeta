@@ -1,0 +1,36 @@
+{
+    "information": {
+        "name": "WiiRremote Plus",
+        "author": "Habex",
+        "author_preferred_contacts": "GitHub: https://github.com/HAB3X/WiiRremotePlus/issues",
+        "contributors": [
+            "Abdelali221 (original WiiRremote)"
+        ],
+        "category": "utilities",
+        "supported_platforms": [
+            "wii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "HAB3X/WiiRremotePlus",
+        "file": "WiiRremotePlus-*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "WiiRremotePlus/",
+                "apps/WiiRremotePlus/"
+            ]
+        }
+    ]
+}

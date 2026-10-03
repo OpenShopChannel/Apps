@@ -1,0 +1,12 @@
+{
+  "details": {
+    "title": "QR Mii",
+    "author": "FunkyMonkeyHen",
+    "version": "1.0",
+    "category": "utilities"
+  },
+  "source": {
+    "type": "url",
+    "url": "https://github.com/funkymonkeyhen/qr-mii/releases/download/beta/qr-mii.zip"
+  }
+}

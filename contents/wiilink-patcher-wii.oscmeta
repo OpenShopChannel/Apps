@@ -1,0 +1,36 @@
+{
+    "information": {
+        "name": "WiiLink Patcher Wii (Unofficial)",
+        "author": "Darksito",
+        "authors": [
+            "Mila Soraki"
+        ],
+        "author_preferred_contacts": "https://github.com/Darksitomx/wii-link-hbc",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "Darksitomx/wii-link-hbc",
+        "file": "wiilink-patcher-wii-*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "wiilink-patcher-wii/",
+                "apps/wiilink-patcher-wii/"
+            ]
+        }
+    ]
+}

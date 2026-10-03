@@ -12,7 +12,7 @@
         "peripherals": [
             "Wii Remote",
             "Nunchuk",
-            "Gamecube Controller",
+            "GameCube Controller",
             "SDHC"
         ],
         "version": "auto"

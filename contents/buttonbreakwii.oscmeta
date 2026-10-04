@@ -13,6 +13,7 @@
             "Wii Remote",
             "Nunchuk",
             "GameCube Controller",
+            "Classic Controller",
             "SDHC"
         ],
         "version": "auto"

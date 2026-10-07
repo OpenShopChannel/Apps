@@ -1,0 +1,35 @@
+{
+    "information": {
+        "name": "Paper Airplane Chase GX",
+        "author": "cmyksoda",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "Nunchuk",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "cmyksoda/Paper-Airplane-Chase-GX",
+        "file": "Paper-Airplane-Chase-GX.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",asdfasdf
+            "arguments": [
+                "paperplane/",
+                "apps/paperplane/"
+            ]
+        }
+    ]
+}

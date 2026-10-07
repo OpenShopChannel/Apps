@@ -22,14 +22,5 @@
         "format": "zip",
         "repository": "cmyksoda/Bird-and-Beans-GX",
         "file": "Bird-and-Beans-GX.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",
-            "arguments": [
-                "birdbeans/",
-                "apps/birdbeans/"
-            ]
-        }
-    ]
+    }
 }

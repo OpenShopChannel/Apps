@@ -10,6 +10,7 @@
         ],
         "peripherals": [
             "Wii Remote",
+            "Wii Remote",
             "Classic Controller",
             "Nunchuk",
             "GameCube Controller",
@@ -22,14 +23,5 @@
         "format": "zip",
         "repository": "cmyksoda/Paper-Airplane-Chase-GX",
         "file": "Paper-Airplane-Chase-GX.zip"
-    },
-    "treatments": [
-        {
-            "treatment": "contents.move",asdfasdf
-            "arguments": [
-                "paperplane/",
-                "apps/paperplane/"
-            ]
-        }
-    ]
+    }
 }

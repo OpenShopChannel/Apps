@@ -1,0 +1,26 @@
+{
+    "information": {
+        "name": "Bird & Beans GX",
+        "author": "cmyksoda",
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "Nunchuk",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "cmyksoda/Bird-and-Beans-GX",
+        "file": "Bird-and-Beans-GX.zip"
+    }
+}

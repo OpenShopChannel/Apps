@@ -1,0 +1,27 @@
+{
+  "information": {
+    "name": "CrashMii",
+    "author": "mango338",
+    "author_preferred_contacts": "palomapuchis@gmail.com",
+    "category": "Demo",
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "1.0"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "Mango338/CrashMii",
+    "file": "CrashMii.zip"
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "CrashMii/",
+        "apps/CrashMii/"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,9 @@
     "category": "utilities"
   },
   "source": {
-    "type": "url",
-    "url": "https://github.com/funkymonkeyhen/qr-mii/releases/download/beta/qr-mii.zip"
+      "type": "github_release",
+      "format": "zip",
+      "repository": "funkymonkeyhen/qr-mii",
+      "file": "qr-mii.zip"
   }
 }

@@ -9,7 +9,8 @@
         "flags": [
             "writes_to_nand"
         ],
-        "version": "1.0"
+        "version": "1.0",
+        "update": false
     },
     "source": {
         "type": "url",

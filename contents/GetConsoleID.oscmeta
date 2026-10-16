@@ -16,6 +16,7 @@
     "source": {
         "type": "url",
         "format": "zip",
-        "location": "https://patcher.wiilink24.com/osc/GetConsoleID.zip"
+        "location": "https://patcher.wiilink24.com/osc/GetConsoleID.zip",
+        "update": false
     }
 }

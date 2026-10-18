@@ -27,7 +27,7 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "korbodonut/",
+                "korbo-donut/",
                 "apps/korbodonut/"
             ]
         }

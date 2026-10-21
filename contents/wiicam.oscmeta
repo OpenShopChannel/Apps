@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "WiiCam",
+        "author": "cmyksoda",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "cmyksoda/WiiCam",
+        "file": "WiiCam.zip"
+    }
+}

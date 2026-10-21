@@ -1,0 +1,27 @@
+{
+    "information": {
+        "name": "ASCII Odyssey",
+        "author": "cmyksoda",
+        "category": "media",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "USB Keyboard",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "cmyksoda/ASCII-Odyssey",
+        "file": "ASCII-Odyssey.zip"
+    }
+}

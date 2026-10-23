@@ -1,0 +1,28 @@
+{
+    "information": {
+        "name": "Wii Motion Synth",
+        "author": "DCG",
+        "author_preferred_contacts": "https://github.com/CGdiego/Wii-Motion-Synth",
+        "category": "utilities",
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "CGdiego/Wii-Motion-Synth",
+        "file": "WiiMotionSynth-latest.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "apps/WiiMotionSynth/",
+                "apps/wiimotionsynth/"
+            ]
+        }
+    ]
+}

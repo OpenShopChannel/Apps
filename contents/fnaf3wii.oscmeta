@@ -1,0 +1,22 @@
+{
+    "information": {
+        "name": "FNaF 3 Wii",
+        "author": "BlocksumoGuys",
+        "author_preferred_contacts": "@BlocksumoGuys on twitter, @BlocksumoGuys on discord, @BlocksumoGuys on youtube",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "BlocksumoGuys/Fnaf3Wii",
+        "file": "Fnaf3Wii.zip"
+    }
+}

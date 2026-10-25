@@ -1,0 +1,51 @@
+{
+    "information": {
+        "name": "GrabMii",
+        "author": "DevNull-l1r",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "GameCube Controller",
+            "Classic Controller",
+            "SDHC"
+        ],
+        "flags": [
+            "writes_to_nand"
+        ],
+        "version": "2.0"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "DevNull-l1r/GrabMii",
+        "file": "GrabMii-2.0.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "boot.dol",
+                "apps/GrabMii/boot.dol"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "icon.png",
+                "apps/GrabMii/icon.png"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "meta.xml",
+                "apps/GrabMii/meta.xml"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "information": {
+        "name": "NullDC4Wii",
+        "author": "Xale00",
+        "author_preferred_contacts": "xalegamingchannel@gmail.com",
+        "authors": [
+            "skmp",
+            "NullDC Team"
+        ],
+        "contributors": [
+            "Joseph Jordan",
+            "davi-x86"
+        ],
+        "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "7z",
+        "repository": "BenoitAdam/nullDC4Wii",
+        "file": "nulldc4wii_alpha*.7z"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "apps/nulldc4wii/boot.elf"
+            ]
+        }
+    ]
+}

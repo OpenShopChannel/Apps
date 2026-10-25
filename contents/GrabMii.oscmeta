@@ -30,21 +30,21 @@
             "treatment": "contents.move",
             "arguments": [
                 "boot.dol",
-                "apps/GrabMii-2.0/boot.dol"
+                "apps/GrabMii/boot.dol"
             ]
         },
         {
             "treatment": "contents.move",
             "arguments": [
                 "icon.png",
-                "apps/GrabMii-2.0/icon.png"
+                "apps/GrabMii/icon.png"
             ]
         },
         {
             "treatment": "contents.move",
             "arguments": [
                 "meta.xml",
-                "apps/GrabMii-2.0/meta.xml"
+                "apps/GrabMii/meta.xml"
             ]
         }
     ]

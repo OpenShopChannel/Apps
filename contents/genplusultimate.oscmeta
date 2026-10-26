@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "Genesis Plus GX ULTIMATE",
+        "author": "VrepliroidV",
+        "authors": [
+            "Eke-Eke"
+        ],
+        "category": "emulators",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "VrepliroidV/GenesisPlusGX-ULTIMATE",
+        "file": "GenesisPlusGXUltimate-Wii.zip"
+    }
+}

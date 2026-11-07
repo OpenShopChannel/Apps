@@ -15,26 +15,20 @@
             "Wii Remote",
             "Classic Controller"
         ],
-        "version": "1.4"
+        "version": "auto"
     },
     "source": {
         "type": "github_release",
         "format": "zip",
         "repository": "dborth/smw-wii",
-        "file": "Super.Mario.War.Wii.1.4.zip"
+        "file": "SuperMarioWar-*Wii.zip"
     },
     "treatments": [
-        {
-            "treatment": "contents.delete",
-            "arguments": [
-                "readme.txt"
-            ]
-        },
         {
             "treatment": "contents.move",
             "arguments": [
                 "apps/smw-wii/",
-                "apps/smw-wiigii/"
+                "apps/SuperMarioWar-Wii/"
             ]
         }
     ]

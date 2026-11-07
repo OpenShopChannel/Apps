@@ -27,8 +27,8 @@
         {
             "treatment": "contents.move",
             "arguments": [
-                "apps/smw-wii/",
-                "apps/SuperMarioWar-Wii/"
+                "apps/SuperMarioWar-Wii/",
+                "apps/smw-wii/"
             ]
         }
     ]

@@ -1,7 +1,7 @@
 {
     "information": {
-        "name": "DOSBox Wii 1.7x b4",
-        "author": "Tantric (forked from)",
+        "name": "DOSBox for Wii",
+        "author": "Tantric",
         "category": "emulators",
         "supported_platforms": [
             "wii",
@@ -15,11 +15,12 @@
             "GameCube Controller",
             "SDHC"
         ],
-        "version": "1.7x beta4 r4301 dynrec"
+        "version": "auto"
     },
     "source": {
-        "type": "url",
+        "type": "github_release",
         "format": "zip",
-        "location": "https://github.com/retro100/dosbox-wii/releases/download/1.7x.beta4/DOSBox.Wii.1.7x.beta4.r4301.dynrec.zip"
+        "repository": "dborth//dosbox-wii",
+        "file": "DOSBox-*-Wii.zip"
     }
 }

@@ -1,0 +1,85 @@
+{
+    "information": {
+        "name": "RiftWii",
+        "author": "KakarottoCake",
+        "author_preferred_contacts": "GitHub: https://github.com/KakarottoCake/Riftwii/issues",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Wii Remote",
+            "Nunchuk",
+            "Classic Controller",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "KakarottoCake/Riftwii",
+        "file": "riftwii-v*.zip"
+    },
+    "treatments": [
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "sd-card/apps/riftwii/",
+                "apps/riftwii/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "sd-card/riftwii/",
+                "riftwii/"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "LICENSE.txt",
+                "apps/riftwii/LICENSE.txt"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "NOTICE.md",
+                "apps/riftwii/NOTICE.md"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "SOURCE.txt",
+                "apps/riftwii/SOURCE.txt"
+            ]
+        },
+        {
+            "treatment": "contents.move",
+            "arguments": [
+                "README.txt",
+                "apps/riftwii/README.txt"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "sd-card/"
+            ]
+        },
+        {
+            "treatment": "contents.delete",
+            "arguments": [
+                "usb-drive/"
+            ]
+        }
+    ]
+}

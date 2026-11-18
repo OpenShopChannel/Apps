@@ -4,7 +4,9 @@
         "author": "cmyksoda",
         "category": "demos",
         "supported_platforms": [
-            "wii"
+            "wii",
+            "vwii",
+            "wii_mini"
         ],
         "peripherals": [
             "Wii Remote",

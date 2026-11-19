@@ -15,6 +15,12 @@
             "GameCube Controller",
             "SDHC"
         ],
+        "flags": [
+            "ai_assisted"
+        ],
+        "notices": {
+            "ai_statement": "I use Claude Code, and occasionally Codex, in almost everything I make. I take full responsibility for everything I publish, and I work hard to understand how my software works. Before publishing a finished release, I make sure my code is formatted for legibility, is as free of dead code as I can tell, and has only clean, necessary comments. Full statement: https://github.com/cmyksoda/cmyksoda/blob/main/AI_USAGE.md"
+        },
         "version": "auto"
     },
     "source": {

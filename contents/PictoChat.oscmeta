@@ -1,0 +1,32 @@
+{
+    "information": {
+        "name": "PictoChat",
+        "author": "quatric",
+        "category": "utilities",
+        "supported_platforms": [
+            "wii",
+            "vwii",
+            "wii_mini"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "USB Keyboard",
+            "SDHC"
+        ],
+        "flags": [
+            "ai_assisted"
+        ],
+        "notices": {
+            "ai_statement": "All of my projects are AI-driven, and today I almost always use Claude to write them. AI is used for writing code, reverse engineering compiled code, and the planning, designing, and the UI/UX of the project. I have programming skills, which does help steer Claude in the right direction. I strive to do basic testing of my applications to ensure that things work before making an initial release, and to fix bugs in the next release. I will not use AI to create imagery or videos, other than things like making simple logos or UI/UX designs. Full statement: https://github.com/quatric/quatric/blob/main/USAGE.md"
+        },
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "quatric/PictoChat-Client",
+        "file": "PictoChat-Wii.zip"
+    }
+}

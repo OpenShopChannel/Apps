@@ -1,0 +1,28 @@
+{
+    "information": {
+        "name": "FNaF 3 Wii",
+        "author": "BlocksumoGuys",
+        "author_preferred_contacts": "@BlocksumoGuys on twitter, @BlocksumoGuys on discord, @BlocksumoGuys on youtube",
+        "category": "games",
+        "peripherals": [
+            "Wii Remote"
+        ],
+        "version": "auto",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "flags": [
+            "ai_assisted"
+        ],
+        "notices": [
+            "ai_statement": "AI has been used for the python conversion tools and the function to reset the state of the night, other than those, everything else is coded by hand."
+        ]
+    },
+    "source": {
+        "type": "github_release",
+        "format": "rar",
+        "repository": "BlocksumoGuys/Fnaf3Wii",
+        "file": "Fnaf3Wii.rar"
+    }
+}

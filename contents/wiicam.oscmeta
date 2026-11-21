@@ -4,7 +4,8 @@
         "author": "cmyksoda",
         "category": "utilities",
         "supported_platforms": [
-            "wii"
+            "wii",
+            "wii_mini"
         ],
         "peripherals": [
             "Wii Remote",

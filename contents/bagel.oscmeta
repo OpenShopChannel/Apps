@@ -1,0 +1,23 @@
+{
+  "information": {
+    "name": "bagel",
+    "author": "Bagelman47",
+    "author_preferred_contacts": "",
+    "category": "demos",
+    "supported_platforms": [
+      "wii",
+      "vwii",
+      "wii_mini"
+    ],
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "auto"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "Bagelman47/bagel-wii",
+    "file": "bagel.zip"
+  }
+}

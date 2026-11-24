@@ -19,5 +19,14 @@
     "format": "zip",
     "repository": "Bagelman47/bagel",
     "file": "bagel.zip"
-  }
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "bagel/",
+        "apps/bagel/"
+      ]
+    }
+  ]
 }

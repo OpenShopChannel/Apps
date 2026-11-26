@@ -21,8 +21,8 @@
     },
     "source": {
         "type": "github_release",
-        "format": "rar",
+        "format": "zip",
         "repository": "BlocksumoGuys/Fnaf3Wii",
-        "file": "Fnaf3Wii.rar"
+        "file": "Fnaf3Wii.zip"
     }
 }

@@ -1,0 +1,31 @@
+{
+    "information": {
+        "name": "WiiFin",
+        "author": "fabienmillet",
+        "category": "media",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "USB Keyboard",
+            "SDHC"
+        ],
+        "flags": [
+            "ai_assisted"
+        ],
+        "notices": {
+            "ai_statement": "Developed with AI coding assistance under the author's direction. The author designs, reviews and tests every release: automated playback tests in Dolphin on each build, and real Wii consoles with testers from the community. Source code is public under the GNU General Public License v3.0."
+        },
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "fabienmillet/WiiFin",
+        "file": "WiiFin-hbc.zip"
+    }
+}

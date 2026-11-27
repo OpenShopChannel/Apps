@@ -1,10 +1,10 @@
 {
     "information": {
         "name": "Tux Racer",
-        "author": "wazarbir-bot",
+        "author": "Wazarbir",
         "authors": [
             "Jasmin F. Patry (Sunspire Studios)",
-            "wazarbir-bot"
+            "Wazarbir"
         ],
         "category": "games",
         "supported_platforms": [
@@ -22,7 +22,7 @@
     "source": {
         "type": "github_release",
         "format": "zip",
-        "repository": "wazarbir-bot/tuxracer-wii",
+        "repository": "wazarbir-20/tuxracer-wii",
         "file": "TuxRacer-Wii-0.61-wii1.zip"
     }
 }

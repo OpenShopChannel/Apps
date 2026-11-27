@@ -1,0 +1,28 @@
+{
+    "information": {
+        "name": "Tux Racer",
+        "author": "wazarbir-bot",
+        "authors": [
+            "Jasmin F. Patry (Sunspire Studios)",
+            "wazarbir-bot"
+        ],
+        "category": "games",
+        "supported_platforms": [
+            "wii",
+            "vwii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Nunchuk",
+            "GameCube Controller",
+            "SDHC"
+        ],
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "wazarbir-bot/tuxracer-wii",
+        "file": "TuxRacer-Wii-0.61-wii1.zip"
+    }
+}

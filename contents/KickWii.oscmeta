@@ -1,0 +1,30 @@
+{
+    "information": {
+        "name": "KickWii",
+        "author": "tobais200",
+        "category": "media",
+        "supported_platforms": [
+            "wii"
+        ],
+        "peripherals": [
+            "Wii Remote",
+            "Classic Controller",
+            "GameCube Controller",
+            "USB Keyboard",
+            "SDHC"
+        ],
+        "flags": [
+            "ai_assisted"
+        ],
+        "notices": {
+            "ai_statement": "Developed with AI coding assistance under the author's direction. The author designed, reviewed, and tested every build in Dolphin and on a real Wii (RVL-002, System Menu 4.3U). Source code is public under the GNU General Public License v3.0."
+        },
+        "version": "auto"
+    },
+    "source": {
+        "type": "github_release",
+        "format": "zip",
+        "repository": "tobais200/kickwii-project",
+        "file": "kickwii.zip"
+    }
+}

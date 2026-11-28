@@ -21,7 +21,7 @@
             "ai_assisted"
         ],
         "notices": {
-            "ai_statement": "This port was made with Claude (Anthropic's AI), which wrote most of the porting code (the Wii graphics, input, audio and file-system layers, and the Tcl compatibility layer) and helped with debugging. The game itself, its data and its music are the original Tux Racer 0.61 by Sunspire Studios, unchanged. No AI-generated images, music or game content were added. I tested the port on a real Wii and in Dolphin."
+            "ai_statement": "This port was made with Claude (Anthropic's AI), which wrote most of the porting code (the Wii graphics, input, audio and file-system layers, and the Tcl compatibility layer) and helped with debugging. The game is the original Tux Racer 0.61 by Sunspire Studios: its data and music are unchanged, and the game code only has small Wii-specific fixes (listed in tuxracer-0.61-wii.patch in the repository). No AI-generated images, music or game content were added. I tested the port on a real Wii and in Dolphin."
         },
         "version": "auto"
     },

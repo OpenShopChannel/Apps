@@ -1,0 +1,32 @@
+{
+  "information": {
+    "name": "bagel",
+    "author": "Bagel Studios",
+    "author_preferred_contacts": "bagelstudios-official@proton.me, https://discord.gg/NsrTzswM5",
+    "category": "demos",
+    "supported_platforms": [
+      "wii",
+      "vwii",
+      "wii_mini"
+    ],
+    "peripherals": [
+      "Wii Remote"
+    ],
+    "version": "1.2.0"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "Bagelman47/bagel",
+    "file": "bagel.zip"
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "bagel/",
+        "apps/bagel/"
+      ]
+    }
+  ]
+}

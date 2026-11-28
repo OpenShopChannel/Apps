@@ -1,0 +1,31 @@
+{
+  "information": {
+    "name": "Blue Box Dodge",
+    "author": "Doosan99",
+    "category": "games",
+    "supported_platforms": [
+      "wii"
+    ],
+    "peripherals": [
+      "Wii Remote",
+      "GameCube Controller",
+      "SDHC"
+    ],
+    "version": "auto"
+  },
+  "source": {
+    "type": "github_release",
+    "format": "zip",
+    "repository": "Doosan-The-Destroyer/Blue-Box-Dodge-HomeBrew",
+    "file": "Blue Box Dodge.zip"
+  },
+  "treatments": [
+    {
+      "treatment": "contents.move",
+      "arguments": [
+        "BlueBoxDodge/",
+        "apps/BlueBoxDodge/"
+      ]
+    }
+  ]
+}
